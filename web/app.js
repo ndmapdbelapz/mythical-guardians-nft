@@ -815,7 +815,7 @@ class GuardianApp {
         runner
       );
 
-      const baseURI = `${window.location.origin}/metadata/json/`;
+      const baseURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/metadata/json/";
       const contract = await factory.deploy(
         "Mythical Beasts and Guardians",
         "MYTHIC",
@@ -837,7 +837,7 @@ class GuardianApp {
 
       // Set OpenSea contract storefront URI if supported
       try {
-        const contractURI = `${window.location.origin}/assets/contract_metadata.json`;
+        const contractURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/contract_metadata.json";
         if (typeof contract.setContractURI === 'function') {
           const txUri = await contract.setContractURI(contractURI);
           await txUri.wait();
