@@ -182,6 +182,7 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
         _name = name_;
         _symbol = symbol_;
         _baseTokenURI = baseURI_;
+        _contractURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/contract_metadata.json";
         royaltyRecipient = royaltyReceiver_ != address(0) ? royaltyReceiver_ : 0xb862866110dbF9aD25d25A85422101d0b03615c3;
         treasury = payable(0xb862866110dbF9aD25d25A85422101d0b03615c3);
     }

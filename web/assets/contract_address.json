@@ -1,10 +1,8 @@
 {
-  "address": "0xa4EE561F29FaB2B47ab4D0F14f98DFBaa0cCc59C",
-  "network": "Robinhood Chain",
+  "address": null,
+  "network": "Robinhood Chain Mainnet",
   "chainId": 4663,
   "rpcUrl": "https://rpc.mainnet.chain.robinhood.com",
   "explorerUrl": "https://robinhoodchain.blockscout.com",
-  "treasury": "0xb862866110dbF9aD25d25A85422101d0b03615c3",
-  "deployer": "0x5b6c16a960f6e7b1603b3d4c420e0c0a5f6e2afb",
-  "deployedAt": "2026-10-12T18:36:15.861Z"
+  "treasury": "0xb862866110dbF9aD25d25A85422101d0b03615c3"
 }

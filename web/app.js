@@ -363,12 +363,13 @@ class GuardianApp {
       if (data && data.address && data.chainId === ROBINHOOD_MAINNET_PARAMS.chainIdDec) {
         this.contractAddress = data.address;
       } else {
-        this.contractAddress = localStorage.getItem('robinhood_mythic_contract') || null;
+        localStorage.removeItem('robinhood_mythic_contract');
+        this.contractAddress = null;
       }
       this.updateContractUI();
       this.updateMintControlsUI();
     } catch (e) {
-      this.contractAddress = localStorage.getItem('robinhood_mythic_contract') || null;
+      this.contractAddress = null;
       this.updateContractUI();
       this.updateMintControlsUI();
     }
