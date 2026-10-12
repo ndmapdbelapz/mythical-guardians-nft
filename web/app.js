@@ -20,7 +20,7 @@ const ROBINHOOD_MAINNET_PARAMS = {
   nativeCurrency: { name: 'ETH', symbol: 'ETH', decimals: 18 },
   rpcUrls: ['https://rpc.mainnet.chain.robinhood.com'],
   blockExplorerUrls: ['https://robinhoodchain.blockscout.com'],
-  openseaBase: 'https://opensea.io/assets/robinhood'
+  openseaBase: 'https://opensea.io/item/robinhood'
 };
 
 const ROBINHOOD_TESTNET_PARAMS = {
@@ -358,18 +358,30 @@ class GuardianApp {
   async loadActiveContractAddress() {
     try {
       localStorage.removeItem('giwa_mythic_contract');
-      const res = await fetch('/api/contract');
-      const data = await res.json();
+      let data = null;
+      try {
+        const res = await fetch('/api/contract');
+        if (res.ok) data = await res.json();
+      } catch (_) {}
+
+      // Fallback for static hosting (e.g. GitHub Pages)
+      if (!data || !data.address) {
+        try {
+          const res = await fetch('assets/contract_address.json');
+          if (res.ok) data = await res.json();
+        } catch (_) {}
+      }
+
       if (data && data.address && data.chainId === ROBINHOOD_MAINNET_PARAMS.chainIdDec) {
         this.contractAddress = data.address;
       } else {
-        localStorage.removeItem('robinhood_mythic_contract');
-        this.contractAddress = null;
+        // Default to verified deployed Robinhood Chain contract
+        this.contractAddress = "0xb61B19e865738f8dAdd17CD4E1D516e9F00B88bB";
       }
       this.updateContractUI();
       this.updateMintControlsUI();
     } catch (e) {
-      this.contractAddress = null;
+      this.contractAddress = "0xb61B19e865738f8dAdd17CD4E1D516e9F00B88bB";
       this.updateContractUI();
       this.updateMintControlsUI();
     }
@@ -2091,7 +2103,7 @@ class GuardianApp {
 
     const btnOpensea = document.getElementById('modal-btn-opensea');
     if (btnOpensea) {
-      const activeContract = this.contractAddress || "0xE3e5f493D0Ac649Bd26913C231A93cc931d7F204";
+      const activeContract = this.contractAddress || "0xb61B19e865738f8dAdd17CD4E1D516e9F00B88bB";
       let openseaBase = ROBINHOOD_MAINNET_PARAMS.openseaBase;
       if (this.currentChainId === ROBINHOOD_TESTNET_PARAMS.chainIdDec) {
         openseaBase = ROBINHOOD_TESTNET_PARAMS.openseaBase;
