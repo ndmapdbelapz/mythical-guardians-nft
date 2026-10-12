@@ -1469,28 +1469,29 @@ button {
   font-weight: 700;
 }
 
-.tier-Mythic    { background: rgba(191, 90, 242, 0.25); color: #e5b8f4; border: 1px solid #bf5af2; box-shadow: 0 0 10px rgba(191,90,242,0.3); }
-.tier-Legendary { background: rgba(255, 215, 0, 0.2);   color: #ffd700; border: 1px solid #ffd700; box-shadow: 0 0 10px rgba(255,215,0,0.3); }
-.tier-Epic      { background: rgba(90, 200, 250, 0.2);  color: #5ac8fa; border: 1px solid #5ac8fa; }
-.tier-Rare      { background: rgba(255, 255, 255, 0.1); color: #b0b8c4; border: 1px solid #707884; }
-.tier-Uncommon  { background: rgba(52, 199, 89, 0.2);   color: #34c759; border: 1px solid #34c759; }
-.tier-Common    { background: rgba(160, 160, 160, 0.15); color: #bbb; border: 1px solid #666; }
-.tier-Abyssal   { background: rgba(255, 59, 48, 0.25); color: #ff5252; border: 1px solid #ff3b30; }
+.tier-Legendary { background: rgba(255, 122, 0, 0.22); color: #ff9500; border: 1px solid #ff7a00; box-shadow: 0 0 12px rgba(255, 122, 0, 0.4); }
+.tier-Epic      { background: rgba(168, 85, 247, 0.22); color: #c084fc; border: 1px solid #a855f7; box-shadow: 0 0 12px rgba(168, 85, 247, 0.35); }
+.tier-Rare      { background: rgba(59, 130, 246, 0.2);   color: #60a5fa; border: 1px solid #3b82f6; box-shadow: 0 0 10px rgba(59, 130, 246, 0.3); }
+.tier-Uncommon  { background: rgba(52, 199, 89, 0.2);   color: #34c759; border: 1px solid #34c759; box-shadow: 0 0 8px rgba(52, 199, 89, 0.25); }
+.tier-Common    { background: rgba(156, 163, 175, 0.15); color: #9ca3af; border: 1px solid #6b7280; }
+.tier-Mythic    { background: rgba(244, 63, 94, 0.25);  color: #fb7185; border: 1px solid #f43f5e; box-shadow: 0 0 15px rgba(244, 63, 94, 0.45); }
+.tier-Abyssal   { background: rgba(255, 59, 48, 0.25);  color: #ff5252; border: 1px solid #ff3b30; }
 
 .combatant-card.player.tier-border-Mythic {
-  border-color: #bf5af2;
-  box-shadow: 0 0 30px rgba(191, 90, 242, 0.45);
+  border-color: #f43f5e;
+  box-shadow: 0 0 30px rgba(244, 63, 94, 0.45);
 }
 .combatant-card.player.tier-border-Legendary {
-  border-color: #ffd700;
-  box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+  border-color: #ff7a00;
+  box-shadow: 0 0 30px rgba(255, 122, 0, 0.4);
 }
 .combatant-card.player.tier-border-Epic {
-  border-color: #5ac8fa;
-  box-shadow: 0 0 25px rgba(90, 200, 250, 0.35);
+  border-color: #a855f7;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
 }
 .combatant-card.player.tier-border-Rare {
-  border-color: #707884;
+  border-color: #3b82f6;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
 }
 
 .beast-traits-row {
