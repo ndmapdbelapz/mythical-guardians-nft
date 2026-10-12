@@ -98,10 +98,10 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
     mapping(uint256 => uint256) private _availableIds;
 
     // Designated Treasury Wallet for Mint Tribute & Royalties
-    address payable public treasury = payable(0xb862866110dbF9aD25d25A85422101d0b03615c3);
+    address payable public treasury;
 
     // EIP-2981 Royalty parameters (5% default)
-    address public royaltyRecipient = 0xb862866110dbF9aD25d25A85422101d0b03615c3;
+    address public royaltyRecipient;
     uint96 public royaltyFraction = 500; // 500 / 10000 = 5%
 
     // Sacred Elements
@@ -183,8 +183,8 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
         _symbol = symbol_;
         _baseTokenURI = baseURI_;
         _contractURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/contract_metadata.json";
-        royaltyRecipient = royaltyReceiver_ != address(0) ? royaltyReceiver_ : 0xb862866110dbF9aD25d25A85422101d0b03615c3;
-        treasury = payable(0xb862866110dbF9aD25d25A85422101d0b03615c3);
+        royaltyRecipient = royaltyReceiver_ != address(0) ? royaltyReceiver_ : msg.sender;
+        treasury = payable(royaltyReceiver_ != address(0) ? royaltyReceiver_ : msg.sender);
     }
 
     // ==========================================

@@ -807,7 +807,8 @@ class GuardianApp {
         btnMint.innerText = `Broadcasting to ${netName}...`;
       }
 
-      this.showToast(`Deploying MythicalGuardiansNFT with 100% mint tribute & 5% OpenSea royalties to ${DESTINATION_PAYOUT_WALLET.slice(0, 8)}... Confirm in wallet.`, 'info');
+      const payoutWallet = this.userAddress || DESTINATION_PAYOUT_WALLET;
+      this.showToast(`Deploying Celestial Guardians with 100% mint tribute & 5% royalties to ${payoutWallet.slice(0, 8)}... Confirm in wallet.`, 'info');
 
       const runner = this.signer || (await this.provider.getSigner());
       const factory = new ethers.ContractFactory(
@@ -818,10 +819,10 @@ class GuardianApp {
 
       const baseURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/metadata/json/";
       const contract = await factory.deploy(
-        "Mythical Guardians Genesis",
+        "Celestial Guardians: Genesis Order",
         "MYTHIC",
         baseURI,
-        DESTINATION_PAYOUT_WALLET
+        payoutWallet
       );
 
       const txHash = contract.deploymentTransaction()?.hash;
@@ -856,7 +857,7 @@ class GuardianApp {
             chainId: cId,
             rpcUrl: rpcUrl,
             explorerUrl: expUrl,
-            treasury: DESTINATION_PAYOUT_WALLET,
+            treasury: payoutWallet,
             deployer: this.userAddress,
             deployedAt: new Date().toISOString()
           })
