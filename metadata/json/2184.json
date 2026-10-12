@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #2184",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Fire-attuned Azure Dragon stands in the 'Coiled Imperial Sovereign' aspect as the Sovereign of Eastern Storms. Adorned in Volcanic Magma & Obsidian and haloed by the Flaming Dragon Pearl Ring, it commands Celestial Thunderbolts and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2184.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2184",
+  "edition": 2184,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Coiled Imperial Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 91,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 68,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Fire",
+    "stance": "Coiled Imperial Sovereign",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 91.44,
+    "power_rating": 68,
+    "mastery_stars": 3,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "1cf21863a8e98f3f993fa672a804ce38869a771a89c3cb14fcdd4a0d008e9e76"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1911",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Earth-attuned Garuda stands in the 'Golden Sun King' aspect as the Sun-Winged Sky Sovereign. Adorned in Imperial Jade & Sun Gold and haloed by the Astrological Planetary Orbit, it commands Swirling Foxfire Orbs and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1911.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1911",
+  "edition": 1911,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Golden Sun King"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 112,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 82,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Earth",
+    "stance": "Golden Sun King",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 112.3,
+    "power_rating": 82,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "53b0640041f89c3a0c090b302d718d333a13e4524db3456efdc6f70e984ae667"
+}

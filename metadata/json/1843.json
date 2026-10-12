@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #1843",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Air-attuned Azure Dragon stands in the 'Armored Jade Drake' aspect as the Sovereign of Eastern Storms. Adorned in Tempest Thunderstorm and haloed by the Flaming Dragon Pearl Ring, it commands Swirling Foxfire Orbs and bears the sacred Tengu Gale Leaf Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1843.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1843",
+  "edition": 1843,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Armored Jade Drake"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Tempest Thunderstorm"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Tengu Gale Leaf Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 116,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 91,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Air",
+    "stance": "Armored Jade Drake",
+    "color_harmony": "Tempest Thunderstorm",
+    "rarity_score": 115.56,
+    "power_rating": 91,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "9d4d4429ad4ceb50ea95eb5390fbdba40a3453ffa7684902ecd0f4ae337f1d8f"
+}

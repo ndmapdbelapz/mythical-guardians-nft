@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0922",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Air-attuned Nine-Tailed Fox stands in the 'Masked Spirit Kitsune' aspect as the Spirit Enchantress of Foxfire. Adorned in Tempest Thunderstorm and haloed by the Flaming Dragon Pearl Ring, it commands Cosmic Star Dust Clusters and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/922.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#922",
+  "edition": 922,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Masked Spirit Kitsune"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Tempest Thunderstorm"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 104,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 87,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Air",
+    "stance": "Masked Spirit Kitsune",
+    "color_harmony": "Tempest Thunderstorm",
+    "rarity_score": 103.99,
+    "power_rating": 87,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "60b92ebd34b880cbfcd3361034cc2efbcd57bdcee71c6318619a5b72c36a2140"
+}

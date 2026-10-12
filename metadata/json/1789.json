@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #1789",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Fire-attuned Black Tortoise stands in the 'Ancient Spiked Citadel' aspect as the Abyssal Sentinel of Guixu. Adorned in Blue Plasma & Hellfire and haloed by the Sacred Lotus Mandala, it commands Swirling Foxfire Orbs and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1789.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1789",
+  "edition": 1789,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ancient Spiked Citadel"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Blue Plasma & Hellfire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 111,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 75,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Fire",
+    "stance": "Ancient Spiked Citadel",
+    "color_harmony": "Blue Plasma & Hellfire",
+    "rarity_score": 110.92,
+    "power_rating": 75,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "b6c367d62eec74ed3ee58c4bc438f831c4dd578f94cd4ea07fa52cdd963c4e67"
+}

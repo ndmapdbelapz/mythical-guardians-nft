@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1897",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Earth-attuned Garuda stands in the 'Four-Armed Solar Deity' aspect as the Sun-Winged Sky Sovereign. Adorned in Desert Dune Topaz and haloed by the Bagua Eight Trigrams, it commands Gale Storm Spirals and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1897.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1897",
+  "edition": 1897,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Four-Armed Solar Deity"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Desert Dune Topaz"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 110,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 91,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Earth",
+    "stance": "Four-Armed Solar Deity",
+    "color_harmony": "Desert Dune Topaz",
+    "rarity_score": 110.31,
+    "power_rating": 91,
+    "mastery_stars": 5,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "c478e726fe73f9926ae9b89479cd7d0e571a0c6be65482062d8e282749c8a80b"
+}

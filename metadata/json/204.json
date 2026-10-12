@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0204",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Fire-attuned Qilin stands in the 'Astral Starlight Chimera' aspect as the Auspicious Chimera of Harmony. Adorned in Spirit Violet Kitsune Fire and haloed by the Bagua Eight Trigrams, it commands Glacial Frost Crystals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/204.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#204",
+  "edition": 204,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Astral Starlight Chimera"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Spirit Violet Kitsune Fire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 108,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 77,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Fire",
+    "stance": "Astral Starlight Chimera",
+    "color_harmony": "Spirit Violet Kitsune Fire",
+    "rarity_score": 107.56,
+    "power_rating": 77,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "2c152e1e37e954e97c2692a53ae45dce9ca33e87a9859fb4526f8fbfe93950b0"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1460",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Air-attuned Garuda stands in the 'Storm-Winged Raptor' aspect as the Sun-Winged Sky Sovereign. Adorned in Jade Whirlwind Hurricane and haloed by the Sacred Lotus Mandala, it commands Celestial Thunderbolts and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1460.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1460",
+  "edition": 1460,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Storm-Winged Raptor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Jade Whirlwind Hurricane"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Pearl Crown"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 128,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 89,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Air",
+    "stance": "Storm-Winged Raptor",
+    "color_harmony": "Jade Whirlwind Hurricane",
+    "rarity_score": 128.26,
+    "power_rating": 89,
+    "mastery_stars": 4,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "b254c7f6c0176d691d239f1b347a377ca8d76f0ebe645b6ec3498855d5bbab81"
+}

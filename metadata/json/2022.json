@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #2022",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Fire-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in Spirit Violet Kitsune Fire and haloed by the Flaming Dragon Pearl Ring, it commands Sacred Incense Wisps and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2022.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2022",
+  "edition": 2022,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Spirit Violet Kitsune Fire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Sacred Lotus Petal"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 127,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 92,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Fire",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "Spirit Violet Kitsune Fire",
+    "rarity_score": 126.87,
+    "power_rating": 92,
+    "mastery_stars": 2,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "7de38c8918cd994a4fd3c40008b64d6a3c84b5042d3c3142721926adb345772e"
+}

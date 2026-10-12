@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0371",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Void-attuned Azure Dragon stands in the 'Coiled Imperial Sovereign' aspect as the Sovereign of Eastern Storms. Adorned in Dark Matter Umbra and haloed by the Astrological Planetary Orbit, it commands Celestial Thunderbolts and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/371.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#371",
+  "edition": 371,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Coiled Imperial Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Dark Matter Umbra"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "All-Seeing Celestial Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 138,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 87,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Void",
+    "stance": "Coiled Imperial Sovereign",
+    "color_harmony": "Dark Matter Umbra",
+    "rarity_score": 138.3,
+    "power_rating": 87,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "0477f7ac1c8f1cbe3f0d8cde0f1701caa54ae872254c13ec93cc378afaee4a2c"
+}

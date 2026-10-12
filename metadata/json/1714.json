@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #1714",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Water-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in Midnight Leviathan Ink and haloed by the Astrological Planetary Orbit, it commands Swirling Foxfire Orbs and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1714.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1714",
+  "edition": 1714,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Midnight Leviathan Ink"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Shinto Shimenawa Rope & Shide"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Sacred Lotus Petal"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 148,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 93,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Water",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "Midnight Leviathan Ink",
+    "rarity_score": 147.95,
+    "power_rating": 93,
+    "mastery_stars": 5,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "882cb82422d2170e96af0cca037f763ccecc96c296475fb0c0a47c6eddc26fc3"
+}

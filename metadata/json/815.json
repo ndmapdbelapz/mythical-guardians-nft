@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0815",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Fire-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Volcanic Magma & Obsidian and haloed by the Sacred Lotus Mandala, it commands Golden Lotus Petals and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/815.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#815",
+  "edition": 815,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 104,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 75,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 104.2,
+    "power_rating": 75,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "1fa00382cc2532644b5345cab7525d1635a7f4f5715a31e9d5fc6a9e8547dcd9"
+}

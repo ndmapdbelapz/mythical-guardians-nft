@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0300",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Water-attuned Qilin stands in the 'Astral Starlight Chimera' aspect as the Auspicious Chimera of Harmony. Adorned in Coral Lagoon Turquoise and haloed by the Sacred Lotus Mandala, it commands Glacial Frost Crystals and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/300.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#300",
+  "edition": 300,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Astral Starlight Chimera"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Coral Lagoon Turquoise"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 125,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 96,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Water",
+    "stance": "Astral Starlight Chimera",
+    "color_harmony": "Coral Lagoon Turquoise",
+    "rarity_score": 125.38,
+    "power_rating": 96,
+    "mastery_stars": 5,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "0349709cc6ecfe3de4256c8cb090e058202d89e4da86b8cb98872a014517dbe7"
+}

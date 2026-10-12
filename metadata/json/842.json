@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #0842",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Air-attuned Garuda stands in the 'Storm-Winged Raptor' aspect as the Sun-Winged Sky Sovereign. Adorned in Tempest Thunderstorm and haloed by the Void Singularity Event Horizon, it commands Celestial Thunderbolts and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/842.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#842",
+  "edition": 842,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Storm-Winged Raptor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Tempest Thunderstorm"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 120,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 84,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Air",
+    "stance": "Storm-Winged Raptor",
+    "color_harmony": "Tempest Thunderstorm",
+    "rarity_score": 120.38,
+    "power_rating": 84,
+    "mastery_stars": 4,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "b3581598d01b0970dd47c0f73a3a6242da6345b3d007a822bc26b8d21efa8e8b"
+}

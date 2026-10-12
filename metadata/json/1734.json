@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1734",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Air-attuned Vermilion Bird stands in the 'Solar Diving Falcon' aspect as the Immortal Solar Phoenix. Adorned in Zephyr Gale & Ivory and haloed by the Void Singularity Event Horizon, it commands Celestial Thunderbolts and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1734.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1734",
+  "edition": 1734,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Solar Diving Falcon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 106,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 79,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Air",
+    "stance": "Solar Diving Falcon",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 105.53,
+    "power_rating": 79,
+    "mastery_stars": 3,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "c86d1505b9a8d1bc9ad953520d501049e9cd5938f67178b5a72f8fa1cef74c8a"
+}

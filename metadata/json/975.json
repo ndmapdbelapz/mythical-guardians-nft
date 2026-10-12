@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0975",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Water-attuned Black Tortoise stands in the 'Abyssal Serpent Behemoth' aspect as the Abyssal Sentinel of Guixu. Adorned in Midnight Leviathan Ink and haloed by the Auspicious Cloud Scroll, it commands Falling Sakura Blossom and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/975.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#975",
+  "edition": 975,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Abyssal Serpent Behemoth"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Midnight Leviathan Ink"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 120,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 96,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Water",
+    "stance": "Abyssal Serpent Behemoth",
+    "color_harmony": "Midnight Leviathan Ink",
+    "rarity_score": 119.95,
+    "power_rating": 96,
+    "mastery_stars": 4,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "43075a35673152e4291027cde487f3abfcd2890a874e635e29ffb14490374118"
+}

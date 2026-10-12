@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1122",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Water-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Bioluminescent Trench Glow and haloed by the Flaming Dragon Pearl Ring, it commands Falling Sakura Blossom and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1122.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1122",
+  "edition": 1122,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Bioluminescent Trench Glow"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 103,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 83,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Water",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Bioluminescent Trench Glow",
+    "rarity_score": 103.22,
+    "power_rating": 83,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "3e5c98f8e5b3dc58e29d20dcbb9a91022a007e0dd642639672c33123400557cc"
+}

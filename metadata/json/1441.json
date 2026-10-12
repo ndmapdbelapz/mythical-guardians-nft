@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1441",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Fire-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Blue Plasma & Hellfire and haloed by the Sacred Lotus Mandala, it commands Sacred Incense Wisps and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1441.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1441",
+  "edition": 1441,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Blue Plasma & Hellfire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 105,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 86,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Blue Plasma & Hellfire",
+    "rarity_score": 104.97,
+    "power_rating": 86,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "59f176ae8c86f29ab365257b93df59b1274694461838fd2cce2ac7db3dc71741"
+}

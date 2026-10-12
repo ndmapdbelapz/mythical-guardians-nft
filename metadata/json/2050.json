@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #2050",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Earth-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Emerald Dragon Canopy and haloed by the Astrological Planetary Orbit, it commands Swirling Foxfire Orbs and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2050.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2050",
+  "edition": 2050,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Emerald Dragon Canopy"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 95,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 74,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Earth",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Emerald Dragon Canopy",
+    "rarity_score": 95.24,
+    "power_rating": 74,
+    "mastery_stars": 1,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "b5b06d7df99a6100035aed98f45630d56f86042a01686a2f15152bbb3998c1aa"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0159",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Void-attuned Azure Dragon stands in the 'Coiled Imperial Sovereign' aspect as the Sovereign of Eastern Storms. Adorned in Dark Matter Umbra and haloed by the Flaming Dragon Pearl Ring, it commands Celestial Thunderbolts and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/159.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#159",
+  "edition": 159,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Coiled Imperial Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Dark Matter Umbra"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tengu Warrior Tokin Pillbox"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 103,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Void",
+    "stance": "Coiled Imperial Sovereign",
+    "color_harmony": "Dark Matter Umbra",
+    "rarity_score": 103.48,
+    "power_rating": 73,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "40a09038bc7155ed1e3d070df0f02f6f6bfa478121494b6a90a38f097e9b1dfc"
+}

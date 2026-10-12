@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #1100",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Earth-attuned Tengu stands in the 'Hanadaka Crimson Lord' aspect as the Gale Blade Yōkai Lord. Adorned in Imperial Jade & Sun Gold and haloed by the Sacred Lotus Mandala, it commands Sacred Incense Wisps and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1100.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1100",
+  "edition": 1100,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Hanadaka Crimson Lord"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 112,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 75,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Earth",
+    "stance": "Hanadaka Crimson Lord",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 111.5,
+    "power_rating": 75,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "f99da82f0eeba962bc779cb044baf90addc72b55a196708071cf14ea87ffaa87"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0661",
+  "description": "Conceived in the celestial ether of Frozen Glacial Aurora, this Air-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Golden Sunset Stratosphere and haloed by the Flaming Dragon Pearl Ring, it commands Sacred Incense Wisps and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/661.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#661",
+  "edition": 661,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Frozen Glacial Aurora"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 123,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 95,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Air",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 123.05,
+    "power_rating": 95,
+    "mastery_stars": 5,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "386dadd6f714d2db124b4b3b1e68376a0601ed6daae9cfe27006ab873e9a774a"
+}

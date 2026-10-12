@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1835",
+  "description": "Conceived in the celestial ether of Frozen Glacial Aurora, this Earth-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Emerald Dragon Canopy and haloed by the Bagua Eight Trigrams, it commands Gale Storm Spirals and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1835.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1835",
+  "edition": 1835,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Emerald Dragon Canopy"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Frozen Glacial Aurora"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 117,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 89,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Earth",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Emerald Dragon Canopy",
+    "rarity_score": 117.1,
+    "power_rating": 89,
+    "mastery_stars": 1,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "68feda03c0df7846cd56ca1be1bb655f565ed99c30e17c272f56763e761136de"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1024",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Water-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Arctic Glacial Frost and haloed by the Flaming Dragon Pearl Ring, it commands Cosmic Star Dust Clusters and bears the sacred Sacred Moonlit Flute.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1024.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1024",
+  "edition": 1024,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Arctic Glacial Frost"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Sacred Moonlit Flute"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 131,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Water",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Arctic Glacial Frost",
+    "rarity_score": 131.43,
+    "power_rating": 73,
+    "mastery_stars": 4,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "82b44ea53d005966aa468f5edbf017797db506cd1936f8069b7ee5349a85ea36"
+}

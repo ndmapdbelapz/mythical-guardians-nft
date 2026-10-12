@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0541",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Void-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Pure Starlight Prismatic and haloed by the Radiant Solar Sunburst, it commands Falling Sakura Blossom and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/541.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#541",
+  "edition": 541,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Pure Starlight Prismatic"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 101,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 88,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Void",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Pure Starlight Prismatic",
+    "rarity_score": 100.84,
+    "power_rating": 88,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "d33678284909ead002f3dda00889e5e2bc4b5b3cff5b0c8ced76b712dc767d03"
+}

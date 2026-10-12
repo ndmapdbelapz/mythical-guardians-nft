@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #2071",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Air-attuned Qilin stands in the 'Astral Starlight Chimera' aspect as the Auspicious Chimera of Harmony. Adorned in Silver Moon Mist and haloed by the Sacred Lotus Mandala, it commands Falling Sakura Blossom and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2071.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2071",
+  "edition": 2071,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Astral Starlight Chimera"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Silver Moon Mist"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 107,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 96,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Air",
+    "stance": "Astral Starlight Chimera",
+    "color_harmony": "Silver Moon Mist",
+    "rarity_score": 107.1,
+    "power_rating": 96,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "b31834d76eafe41e416cd147a772ba88638f3df114fce6d112226922c10f6241"
+}

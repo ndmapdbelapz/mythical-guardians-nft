@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #1331",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Air-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in Golden Sunset Stratosphere and haloed by the Auspicious Cloud Scroll, it commands Sacred Incense Wisps and bears the sacred Sacred Moonlit Flute.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1331.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1331",
+  "edition": 1331,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Sacred Moonlit Flute"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 132,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 82,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Air",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 131.67,
+    "power_rating": 82,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "4d6cddedeb5d62943588e0211fe4a65732a1f8c5c7211a6b766bba088e9def50"
+}

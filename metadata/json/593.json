@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0593",
+  "description": "Conceived in the celestial ether of Frozen Glacial Aurora, this Earth-attuned Azure Dragon stands in the 'Ascending Thunder Dragon' aspect as the Sovereign of Eastern Storms. Adorned in Emerald Dragon Canopy and haloed by the Auspicious Cloud Scroll, it commands Swirling Foxfire Orbs and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/593.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#593",
+  "edition": 593,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Thunder Dragon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Emerald Dragon Canopy"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Frozen Glacial Aurora"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 109,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 81,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Earth",
+    "stance": "Ascending Thunder Dragon",
+    "color_harmony": "Emerald Dragon Canopy",
+    "rarity_score": 108.86,
+    "power_rating": 81,
+    "mastery_stars": 3,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "4ef5d5a60fdc7cc7d566c5a8bd3b17a4401c4bc46fc8bb85950a1c90ff3568e9"
+}

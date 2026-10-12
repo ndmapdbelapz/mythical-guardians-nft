@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0945",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Void-attuned Qilin stands in the 'Lion-Mane Dragon Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Quantum Horizon Cyan and haloed by the Bagua Eight Trigrams, it commands Cosmic Star Dust Clusters and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/945.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#945",
+  "edition": 945,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Lion-Mane Dragon Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Quantum Horizon Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 102,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 96,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Void",
+    "stance": "Lion-Mane Dragon Qilin",
+    "color_harmony": "Quantum Horizon Cyan",
+    "rarity_score": 102.23,
+    "power_rating": 96,
+    "mastery_stars": 3,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "40fad4456d735e0773496e71bc657ca9b0a2099ba3ad71eed9c732a2df41dd27"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1523",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Earth-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Imperial Jade & Sun Gold and haloed by the Astrological Planetary Orbit, it commands Cosmic Star Dust Clusters and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1523.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1523",
+  "edition": 1523,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 94,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 70,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Earth",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 93.59,
+    "power_rating": 70,
+    "mastery_stars": 2,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "c652702f24182ee6a835d863b3389e369d1270a022534efc38ec8789ac2af61f"
+}

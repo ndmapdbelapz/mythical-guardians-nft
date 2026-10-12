@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #0715",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Water-attuned Garuda stands in the 'Golden Sun King' aspect as the Sun-Winged Sky Sovereign. Adorned in Coral Lagoon Turquoise and haloed by the Flaming Dragon Pearl Ring, it commands Rising Volcanic Embers and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/715.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#715",
+  "edition": 715,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Golden Sun King"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Coral Lagoon Turquoise"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 109,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 97,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Water",
+    "stance": "Golden Sun King",
+    "color_harmony": "Coral Lagoon Turquoise",
+    "rarity_score": 108.8,
+    "power_rating": 97,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "cb9f23e98646499ffcdc276033272fe5437c20a2d11b696e690d57a4b8d96054"
+}

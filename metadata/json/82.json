@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0082",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Fire-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in White Phoenix Coronal Flame and haloed by the Flaming Dragon Pearl Ring, it commands Glacial Frost Crystals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/82.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#82",
+  "edition": 82,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "White Phoenix Coronal Flame"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tengu Warrior Tokin Pillbox"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 127,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 87,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Fire",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "White Phoenix Coronal Flame",
+    "rarity_score": 127.31,
+    "power_rating": 87,
+    "mastery_stars": 5,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "d0fad31706d30e0b9b3bf536e751b74a0fa91a805e33df09ee754b01d5334875"
+}

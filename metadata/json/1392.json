@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #1392",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Water-attuned Qilin stands in the 'Lion-Mane Dragon Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Coral Lagoon Turquoise and haloed by the Radiant Solar Sunburst, it commands Swirling Foxfire Orbs and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1392.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1392",
+  "edition": 1392,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Lion-Mane Dragon Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Coral Lagoon Turquoise"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 109,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 79,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Water",
+    "stance": "Lion-Mane Dragon Qilin",
+    "color_harmony": "Coral Lagoon Turquoise",
+    "rarity_score": 108.58,
+    "power_rating": 79,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "f581182ff89ba31548a867df06562a87970eca27afb381cb8e481ef4c9d2f478"
+}

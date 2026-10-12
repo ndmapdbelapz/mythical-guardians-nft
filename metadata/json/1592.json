@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1592",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Fire-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Solar Crimson & Imperial Gold and haloed by the Astrological Planetary Orbit, it commands Cosmic Star Dust Clusters and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1592.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1592",
+  "edition": 1592,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Solar Crimson & Imperial Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 92,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 84,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Solar Crimson & Imperial Gold",
+    "rarity_score": 92.13,
+    "power_rating": 84,
+    "mastery_stars": 1,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "c63a86c06803e3d28dd237dcafc33f5d0ac5c58ae84f20db73808ed826770da3"
+}

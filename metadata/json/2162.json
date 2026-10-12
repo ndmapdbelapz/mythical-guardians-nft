@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #2162",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Air-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Golden Sunset Stratosphere and haloed by the Astrological Planetary Orbit, it commands Cosmic Star Dust Clusters and bears the sacred Tengu Gale Leaf Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2162.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2162",
+  "edition": 2162,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Tengu Gale Leaf Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 109,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 98,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Air",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 109.41,
+    "power_rating": 98,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "4ee5c316c8ad4dca6a85a713c143297d22ce65f0c6b350e1380aa48274a0967c"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1224",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Water-attuned Vermilion Bird stands in the 'Ascending Wings Unfurled' aspect as the Immortal Solar Phoenix. Adorned in Arctic Glacial Frost and haloed by the Flaming Dragon Pearl Ring, it commands Swirling Foxfire Orbs and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1224.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1224",
+  "edition": 1224,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Wings Unfurled"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Arctic Glacial Frost"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Sacred Lotus Petal"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 145,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 68,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Water",
+    "stance": "Ascending Wings Unfurled",
+    "color_harmony": "Arctic Glacial Frost",
+    "rarity_score": 145.2,
+    "power_rating": 68,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "f3359f9b5ea7848578a213e03bf185f4c30335f375e641d653c7b086f2b7d326"
+}

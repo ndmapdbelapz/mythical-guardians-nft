@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0322",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Earth-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Ancient Terracotta & Clay and haloed by the Astrological Planetary Orbit, it commands Glacial Frost Crystals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/322.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#322",
+  "edition": 322,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 113,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 94,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Earth",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 112.83,
+    "power_rating": 94,
+    "mastery_stars": 4,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "825c07438eca33140d7acfd70b03da6d2a4956418d79ee4db08a5acb20d69a2b"
+}

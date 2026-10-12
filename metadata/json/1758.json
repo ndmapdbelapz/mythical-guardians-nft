@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #1758",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Fire-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Spirit Violet Kitsune Fire and haloed by the Dual Crescent Moon Chime, it commands Rising Volcanic Embers and bears the sacred Soul-Calling Lotus Bell.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1758.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1758",
+  "edition": 1758,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Spirit Violet Kitsune Fire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Soul-Calling Lotus Bell"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 130,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 98,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Fire",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Spirit Violet Kitsune Fire",
+    "rarity_score": 129.86,
+    "power_rating": 98,
+    "mastery_stars": 3,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "4cc72a287739bc7646ad59a4932cd3558e7ef55f842f5a04562eeaefdb7e1588"
+}

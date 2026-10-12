@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0357",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Earth-attuned Nine-Tailed Fox stands in the 'Masked Spirit Kitsune' aspect as the Spirit Enchantress of Foxfire. Adorned in Crystalline Amethyst Geode and haloed by the Bagua Eight Trigrams, it commands Celestial Thunderbolts and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/357.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#357",
+  "edition": 357,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Masked Spirit Kitsune"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Crystalline Amethyst Geode"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 127,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 74,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Earth",
+    "stance": "Masked Spirit Kitsune",
+    "color_harmony": "Crystalline Amethyst Geode",
+    "rarity_score": 127.05,
+    "power_rating": 74,
+    "mastery_stars": 2,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "ee29814cdbdab477f0190ea732649286af5b8bb4f53810dc0cbc0e480f1ad8c9"
+}

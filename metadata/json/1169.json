@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1169",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Fire-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Blue Plasma & Hellfire and haloed by the Dual Crescent Moon Chime, it commands Golden Lotus Petals and bears the sacred Bagua Fengshui Astrolabe.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1169.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1169",
+  "edition": 1169,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Blue Plasma & Hellfire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Enlightened Third Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Bagua Fengshui Astrolabe"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 221,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Blue Plasma & Hellfire",
+    "rarity_score": 221.27,
+    "power_rating": 73,
+    "mastery_stars": 3,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "508600c055545608e51e4b3d48ecd8481c39ff15ea6c4c413029767b7de11c3a"
+}

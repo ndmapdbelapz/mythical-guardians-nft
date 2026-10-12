@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0500",
+  "description": "Conceived in the celestial ether of Frozen Glacial Aurora, this Water-attuned Azure Dragon stands in the 'Armored Jade Drake' aspect as the Sovereign of Eastern Storms. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Astrological Planetary Orbit, it commands Falling Sakura Blossom and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/500.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#500",
+  "edition": 500,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Armored Jade Drake"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Frozen Glacial Aurora"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 113,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 77,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Water",
+    "stance": "Armored Jade Drake",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 112.89,
+    "power_rating": 77,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "04c78d364593ca7c5f09106c391c07786ac6a18a9eac6ace2f288eabc36e313b"
+}

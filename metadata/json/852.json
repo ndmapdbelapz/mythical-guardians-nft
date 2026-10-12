@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0852",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Fire-attuned Black Tortoise stands in the 'Abyssal Serpent Behemoth' aspect as the Abyssal Sentinel of Guixu. Adorned in Volcanic Magma & Obsidian and haloed by the Astrological Planetary Orbit, it commands Rising Volcanic Embers and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/852.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#852",
+  "edition": 852,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Abyssal Serpent Behemoth"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 93,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 78,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Fire",
+    "stance": "Abyssal Serpent Behemoth",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 92.77,
+    "power_rating": 78,
+    "mastery_stars": 1,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "cb01c011a447b53665eab978d45490a303a74d3dfb86ccb610c0fe42eba64390"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0212",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Air-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Tempest Thunderstorm and haloed by the Bagua Eight Trigrams, it commands Celestial Thunderbolts and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/212.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#212",
+  "edition": 212,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Tempest Thunderstorm"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 119,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 92,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Air",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Tempest Thunderstorm",
+    "rarity_score": 119.05,
+    "power_rating": 92,
+    "mastery_stars": 1,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "ef321b6b71a6e52713b5f2d0b58cd96d052f8a13f008c83c4b94efa381827c6a"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0951",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Fire-attuned White Tiger stands in the 'Celestial Shadow Prowler' aspect as the Celestial Arbiter of War. Adorned in Volcanic Magma & Obsidian and haloed by the Dual Crescent Moon Chime, it commands Celestial Thunderbolts and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/951.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#951",
+  "edition": 951,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Shadow Prowler"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 163,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 78,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Celestial Shadow Prowler",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 163.35,
+    "power_rating": 78,
+    "mastery_stars": 1,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "8f0aff7d43e6b5bd949d9452a6784a20682a56293e0bd2af7fe3db9268bcd3b6"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0848",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Earth-attuned Azure Dragon stands in the 'Ascending Thunder Dragon' aspect as the Sovereign of Eastern Storms. Adorned in Ancient Terracotta & Clay and haloed by the Radiant Solar Sunburst, it commands Glacial Frost Crystals and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/848.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#848",
+  "edition": 848,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Thunder Dragon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 110,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 75,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Earth",
+    "stance": "Ascending Thunder Dragon",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 110.13,
+    "power_rating": 75,
+    "mastery_stars": 1,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "7388b4985965f8ce11a27d7d1c4a3b6cfec14d0bee1ed75e717b04c9e422f91c"
+}

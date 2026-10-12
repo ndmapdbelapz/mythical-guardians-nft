@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #1149",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Air-attuned Qilin stands in the 'Celestial Stag Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Silver Moon Mist and haloed by the Sacred Lotus Mandala, it commands Sacred Incense Wisps and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1149.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1149",
+  "edition": 1149,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Stag Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Silver Moon Mist"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Pearl Crown"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 117,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 82,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Air",
+    "stance": "Celestial Stag Qilin",
+    "color_harmony": "Silver Moon Mist",
+    "rarity_score": 116.69,
+    "power_rating": 82,
+    "mastery_stars": 5,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "ebd813139f6e2160b97389a6d1acc707490c826c9d8efd9ac13953dcf1c50c7c"
+}

@@ -1,0 +1,23 @@
+{
+  "total_tokens": 100,
+  "element_distribution": {
+    "Fire": 19,
+    "Water": 21,
+    "Earth": 23,
+    "Air": 24,
+    "Void": 13
+  },
+  "beast_distribution": {
+    "BlackTortoise": 18,
+    "AzureDragon": 19,
+    "WhiteTiger": 17,
+    "VermilionBird": 19,
+    "Qilin": 12,
+    "NineTailedFox": 12,
+    "Garuda": 3
+  },
+  "tier_distribution": {
+    "Rare": 81,
+    "Epic": 19
+  }
+}

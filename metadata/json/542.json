@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0542",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Earth-attuned Nine-Tailed Fox stands in the 'Divine Heavenly Fox' aspect as the Spirit Enchantress of Foxfire. Adorned in Imperial Jade & Sun Gold and haloed by the Radiant Solar Sunburst, it commands Gale Storm Spirals and bears the sacred Soul-Calling Lotus Bell.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/542.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#542",
+  "edition": 542,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Divine Heavenly Fox"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Soul-Calling Lotus Bell"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 107,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 94,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Earth",
+    "stance": "Divine Heavenly Fox",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 107.28,
+    "power_rating": 94,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "9cdd541bec3bbfce4096d9d16623aa27cb4f828cec0aea3cbd9d020828b4a2d4"
+}

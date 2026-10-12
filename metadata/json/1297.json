@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #1297",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Void-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Astral Singularity Amethyst and haloed by the Radiant Solar Sunburst, it commands Void Space Fissures and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1297.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1297",
+  "edition": 1297,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Astral Singularity Amethyst"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Void Space Fissures"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 128,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 76,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Void",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Astral Singularity Amethyst",
+    "rarity_score": 127.91,
+    "power_rating": 76,
+    "mastery_stars": 2,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "58232b761b20497211d899832f5f84f2353912ade3bae1898f0b990ffe014117"
+}

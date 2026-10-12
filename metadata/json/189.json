@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0189",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Air-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Zephyr Gale & Ivory and haloed by the Radiant Solar Sunburst, it commands Celestial Thunderbolts and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/189.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#189",
+  "edition": 189,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 134,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Air",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 133.92,
+    "power_rating": 73,
+    "mastery_stars": 5,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "a1a0b0fb87b49eb25978242b49946704a13e60863bc85006da36c62c61053bd2"
+}

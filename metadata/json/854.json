@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #0854",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Earth-attuned Tengu stands in the 'Karasu Crow Tengu' aspect as the Gale Blade Yōkai Lord. Adorned in Imperial Jade & Sun Gold and haloed by the Sacred Lotus Mandala, it commands Gale Storm Spirals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/854.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#854",
+  "edition": 854,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Karasu Crow Tengu"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 119,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 86,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Earth",
+    "stance": "Karasu Crow Tengu",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 119.37,
+    "power_rating": 86,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "735ed5f0ec6e609fc7f2af2e4326bdc1bb8faa3e5757329805557f923f9e7aaf"
+}

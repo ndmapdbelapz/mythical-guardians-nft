@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1455",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Air-attuned Vermilion Bird stands in the 'Solar Diving Falcon' aspect as the Immortal Solar Phoenix. Adorned in Golden Sunset Stratosphere and haloed by the Flaming Dragon Pearl Ring, it commands Glacial Frost Crystals and bears the sacred Tengu Gale Leaf Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1455.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1455",
+  "edition": 1455,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Solar Diving Falcon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Pearl Crown"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Tengu Gale Leaf Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 115,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Air",
+    "stance": "Solar Diving Falcon",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 115.34,
+    "power_rating": 73,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "f4cc447f1a44e10be90637b93c7c641d42d2769917020393dded69169b52cfd2"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0522",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Earth-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Imperial Jade & Sun Gold and haloed by the Sacred Lotus Mandala, it commands Rising Volcanic Embers and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/522.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#522",
+  "edition": 522,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 105,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 82,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Earth",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 104.8,
+    "power_rating": 82,
+    "mastery_stars": 1,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "9ece43d3febc413828c8d931d0ec465abf7395af2eadf0ecb9641abcf5908175"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0080",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Void-attuned Qilin stands in the 'Lion-Mane Dragon Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Cosmic Nebula Flare and haloed by the Bagua Eight Trigrams, it commands Gale Storm Spirals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/80.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#80",
+  "edition": 80,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Lion-Mane Dragon Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Cosmic Nebula Flare"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 114,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 74,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Void",
+    "stance": "Lion-Mane Dragon Qilin",
+    "color_harmony": "Cosmic Nebula Flare",
+    "rarity_score": 113.78,
+    "power_rating": 74,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "c6496e2a095c1c5ca4710f4116a755a604c7755cd2c559f39e3e1e49ef15b70e"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1629",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Fire-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Solar Crimson & Imperial Gold and haloed by the Void Singularity Event Horizon, it commands Falling Sakura Blossom and bears the sacred Sacred Moonlit Flute.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1629.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1629",
+  "edition": 1629,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Solar Crimson & Imperial Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tengu Warrior Tokin Pillbox"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Sacred Moonlit Flute"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 164,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 72,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Solar Crimson & Imperial Gold",
+    "rarity_score": 163.86,
+    "power_rating": 72,
+    "mastery_stars": 4,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "2006fed60961fa92d215ad3f303bf05c85a6b7ed3f67ab174e22e63aead3761d"
+}

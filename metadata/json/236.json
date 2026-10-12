@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0236",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Fire-attuned Black Tortoise stands in the 'Abyssal Serpent Behemoth' aspect as the Abyssal Sentinel of Guixu. Adorned in White Phoenix Coronal Flame and haloed by the Radiant Solar Sunburst, it commands Golden Lotus Petals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/236.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#236",
+  "edition": 236,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Abyssal Serpent Behemoth"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "White Phoenix Coronal Flame"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Vajra Thunder Spikes"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 111,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 74,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Fire",
+    "stance": "Abyssal Serpent Behemoth",
+    "color_harmony": "White Phoenix Coronal Flame",
+    "rarity_score": 111.22,
+    "power_rating": 74,
+    "mastery_stars": 4,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "2dde1b7ff42b3ee68beb95536db2b0c8b7148b74e6a905ae9714e487324f370d"
+}

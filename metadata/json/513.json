@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0513",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Air-attuned Azure Dragon stands in the 'Armored Jade Drake' aspect as the Sovereign of Eastern Storms. Adorned in Zephyr Gale & Ivory and haloed by the Astrological Planetary Orbit, it commands Swirling Foxfire Orbs and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/513.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#513",
+  "edition": 513,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Armored Jade Drake"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 98,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 98,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Air",
+    "stance": "Armored Jade Drake",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 97.94,
+    "power_rating": 98,
+    "mastery_stars": 2,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "82cda242866c37e45e2c302034cffe7daccf9cade7a04fc03899ffdd9194d7de"
+}

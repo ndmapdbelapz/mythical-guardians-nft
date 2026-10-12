@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #1019",
+  "description": "Conceived in the celestial ether of Frozen Glacial Aurora, this Water-attuned Nine-Tailed Fox stands in the 'Masked Spirit Kitsune' aspect as the Spirit Enchantress of Foxfire. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Dual Crescent Moon Chime, it commands Cosmic Star Dust Clusters and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1019.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1019",
+  "edition": 1019,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Masked Spirit Kitsune"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Frozen Glacial Aurora"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 117,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 98,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Water",
+    "stance": "Masked Spirit Kitsune",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 117.19,
+    "power_rating": 98,
+    "mastery_stars": 4,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "ff615daf7402818ff7bf94fd8a7aa1a32f88c23a78b9e48d0b9a859e41e58f33"
+}

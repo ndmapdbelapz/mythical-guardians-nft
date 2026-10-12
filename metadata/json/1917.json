@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #1917",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Earth-attuned Azure Dragon stands in the 'Coiled Imperial Sovereign' aspect as the Sovereign of Eastern Storms. Adorned in Imperial Jade & Sun Gold and haloed by the Flaming Dragon Pearl Ring, it commands Golden Lotus Petals and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1917.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1917",
+  "edition": 1917,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Coiled Imperial Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Shinto Shimenawa Rope & Shide"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 142,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 81,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Earth",
+    "stance": "Coiled Imperial Sovereign",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 141.61,
+    "power_rating": 81,
+    "mastery_stars": 3,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "60bda1e9fdbb5af1b1bdb93b14280377993ae43e113dd5da2e3f937bafce91db"
+}

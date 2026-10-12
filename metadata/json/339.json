@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #0339",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Air-attuned Tengu stands in the 'Karasu Crow Tengu' aspect as the Gale Blade Yōkai Lord. Adorned in Zephyr Gale & Ivory and haloed by the Radiant Solar Sunburst, it commands Glacial Frost Crystals and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/339.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#339",
+  "edition": 339,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Karasu Crow Tengu"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Vajra Thunder Spikes"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Sacred Lotus Petal"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 132,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Air",
+    "stance": "Karasu Crow Tengu",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 132.33,
+    "power_rating": 73,
+    "mastery_stars": 5,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "3db37c798fa3fc5d423093c529ea5702a0b91c08c5280c366a0ff439cf602f50"
+}

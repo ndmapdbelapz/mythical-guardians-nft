@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0772",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Air-attuned Qilin stands in the 'Celestial Stag Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Golden Sunset Stratosphere and haloed by the Void Singularity Event Horizon, it commands Void Space Fissures and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/772.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#772",
+  "edition": 772,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Stag Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Void Space Fissures"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 160,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 78,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Air",
+    "stance": "Celestial Stag Qilin",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 160.34,
+    "power_rating": 78,
+    "mastery_stars": 2,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "4e5762d694a0ba11f7a1dbe584d34ca2be47f9dfc4099945833f811a4bce26da"
+}

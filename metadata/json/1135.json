@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #1135",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Water-attuned Tengu stands in the 'Karasu Crow Tengu' aspect as the Gale Blade Yōkai Lord. Adorned in Coral Lagoon Turquoise and haloed by the Sacred Lotus Mandala, it commands Rising Volcanic Embers and bears the sacred Soul-Calling Lotus Bell.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1135.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1135",
+  "edition": 1135,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Karasu Crow Tengu"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Coral Lagoon Turquoise"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Soul-Calling Lotus Bell"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 114,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 92,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Water",
+    "stance": "Karasu Crow Tengu",
+    "color_harmony": "Coral Lagoon Turquoise",
+    "rarity_score": 113.8,
+    "power_rating": 92,
+    "mastery_stars": 1,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "88dd7a6b777fef0ec297c2715afb991bd6107d3eff3cd6404b0ec0fba86ef84f"
+}

@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Realm Sky Gradient -->
+    <radialGradient id="sky-bg" cx="50%" cy="38%" r="85%">
+      <stop offset="0%" stop-color="#062244"/>
+      <stop offset="55%" stop-color="#031024"/>
+      <stop offset="100%" stop-color="#01050D"/>
+    </radialGradient>
+
+    <!-- Celestial Moon Disk Gradient -->
+    <radialGradient id="moon-grad" cx="42%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF8E1"/>
+      <stop offset="85%" stop-color="#FF6F00"/>
+      <stop offset="100%" stop-color="#FFB74D"/>
+    </radialGradient>
+
+    <!-- Celestial Glow Disk -->
+    <radialGradient id="celestial-disk" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6F00" stop-opacity="0.35"/>
+      <stop offset="60%" stop-color="#FFE082" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#2B1600" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Body Shading Multi-Stop Gradient -->
+    <linearGradient id="body-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F00"/>
+      <stop offset="35%" stop-color="#FFB74D"/>
+      <stop offset="75%" stop-color="#FFE082"/>
+      <stop offset="100%" stop-color="#2B1600"/>
+    </linearGradient>
+
+    <!-- Wing & Feather Gradient -->
+    <linearGradient id="wing-grad" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F00"/>
+      <stop offset="50%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#2B1600"/>
+    </linearGradient>
+
+    <!-- Ventral Belly Scales Gradient -->
+    <linearGradient id="belly-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF8E1" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#FF6F00" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#FFE082" stop-opacity="0.6"/>
+    </linearGradient>
+
+    <!-- Radiant Relic Orb Gradient -->
+    <radialGradient id="orb-grad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="30%" stop-color="#FF6F00"/>
+      <stop offset="70%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#2B1600"/>
+    </radialGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="bright-glow" x="-45%" y="-45%" width="190%" height="190%">
+      <feGaussianBlur stdDeviation="11" result="blur1"/>
+      <feMerge>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="hyper-glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="16" result="b1"/>
+      <feGaussianBlur stdDeviation="28" result="b2"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Realm Sky Background -->
+  <rect width="500" height="500" fill="url(#sky-bg)"/>
+
+  <!-- Dynamic Celestial Feature -->
+  
+        <!-- Radiant Full Moon with Lunar Corona -->
+        <circle cx="250" cy="205" r="140" fill="#FFF8E1" opacity="0.12" filter="url(#glow)"/>
+        <circle cx="250" cy="205" r="120" fill="url(#moon-grad)"/>
+        <!-- Lunar Maria details -->
+        <ellipse cx="230" cy="180" rx="35" ry="25" fill="#2B1600" opacity="0.2"/>
+        <ellipse cx="280" cy="225" rx="30" ry="20" fill="#2B1600" opacity="0.18"/>
+        <circle cx="205" cy="235" r="16" fill="#2B1600" opacity="0.15"/>
+        
+
+  <!-- Sacred Halo Geometry -->
+  
+        <ellipse cx="250" cy="220" rx="215" ry="85" stroke="#FF6F00" stroke-width="2" fill="none" opacity="0.7" transform="rotate(-25 250 220)"/>
+        <ellipse cx="250" cy="220" rx="215" ry="85" stroke="#FFE082" stroke-width="2" fill="none" opacity="0.7" transform="rotate(35 250 220)"/>
+        <circle cx="85" cy="165" r="7" fill="#FF6F00" filter="url(#glow)"/>
+        <circle cx="410" cy="285" r="9" fill="#FFB74D" filter="url(#glow)"/>
+        <circle cx="395" cy="140" r="6" fill="#FFF8E1"/>
+        
+
+  <!-- Weather & Particle Atmosphere -->
+  
+        <circle cx="75" cy="110" r="3.5" fill="#FF6F00" filter="url(#glow)"/>
+        <circle cx="425" cy="130" r="4" fill="#FFF8E1" filter="url(#glow)"/>
+        <circle cx="70" cy="350" r="3" fill="#FFB74D"/>
+        <circle cx="430" cy="340" r="3.5" fill="#FF6F00"/>
+        <circle cx="160" cy="70" r="2.5" fill="#FFE082"/>
+        <circle cx="340" cy="65" r="3" fill="#FF6F00"/>
+        
+
+  <!-- Floating Divine Hagoromo Ribbons -->
+  
+    <!-- Flowing Divine Scarf (Hagoromo) -->
+    <path d="M 70 380 C 110 260 140 180 200 160 C 240 145 260 145 300 160 C 360 180 390 260 430 380"
+          stroke="#FF6F00" stroke-width="5" fill="none" opacity="0.75" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M 65 390 C 105 270 135 190 195 170 C 235 155 265 155 305 170 C 365 190 395 270 435 390"
+          stroke="#FFF8E1" stroke-width="2" fill="none" opacity="0.85"/>
+    
+
+  <!-- Grounding Mist & Clouds -->
+  
+    <path d="M -30 450 Q 80 400 190 440 Q 300 390 410 430 Q 480 390 530 450 L 530 500 L -30 500 Z" fill="#2B1600" opacity="0.95"/>
+    <path d="M 0 465 Q 120 420 240 460 Q 360 410 500 460 L 500 500 L 0 500 Z" fill="#031024" opacity="0.65"/>
+    <path d="M 40 480 Q 150 450 260 480 Q 380 445 480 485 L 480 500 L 40 500 Z" fill="#FFB74D" opacity="0.3" filter="url(#glow)"/>
+    
+
+  <!-- Beast Anatomy & Stance -->
+  
+        <g id="tiger-body">
+          <!-- Muscular Tiger Shoulders & Torso -->
+          <path d="M 160 380 C 150 290 190 240 250 240 C 310 240 350 290 340 380 Z" fill="url(#body-grad)" stroke="#2B1600" stroke-width="2.5"/>
+          <!-- Pointed Triangular Ears -->
+          <polygon points="190,140 165,85 215,115" fill="url(#body-grad)" stroke="#2B1600" stroke-width="2"/>
+          <polygon points="185,130 172,95 205,115" fill="#FFB74D"/>
+          <polygon points="310,140 335,85 285,115" fill="url(#body-grad)" stroke="#2B1600" stroke-width="2"/>
+          <polygon points="315,130 328,95 295,115" fill="#FFB74D"/>
+          <!-- Tiger Head -->
+          <ellipse cx="250" cy="180" rx="68" ry="58" fill="url(#body-grad)" stroke="#2B1600" stroke-width="2"/>
+          <!-- Muzzle & Snout -->
+          <ellipse cx="250" cy="205" rx="30" ry="20" fill="#2B1600" stroke="#FFB74D" stroke-width="2"/>
+          <polygon points="243,195 257,195 250,205" fill="#FF6F00"/>
+          <!-- Fierce Curved Fangs -->
+          <polygon points="228,215 238,215 233,238" fill="#FFFFFF" stroke="#2B1600" stroke-width="1"/>
+          <polygon points="272,215 262,215 267,238" fill="#FFFFFF" stroke="#2B1600" stroke-width="1"/>
+          <!-- Celestial War Stripes -->
+          <path d="M 185 160 Q 210 165 220 175 M 315 160 Q 290 165 280 175" stroke="#2B1600" stroke-width="4.5" stroke-linecap="round"/>
+          <path d="M 180 195 Q 210 200 225 205 M 320 195 Q 290 200 275 205" stroke="#2B1600" stroke-width="4.5" stroke-linecap="round"/>
+          <path d="M 195 225 Q 215 228 228 230 M 305 225 Q 285 228 272 230" stroke="#2B1600" stroke-width="4" stroke-linecap="round"/>
+          <!-- Iron Gorget Collar at Chest -->
+          <path d="M 195 270 Q 250 295 305 270 L 290 310 Q 250 335 210 310 Z" fill="#2B1600" stroke="#FF6F00" stroke-width="2.5"/>
+          <circle cx="250" cy="295" r="7" fill="#FF6F00" filter="url(#glow)"/>
+        </g>
+        
+
+  <!-- Eyes & Gaze -->
+  
+        <!-- Starburst / Spiral Divine Eyes -->
+        <circle cx="232" cy="170" r="7" fill="#00E676" filter="url(#bright-glow)"/>
+        <polygon points="232,164 234,170 240,170 235,173 237,178 232,174 227,178 229,173 224,170 230,170" fill="#FFF8E1"/>
+        <circle cx="268" cy="170" r="7" fill="#00E676" filter="url(#bright-glow)"/>
+        <polygon points="268,164 270,170 276,170 271,173 273,178 268,174 263,178 265,173 260,170 266,170" fill="#FFF8E1"/>
+        
+
+  <!-- Headwear / Horns / Masks -->
+  
+        <g transform="translate(250, 132)">
+          <ellipse cx="0" cy="0" rx="28" ry="6" fill="#2B1600" stroke="#FF6F00" stroke-width="2"/>
+          <circle cx="0" cy="-6" r="6" fill="url(#orb-grad)" filter="url(#glow)"/>
+          <circle cx="-16" cy="-4" r="4" fill="#FFF8E1"/>
+          <circle cx="16" cy="-4" r="4" fill="#FFF8E1"/>
+        </g>
+        
+
+  <!-- Forehead Glyph -->
+  
+        <!-- Imperial King Glyph '王' -->
+        <g transform="translate(239, 148)" stroke="#FF6F00" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)">
+          <line x1="0" y1="0" x2="22" y2="0"/>
+          <line x1="3" y1="8" x2="19" y2="8"/>
+          <line x1="0" y1="16" x2="22" y2="16"/>
+          <line x1="11" y1="0" x2="11" y2="16"/>
+        </g>
+        
+
+  <!-- Sacred Relic -->
+  
+        <!-- Imperial Jade Dragon Seal -->
+        <g transform="translate(100, 320)">
+          <rect x="0" y="10" width="34" height="26" rx="4" fill="#FFB74D" stroke="#FF6F00" stroke-width="2" filter="url(#glow)"/>
+          <path d="M 8 10 Q 17 -6 26 10" stroke="#FF6F00" stroke-width="3" fill="none"/>
+          <circle cx="17" cy="22" r="5" fill="#FF6F00"/>
+        </g>
+        
+</svg>

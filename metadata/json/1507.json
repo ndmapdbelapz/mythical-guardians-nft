@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #1507",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Fire-attuned Qilin stands in the 'Lion-Mane Dragon Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Solar Crimson & Imperial Gold and haloed by the Void Singularity Event Horizon, it commands Falling Sakura Blossom and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1507.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1507",
+  "edition": 1507,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Lion-Mane Dragon Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Solar Crimson & Imperial Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 140,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 94,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Fire",
+    "stance": "Lion-Mane Dragon Qilin",
+    "color_harmony": "Solar Crimson & Imperial Gold",
+    "rarity_score": 139.53,
+    "power_rating": 94,
+    "mastery_stars": 3,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "7d97dfabdd9dfc3f9deb6c0d60d11109ec8287d531ab39a9dc1c57ab30848fe6"
+}

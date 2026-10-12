@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #2103",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Earth-attuned Garuda stands in the 'Storm-Winged Raptor' aspect as the Sun-Winged Sky Sovereign. Adorned in Ancient Terracotta & Clay and haloed by the Sacred Lotus Mandala, it commands Gale Storm Spirals and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2103.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2103",
+  "edition": 2103,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Storm-Winged Raptor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 114,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 81,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Earth",
+    "stance": "Storm-Winged Raptor",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 113.69,
+    "power_rating": 81,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "c1e583a0535776fb1dda5ab980635e9e05a16771408c2e4af7fe612c054dda68"
+}

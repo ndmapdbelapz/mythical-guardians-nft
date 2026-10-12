@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #2002",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Earth-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Emerald Dragon Canopy and haloed by the Auspicious Cloud Scroll, it commands Swirling Foxfire Orbs and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2002.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2002",
+  "edition": 2002,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Emerald Dragon Canopy"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 89,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Earth",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Emerald Dragon Canopy",
+    "rarity_score": 99.74,
+    "power_rating": 89,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "ef5702048d853c5f0e13acadb09bbba8801abf390d8aa36ca3df5c1811dd457e"
+}

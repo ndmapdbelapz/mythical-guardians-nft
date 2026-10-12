@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0083",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Fire-attuned Azure Dragon stands in the 'Coiled Imperial Sovereign' aspect as the Sovereign of Eastern Storms. Adorned in White Phoenix Coronal Flame and haloed by the Dual Crescent Moon Chime, it commands Cosmic Star Dust Clusters and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/83.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#83",
+  "edition": 83,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Coiled Imperial Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "White Phoenix Coronal Flame"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 132,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 92,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Fire",
+    "stance": "Coiled Imperial Sovereign",
+    "color_harmony": "White Phoenix Coronal Flame",
+    "rarity_score": 132.11,
+    "power_rating": 92,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "750b680a2d5facfab671d4281cd2806d8667c92a034595bfd01371a8e5db8655"
+}

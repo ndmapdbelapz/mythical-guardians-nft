@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0318",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Earth-attuned Azure Dragon stands in the 'Armored Jade Drake' aspect as the Sovereign of Eastern Storms. Adorned in Ancient Terracotta & Clay and haloed by the Auspicious Cloud Scroll, it commands Rising Volcanic Embers and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/318.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#318",
+  "edition": 318,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Armored Jade Drake"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 106,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 79,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Earth",
+    "stance": "Armored Jade Drake",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 105.52,
+    "power_rating": 79,
+    "mastery_stars": 1,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "6b88941708ae32803c1c16ccad7ac1711ba05f82b6f9f2806b9a41722b899c02"
+}

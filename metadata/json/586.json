@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0586",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Earth-attuned Black Tortoise stands in the 'Ancient Spiked Citadel' aspect as the Abyssal Sentinel of Guixu. Adorned in Desert Dune Topaz and haloed by the Flaming Dragon Pearl Ring, it commands Glacial Frost Crystals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/586.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#586",
+  "edition": 586,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ancient Spiked Citadel"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Desert Dune Topaz"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 135,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 89,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Earth",
+    "stance": "Ancient Spiked Citadel",
+    "color_harmony": "Desert Dune Topaz",
+    "rarity_score": 135.04,
+    "power_rating": 89,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "4aa4eee933a16c4c7b1f38722f657d1b582a06a22fef21fbe80ada9066111e4d"
+}

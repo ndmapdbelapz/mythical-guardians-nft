@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0811",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Water-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Arctic Glacial Frost and haloed by the Sacred Lotus Mandala, it commands Rising Volcanic Embers and bears the sacred Soul-Calling Lotus Bell.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/811.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#811",
+  "edition": 811,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Arctic Glacial Frost"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Soul-Calling Lotus Bell"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 146,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 82,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Water",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Arctic Glacial Frost",
+    "rarity_score": 145.74,
+    "power_rating": 82,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "4b1d833737d82201ffc8b3875c12326ec40cb27e39d02578d7306d5a28396d2e"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #2087",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Fire-attuned Qilin stands in the 'Celestial Stag Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Spirit Violet Kitsune Fire and haloed by the Sacred Lotus Mandala, it commands Golden Lotus Petals and bears the sacred Soul-Calling Lotus Bell.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2087.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2087",
+  "edition": 2087,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Stag Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Spirit Violet Kitsune Fire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Soul-Calling Lotus Bell"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 103,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 91,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Fire",
+    "stance": "Celestial Stag Qilin",
+    "color_harmony": "Spirit Violet Kitsune Fire",
+    "rarity_score": 102.72,
+    "power_rating": 91,
+    "mastery_stars": 3,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "7821e29512136d63283ab23c1069bc3f0bde33c1be95d55fb33d3a1af8bd822d"
+}

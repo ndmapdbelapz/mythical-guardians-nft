@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0884",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Void-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in Astral Singularity Amethyst and haloed by the Bagua Eight Trigrams, it commands Rising Volcanic Embers and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/884.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#884",
+  "edition": 884,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Astral Singularity Amethyst"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 94,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 88,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Void",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "Astral Singularity Amethyst",
+    "rarity_score": 94.04,
+    "power_rating": 88,
+    "mastery_stars": 5,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "9986ea64ffaf33fe43723fea0e0a8f5d3df9bfdf397367ea0ad88b8850f34b66"
+}

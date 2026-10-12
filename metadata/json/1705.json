@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1705",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Air-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Golden Sunset Stratosphere and haloed by the Astrological Planetary Orbit, it commands Rising Volcanic Embers and bears the sacred Sacred Moonlit Flute.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1705.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1705",
+  "edition": 1705,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Sacred Moonlit Flute"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 118,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 76,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Air",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 117.6,
+    "power_rating": 76,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "6487d4a020f9a460f578564a29778cfb60c303a92009c9b3b50eaefeedb03ed3"
+}

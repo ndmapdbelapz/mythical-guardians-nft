@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #1320",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Water-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Bioluminescent Trench Glow and haloed by the Void Singularity Event Horizon, it commands Glacial Frost Crystals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1320.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1320",
+  "edition": 1320,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Bioluminescent Trench Glow"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 108,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 79,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Water",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Bioluminescent Trench Glow",
+    "rarity_score": 107.99,
+    "power_rating": 79,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "60540c78501e99f011274046d6508cfdc43f2c311b97f40eec750d9a3fbb328c"
+}

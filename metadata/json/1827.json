@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #1827",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Water-attuned Tengu stands in the 'Karasu Crow Tengu' aspect as the Gale Blade Yōkai Lord. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Auspicious Cloud Scroll, it commands Swirling Foxfire Orbs and bears the sacred Soul-Calling Lotus Bell.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1827.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1827",
+  "edition": 1827,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Karasu Crow Tengu"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Soul-Calling Lotus Bell"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 104,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Water",
+    "stance": "Karasu Crow Tengu",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 103.96,
+    "power_rating": 73,
+    "mastery_stars": 1,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "4e01a463877353d9b3fa1f7f5854402f297f72372898fefd57abb77ceafcd461"
+}

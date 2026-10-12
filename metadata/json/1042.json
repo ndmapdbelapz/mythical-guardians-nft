@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1042",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Air-attuned Garuda stands in the 'Golden Sun King' aspect as the Sun-Winged Sky Sovereign. Adorned in Zephyr Gale & Ivory and haloed by the Auspicious Cloud Scroll, it commands Gale Storm Spirals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1042.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1042",
+  "edition": 1042,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Golden Sun King"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 109,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 93,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Air",
+    "stance": "Golden Sun King",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 109.02,
+    "power_rating": 93,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "e2d60b0e7ec0f7f75608f47e93bb4034722770bd3f15dd6db586885dc5607f58"
+}

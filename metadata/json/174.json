@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0174",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Water-attuned Qilin stands in the 'Celestial Stag Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Midnight Leviathan Ink and haloed by the Auspicious Cloud Scroll, it commands Golden Lotus Petals and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/174.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#174",
+  "edition": 174,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Stag Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Midnight Leviathan Ink"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 84,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Water",
+    "stance": "Celestial Stag Qilin",
+    "color_harmony": "Midnight Leviathan Ink",
+    "rarity_score": 99.83,
+    "power_rating": 84,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "6bc9261449c68f7fe6d6d870c4b76d4b186a22fac5e5f63ed59ef22d799ad177"
+}

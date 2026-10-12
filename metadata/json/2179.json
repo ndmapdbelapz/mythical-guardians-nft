@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #2179",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Earth-attuned Tengu stands in the 'Hanadaka Crimson Lord' aspect as the Gale Blade Yōkai Lord. Adorned in Desert Dune Topaz and haloed by the Bagua Eight Trigrams, it commands Swirling Foxfire Orbs and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2179.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2179",
+  "edition": 2179,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Hanadaka Crimson Lord"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Desert Dune Topaz"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 106,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 70,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Earth",
+    "stance": "Hanadaka Crimson Lord",
+    "color_harmony": "Desert Dune Topaz",
+    "rarity_score": 105.72,
+    "power_rating": 70,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "fa19d185b38e8a4e31e503182eaa46515e22dad236c4b4e07b8b4211c4c770cf"
+}

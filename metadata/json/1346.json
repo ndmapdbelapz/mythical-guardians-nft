@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1346",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Water-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Flaming Dragon Pearl Ring, it commands Golden Lotus Petals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1346.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1346",
+  "edition": 1346,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 98,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 84,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Water",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 98.06,
+    "power_rating": 84,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "b6142ff6b6ca94be20e071e15e0a6d9efd87ba79844a38aeff581cb1c72c790d"
+}

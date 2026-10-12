@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1339",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Earth-attuned Vermilion Bird stands in the 'Solar Diving Falcon' aspect as the Immortal Solar Phoenix. Adorned in Ancient Terracotta & Clay and haloed by the Astrological Planetary Orbit, it commands Celestial Thunderbolts and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1339.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1339",
+  "edition": 1339,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Solar Diving Falcon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Pearl Crown"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 108,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 92,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Earth",
+    "stance": "Solar Diving Falcon",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 108.16,
+    "power_rating": 92,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "56127f1da2b3a65bb362d999daca37730f44d34fe7f7192932942a2c64bbaf69"
+}

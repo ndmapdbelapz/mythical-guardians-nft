@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0562",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Fire-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Solar Crimson & Imperial Gold and haloed by the Astrological Planetary Orbit, it commands Golden Lotus Petals and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/562.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#562",
+  "edition": 562,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Solar Crimson & Imperial Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Enlightened Third Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 137,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 71,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Solar Crimson & Imperial Gold",
+    "rarity_score": 136.95,
+    "power_rating": 71,
+    "mastery_stars": 4,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "da97be8c3520e42dfdd858386c9688a0c4970ac76a65900b92a8007e73a39b31"
+}

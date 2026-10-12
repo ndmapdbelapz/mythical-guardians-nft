@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0297",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Earth-attuned Qilin stands in the 'Astral Starlight Chimera' aspect as the Auspicious Chimera of Harmony. Adorned in Ancient Terracotta & Clay and haloed by the Sacred Lotus Mandala, it commands Celestial Thunderbolts and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/297.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#297",
+  "edition": 297,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Astral Starlight Chimera"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 102,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 85,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Earth",
+    "stance": "Astral Starlight Chimera",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 101.63,
+    "power_rating": 85,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "cad64009adc976b7c39e1e22984adee33b91d842b8ea7d41177d3ca0badf2c12"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #2023",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Air-attuned Qilin stands in the 'Lion-Mane Dragon Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Tempest Thunderstorm and haloed by the Bagua Eight Trigrams, it commands Celestial Thunderbolts and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2023.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2023",
+  "edition": 2023,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Lion-Mane Dragon Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Tempest Thunderstorm"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 95,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 69,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Air",
+    "stance": "Lion-Mane Dragon Qilin",
+    "color_harmony": "Tempest Thunderstorm",
+    "rarity_score": 95.49,
+    "power_rating": 69,
+    "mastery_stars": 5,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "71c9f5c9535f88eb861aa76978b342eed8036f28409eac88fbb99a6ed8367572"
+}

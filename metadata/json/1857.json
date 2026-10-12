@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #1857",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Fire-attuned Azure Dragon stands in the 'Coiled Imperial Sovereign' aspect as the Sovereign of Eastern Storms. Adorned in White Phoenix Coronal Flame and haloed by the Auspicious Cloud Scroll, it commands Rising Volcanic Embers and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1857.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1857",
+  "edition": 1857,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Coiled Imperial Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "White Phoenix Coronal Flame"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Enlightened Third Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tengu Warrior Tokin Pillbox"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 126,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 73,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Fire",
+    "stance": "Coiled Imperial Sovereign",
+    "color_harmony": "White Phoenix Coronal Flame",
+    "rarity_score": 126.16,
+    "power_rating": 73,
+    "mastery_stars": 1,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "db46eb2147bcbf4a63c61be342f09dbdc1d0c33bf3a2b9fc29abd4e6e7207b33"
+}

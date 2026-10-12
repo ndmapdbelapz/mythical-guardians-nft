@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #2052",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Void-attuned Azure Dragon stands in the 'Ascending Thunder Dragon' aspect as the Sovereign of Eastern Storms. Adorned in Dark Matter Umbra and haloed by the Radiant Solar Sunburst, it commands Celestial Thunderbolts and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2052.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2052",
+  "edition": 2052,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Thunder Dragon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Dark Matter Umbra"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tengu Warrior Tokin Pillbox"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Sacred Lotus Petal"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 116,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 95,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Void",
+    "stance": "Ascending Thunder Dragon",
+    "color_harmony": "Dark Matter Umbra",
+    "rarity_score": 116.09,
+    "power_rating": 95,
+    "mastery_stars": 5,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "83976669e050edd69c5ba36605718cd47cb720a1da82677f474db52a70fae67d"
+}

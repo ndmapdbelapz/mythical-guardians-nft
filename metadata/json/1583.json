@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1583",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Air-attuned Vermilion Bird stands in the 'Ascending Wings Unfurled' aspect as the Immortal Solar Phoenix. Adorned in Tempest Thunderstorm and haloed by the Astrological Planetary Orbit, it commands Gale Storm Spirals and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1583.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1583",
+  "edition": 1583,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Wings Unfurled"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Tempest Thunderstorm"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tengu Warrior Tokin Pillbox"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 104,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 93,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Air",
+    "stance": "Ascending Wings Unfurled",
+    "color_harmony": "Tempest Thunderstorm",
+    "rarity_score": 103.97,
+    "power_rating": 93,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "3a1a374d73a2e9bf47f0c1ded0a21c9d16621a3d96e9dc1e2c9e81cda815e5d0"
+}

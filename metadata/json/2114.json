@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #2114",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Earth-attuned Nine-Tailed Fox stands in the 'Divine Heavenly Fox' aspect as the Spirit Enchantress of Foxfire. Adorned in Ancient Terracotta & Clay and haloed by the Astrological Planetary Orbit, it commands Cosmic Star Dust Clusters and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2114.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2114",
+  "edition": 2114,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Divine Heavenly Fox"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 91,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 91,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Earth",
+    "stance": "Divine Heavenly Fox",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 91.19,
+    "power_rating": 91,
+    "mastery_stars": 2,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "be16c2f748f5a42d068d7886877d0966ba734d7ce3b349f81317408256ae5d5b"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #1003",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Water-attuned Azure Dragon stands in the 'Ascending Thunder Dragon' aspect as the Sovereign of Eastern Storms. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Void Singularity Event Horizon, it commands Celestial Thunderbolts and bears the sacred Tengu Gale Leaf Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1003.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1003",
+  "edition": 1003,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Thunder Dragon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Tengu Gale Leaf Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 119,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 92,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Water",
+    "stance": "Ascending Thunder Dragon",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 119.22,
+    "power_rating": 92,
+    "mastery_stars": 1,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "04fc4f4a2d14c0e455f86f0f3122d32244eabb8ec168fc3f06ec59f4ca78c1e7"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #0837",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Water-attuned Tengu stands in the 'Hanadaka Crimson Lord' aspect as the Gale Blade Yōkai Lord. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Radiant Solar Sunburst, it commands Cosmic Star Dust Clusters and bears the sacred Bagua Fengshui Astrolabe.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/837.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#837",
+  "edition": 837,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Hanadaka Crimson Lord"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Bagua Fengshui Astrolabe"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 205,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 82,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Water",
+    "stance": "Hanadaka Crimson Lord",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 205.41,
+    "power_rating": 82,
+    "mastery_stars": 4,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "59a9ffdc53b90324292eeebac6831cacece341ef057f197a9c07d1a8b23ddbb2"
+}

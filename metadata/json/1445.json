@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #1445",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Fire-attuned Qilin stands in the 'Astral Starlight Chimera' aspect as the Auspicious Chimera of Harmony. Adorned in Volcanic Magma & Obsidian and haloed by the Auspicious Cloud Scroll, it commands Glacial Frost Crystals and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1445.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1445",
+  "edition": 1445,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Astral Starlight Chimera"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 103,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 68,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Fire",
+    "stance": "Astral Starlight Chimera",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 103.04,
+    "power_rating": 68,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "7e6e2ca1439aee30ce2694fc8e7443755f3ee4dea1d72a66ff58f64c128da988"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1595",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Earth-attuned Garuda stands in the 'Golden Sun King' aspect as the Sun-Winged Sky Sovereign. Adorned in Desert Dune Topaz and haloed by the Sacred Lotus Mandala, it commands Cosmic Star Dust Clusters and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1595.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1595",
+  "edition": 1595,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Golden Sun King"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Desert Dune Topaz"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 103,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 99,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Earth",
+    "stance": "Golden Sun King",
+    "color_harmony": "Desert Dune Topaz",
+    "rarity_score": 102.56,
+    "power_rating": 99,
+    "mastery_stars": 5,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "620ba9baceb338f312b73ca1d4f09ff12fc04b4e51867a3f448b5a38d1693cf3"
+}

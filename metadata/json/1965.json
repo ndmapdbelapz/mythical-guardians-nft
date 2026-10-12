@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #1965",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Water-attuned Qilin stands in the 'Celestial Stag Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Bioluminescent Trench Glow and haloed by the Radiant Solar Sunburst, it commands Celestial Thunderbolts and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1965.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1965",
+  "edition": 1965,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Stag Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Bioluminescent Trench Glow"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Astral Constellation Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 168,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 80,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Water",
+    "stance": "Celestial Stag Qilin",
+    "color_harmony": "Bioluminescent Trench Glow",
+    "rarity_score": 167.69,
+    "power_rating": 80,
+    "mastery_stars": 1,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "d8c60d87fc2047f5370f962f2b46995dfc78450915900c70293b8a1da419121f"
+}

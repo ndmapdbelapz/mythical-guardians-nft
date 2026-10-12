@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1456",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Earth-attuned Vermilion Bird stands in the 'Celestial Sun Crane' aspect as the Immortal Solar Phoenix. Adorned in Emerald Dragon Canopy and haloed by the Radiant Solar Sunburst, it commands Glacial Frost Crystals and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1456.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1456",
+  "edition": 1456,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Sun Crane"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Emerald Dragon Canopy"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 99,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 89,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Earth",
+    "stance": "Celestial Sun Crane",
+    "color_harmony": "Emerald Dragon Canopy",
+    "rarity_score": 99.27,
+    "power_rating": 89,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "0cb60c60680da610960f43041b792ffa30f0e8031e7a2d5a2fb30e4c02f03096"
+}

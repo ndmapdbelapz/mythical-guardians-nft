@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0844",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Air-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Silver Moon Mist and haloed by the Dual Crescent Moon Chime, it commands Cosmic Star Dust Clusters and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/844.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#844",
+  "edition": 844,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Silver Moon Mist"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Sacred Qilin Star Horn"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 113,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 80,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Air",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Silver Moon Mist",
+    "rarity_score": 113.06,
+    "power_rating": 80,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "cb65868274d9fd344b40e9b1b8522a2b9bf4150888c0457976c95d05906045ad"
+}

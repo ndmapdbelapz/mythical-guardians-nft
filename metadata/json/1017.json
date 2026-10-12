@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #1017",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Air-attuned Black Tortoise stands in the 'Abyssal Serpent Behemoth' aspect as the Abyssal Sentinel of Guixu. Adorned in Golden Sunset Stratosphere and haloed by the Void Singularity Event Horizon, it commands Rising Volcanic Embers and bears the sacred Tengu Gale Leaf Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1017.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1017",
+  "edition": 1017,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Abyssal Serpent Behemoth"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Golden Sunset Stratosphere"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Tengu Gale Leaf Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 120,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 84,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Air",
+    "stance": "Abyssal Serpent Behemoth",
+    "color_harmony": "Golden Sunset Stratosphere",
+    "rarity_score": 120.25,
+    "power_rating": 84,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "35a854cbfe215e0e1172cfe69d80a693323b366c52d232c9ffdbb8dbe610d5b1"
+}

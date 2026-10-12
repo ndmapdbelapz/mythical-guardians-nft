@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #2047",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Earth-attuned Black Tortoise stands in the 'Pagoda Mountain Turtle' aspect as the Abyssal Sentinel of Guixu. Adorned in Desert Dune Topaz and haloed by the Astrological Planetary Orbit, it commands Sacred Incense Wisps and bears the sacred Sacred Moonlit Flute.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2047.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2047",
+  "edition": 2047,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Pagoda Mountain Turtle"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Desert Dune Topaz"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Sacred Moonlit Flute"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Lunar Crescent Mark"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 133,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 96,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Earth",
+    "stance": "Pagoda Mountain Turtle",
+    "color_harmony": "Desert Dune Topaz",
+    "rarity_score": 133.19,
+    "power_rating": 96,
+    "mastery_stars": 2,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "881820df5f0461925112e10a1da8907c9771e66d623dc22169a473cca7991b43"
+}

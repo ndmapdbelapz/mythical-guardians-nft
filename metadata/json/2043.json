@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #2043",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Air-attuned Azure Dragon stands in the 'Ascending Thunder Dragon' aspect as the Sovereign of Eastern Storms. Adorned in Zephyr Gale & Ivory and haloed by the Auspicious Cloud Scroll, it commands Golden Lotus Petals and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2043.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2043",
+  "edition": 2043,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Thunder Dragon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Enlightened Third Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 112,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 70,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Air",
+    "stance": "Ascending Thunder Dragon",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 112.19,
+    "power_rating": 70,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "172fdedb820e3c618aa5a4fb77e841deef2853293ec158c7789bae84a62350db"
+}

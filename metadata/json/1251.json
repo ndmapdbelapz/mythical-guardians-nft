@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1251",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Water-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Astrological Planetary Orbit, it commands Falling Sakura Blossom and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1251.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1251",
+  "edition": 1251,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 107,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 94,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Water",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 107.44,
+    "power_rating": 94,
+    "mastery_stars": 1,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "77a7cffb796cc2c178b37ff409ec79b58c872935c2725e16c8b78387bee4b10b"
+}

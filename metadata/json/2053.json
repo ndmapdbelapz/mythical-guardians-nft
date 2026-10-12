@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #2053",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Air-attuned White Tiger stands in the 'Winged Storm Tiger' aspect as the Celestial Arbiter of War. Adorned in Zephyr Gale & Ivory and haloed by the Dual Crescent Moon Chime, it commands Golden Lotus Petals and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2053.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2053",
+  "edition": 2053,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Winged Storm Tiger"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Dual Crescent Moon Chime"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Ancient Patinated Bronze"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Enlightened Third Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 120,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 76,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Air",
+    "stance": "Winged Storm Tiger",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 120.05,
+    "power_rating": 76,
+    "mastery_stars": 5,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "eb786662aeaed7c9e3c98a2c2da5d372fd900dc124690c1099a6d8bcdbee8d55"
+}

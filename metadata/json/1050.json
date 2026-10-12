@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #1050",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Earth-attuned Tengu stands in the 'Yamabushi Mountain Sage' aspect as the Gale Blade Yōkai Lord. Adorned in Desert Dune Topaz and haloed by the Radiant Solar Sunburst, it commands Rising Volcanic Embers and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1050.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1050",
+  "edition": 1050,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Yamabushi Mountain Sage"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Desert Dune Topaz"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 141,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 94,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Earth",
+    "stance": "Yamabushi Mountain Sage",
+    "color_harmony": "Desert Dune Topaz",
+    "rarity_score": 140.66,
+    "power_rating": 94,
+    "mastery_stars": 3,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "5173460982c03c24bb3be2781209b7c1038d5e4fd974e65237f268960bc43c7e"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0143",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Air-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in Zephyr Gale & Ivory and haloed by the Flaming Dragon Pearl Ring, it commands Gale Storm Spirals and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/143.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#143",
+  "edition": 143,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 138,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 79,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Air",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 137.7,
+    "power_rating": 79,
+    "mastery_stars": 3,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "940055fbd7d06c8533e4084199ab67b9d8c970a90afc43678e2fe940dd049269"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0692",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Earth-attuned Black Tortoise stands in the 'Ancient Spiked Citadel' aspect as the Abyssal Sentinel of Guixu. Adorned in Imperial Jade & Sun Gold and haloed by the Astrological Planetary Orbit, it commands Rising Volcanic Embers and bears the sacred Bagua Fengshui Astrolabe.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/692.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#692",
+  "edition": 692,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ancient Spiked Citadel"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Pearl Crown"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Bagua Fengshui Astrolabe"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 195,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 99,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Earth",
+    "stance": "Ancient Spiked Citadel",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 195.33,
+    "power_rating": 99,
+    "mastery_stars": 5,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "794aaf399c622aa4eddba2fb25ae5fe9e2b475006ec70a34bbd771058bb7d0fd"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Qilin #0479",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Fire-attuned Qilin stands in the 'Celestial Stag Qilin' aspect as the Auspicious Chimera of Harmony. Adorned in Volcanic Magma & Obsidian and haloed by the Bagua Eight Trigrams, it commands Swirling Foxfire Orbs and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/479.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#479",
+  "edition": 479,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Qilin"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Stag Qilin"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 97,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 97,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Qilin",
+    "element_name": "Fire",
+    "stance": "Celestial Stag Qilin",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 97.38,
+    "power_rating": 97,
+    "mastery_stars": 1,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "7a19d8a8d5fd3f7bfecaef8f876db6ac0f1ea18af8ac46b07ffca2835156b331"
+}

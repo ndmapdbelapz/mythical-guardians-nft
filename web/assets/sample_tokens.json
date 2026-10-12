@@ -1,0 +1,6202 @@
+[
+  {
+    "name": "Black Tortoise #0001",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/1",
+    "edition": 1,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 96,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Fire",
+      "rarity_score": 59,
+      "power_rating": 96,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0002",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Water-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/2",
+    "edition": 2,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 74,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Water",
+      "rarity_score": 52,
+      "power_rating": 74,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0003",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Earth-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/3",
+    "edition": 3,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 81,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Earth",
+      "rarity_score": 54,
+      "power_rating": 81,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Vermilion Bird #0004",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Fire-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Kunlun Primordial Dagger and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/4",
+    "edition": 4,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 79,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Fire",
+      "rarity_score": 53,
+      "power_rating": 79,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Vermilion Bird #0005",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Fire-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Vermilion Feather War Fan and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/5",
+    "edition": 5,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 77,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Fire",
+      "rarity_score": 53,
+      "power_rating": 77,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Qilin #0006",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Water-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/6",
+    "edition": 6,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 70,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Water",
+      "rarity_score": 65,
+      "power_rating": 70,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Qilin #0007",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Water-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/7",
+    "edition": 7,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 89,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Water",
+      "rarity_score": 72,
+      "power_rating": 89,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Black Tortoise #0008",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Air-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/8",
+    "edition": 8,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 82,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Air",
+      "rarity_score": 54,
+      "power_rating": 82,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Vermilion Bird #0009",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Void-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/9",
+    "edition": 9,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 69,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Void",
+      "rarity_score": 65,
+      "power_rating": 69,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0010",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Vermilion Feather War Fan and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/10",
+    "edition": 10,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 90,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Air",
+      "rarity_score": 57,
+      "power_rating": 90,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Vermilion Bird #0011",
+    "description": "Awakened from the Western Shifting Sands, this Earth-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/11",
+    "edition": 11,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 91,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Earth",
+      "rarity_score": 57,
+      "power_rating": 91,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0012",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/12",
+    "edition": 12,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 72,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Air",
+      "rarity_score": 51,
+      "power_rating": 72,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0013",
+    "description": "Awakened from the Western Shifting Sands, this Air-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/13",
+    "edition": 13,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Air",
+      "rarity_score": 56,
+      "power_rating": 87,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "White Tiger #0014",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Earth-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/14",
+    "edition": 14,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 89,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Earth",
+      "rarity_score": 57,
+      "power_rating": 89,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Black Tortoise #0015",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Earth-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/15",
+    "edition": 15,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 82,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Earth",
+      "rarity_score": 54,
+      "power_rating": 82,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Qilin #0016",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/16",
+    "edition": 16,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 95,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Air",
+      "rarity_score": 74,
+      "power_rating": 95,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0017",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Earth-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/17",
+    "edition": 17,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 97,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Earth",
+      "rarity_score": 59,
+      "power_rating": 97,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Qilin #0018",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Earth-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Kunlun Primordial Dagger and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/18",
+    "edition": 18,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Earth",
+      "rarity_score": 73,
+      "power_rating": 93,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Vermilion Bird #0019",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Water-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/19",
+    "edition": 19,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 92,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Water",
+      "rarity_score": 58,
+      "power_rating": 92,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0020",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Fire-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/20",
+    "edition": 20,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 81,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Fire",
+      "rarity_score": 54,
+      "power_rating": 81,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Qilin #0021",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Air-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Kunlun Primordial Dagger and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/21",
+    "edition": 21,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 79,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Air",
+      "rarity_score": 68,
+      "power_rating": 79,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Qilin #0022",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Earth-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/22",
+    "edition": 22,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 86,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Earth",
+      "rarity_score": 71,
+      "power_rating": 86,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Azure Dragon #0023",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Air-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/23",
+    "edition": 23,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 84,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Air",
+      "rarity_score": 55,
+      "power_rating": 84,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Vermilion Bird #0024",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Earth-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Vermilion Feather War Fan and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/24",
+    "edition": 24,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 75,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Earth",
+      "rarity_score": 52,
+      "power_rating": 75,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0025",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Fire-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/25",
+    "edition": 25,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 91,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Fire",
+      "rarity_score": 57,
+      "power_rating": 91,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Black Tortoise #0026",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Void-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/26",
+    "edition": 26,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 75,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Void",
+      "rarity_score": 67,
+      "power_rating": 75,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Vermilion Bird #0027",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Earth-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/27",
+    "edition": 27,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 82,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Earth",
+      "rarity_score": 54,
+      "power_rating": 82,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0028",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Earth-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/28",
+    "edition": 28,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 75,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Earth",
+      "rarity_score": 52,
+      "power_rating": 75,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "White Tiger #0029",
+    "description": "Awakened from the Western Shifting Sands, this Earth-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/29",
+    "edition": 29,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 80,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Earth",
+      "rarity_score": 54,
+      "power_rating": 80,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Qilin #0030",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/30",
+    "edition": 30,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 89,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Air",
+      "rarity_score": 72,
+      "power_rating": 89,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Azure Dragon #0031",
+    "description": "Awakened from the Hundun Void Rift, this Water-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/31",
+    "edition": 31,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Hundun Void Rift"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 69,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Water",
+      "rarity_score": 50,
+      "power_rating": 69,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Black Tortoise #0032",
+    "description": "Awakened from the Western Shifting Sands, this Earth-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/32",
+    "edition": 32,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Earth",
+      "rarity_score": 51,
+      "power_rating": 73,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Black Tortoise #0033",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Air-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Vermilion Feather War Fan and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/33",
+    "edition": 33,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Air",
+      "rarity_score": 56,
+      "power_rating": 87,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Black Tortoise #0034",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Water-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/34",
+    "edition": 34,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 90,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Water",
+      "rarity_score": 57,
+      "power_rating": 90,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Vermilion Bird #0035",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Water-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/35",
+    "edition": 35,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 70,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Water",
+      "rarity_score": 50,
+      "power_rating": 70,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "White Tiger #0036",
+    "description": "Awakened from the Hundun Void Rift, this Void-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/36",
+    "edition": 36,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Hundun Void Rift"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 97,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Void",
+      "rarity_score": 74,
+      "power_rating": 97,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Qilin #0037",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Vermilion Feather War Fan and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/37",
+    "edition": 37,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Air",
+      "rarity_score": 71,
+      "power_rating": 87,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0038",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/38",
+    "edition": 38,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 71,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Air",
+      "rarity_score": 51,
+      "power_rating": 71,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0039",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Kunlun Primordial Dagger and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/39",
+    "edition": 39,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 95,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Fire",
+      "rarity_score": 59,
+      "power_rating": 95,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "White Tiger #0040",
+    "description": "Awakened from the Western Shifting Sands, this Water-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/40",
+    "edition": 40,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 69,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Water",
+      "rarity_score": 50,
+      "power_rating": 69,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Vermilion Bird #0041",
+    "description": "Awakened from the Hundun Void Rift, this Fire-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Kunlun Primordial Dagger and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/41",
+    "edition": 41,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Hundun Void Rift"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 85,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Fire",
+      "rarity_score": 55,
+      "power_rating": 85,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Azure Dragon #0042",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Void-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/42",
+    "edition": 42,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 85,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Void",
+      "rarity_score": 70,
+      "power_rating": 85,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "White Tiger #0043",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Astral Nebula Singularity, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/43",
+    "edition": 43,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Astral Nebula Singularity"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 79,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Fire",
+      "rarity_score": 53,
+      "power_rating": 79,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Black Tortoise #0044",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Vermilion Feather War Fan and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/44",
+    "edition": 44,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 91,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Air",
+      "rarity_score": 57,
+      "power_rating": 91,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Qilin #0045",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Water-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/45",
+    "edition": 45,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Water",
+      "rarity_score": 66,
+      "power_rating": 73,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0046",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Water-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/46",
+    "edition": 46,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 90,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Water",
+      "rarity_score": 57,
+      "power_rating": 90,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "White Tiger #0047",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Fire-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Vermilion Feather War Fan and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/47",
+    "edition": 47,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 94,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Fire",
+      "rarity_score": 58,
+      "power_rating": 94,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Vermilion Bird #0048",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/48",
+    "edition": 48,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 79,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Air",
+      "rarity_score": 53,
+      "power_rating": 79,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0049",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Void-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Astral Nebula Singularity, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/49",
+    "edition": 49,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Astral Nebula Singularity"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Void",
+      "rarity_score": 66,
+      "power_rating": 73,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Garuda #0050",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Water-attuned Garuda embodies Sun-Winged Vanquisher of Serpents. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Garuda_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/50",
+    "edition": 50,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Garuda"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Garuda",
+      "element_name": "Water",
+      "rarity_score": 71,
+      "power_rating": 87,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0051",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Void-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Kunlun Primordial Dagger and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/51",
+    "edition": 51,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Void",
+      "rarity_score": 73,
+      "power_rating": 93,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Black Tortoise #0052",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Void-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Kunlun Primordial Dagger and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/52",
+    "edition": 52,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 97,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Void",
+      "rarity_score": 74,
+      "power_rating": 97,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Black Tortoise #0053",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Air-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/53",
+    "edition": 53,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 78,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Air",
+      "rarity_score": 53,
+      "power_rating": 78,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Black Tortoise #0054",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Earth-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Kunlun Primordial Dagger and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/54",
+    "edition": 54,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Earth",
+      "rarity_score": 51,
+      "power_rating": 73,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Black Tortoise #0055",
+    "description": "Awakened from the Western Shifting Sands, this Water-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/55",
+    "edition": 55,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Water",
+      "rarity_score": 56,
+      "power_rating": 87,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "White Tiger #0056",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Earth-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Vermilion Feather War Fan and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/56",
+    "edition": 56,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Earth",
+      "rarity_score": 51,
+      "power_rating": 73,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Vermilion Bird #0057",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Air-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/57",
+    "edition": 57,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 77,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Air",
+      "rarity_score": 53,
+      "power_rating": 77,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0058",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Fire-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Astral Nebula Singularity, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/58",
+    "edition": 58,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Astral Nebula Singularity"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 82,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Fire",
+      "rarity_score": 54,
+      "power_rating": 82,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Qilin #0059",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Earth-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Kunlun Primordial Dagger and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/59",
+    "edition": 59,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 90,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Earth",
+      "rarity_score": 72,
+      "power_rating": 90,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Qilin #0060",
+    "description": "Awakened from the Western Shifting Sands, this Air-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/60",
+    "edition": 60,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 90,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Air",
+      "rarity_score": 72,
+      "power_rating": 90,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0061",
+    "description": "Awakened from the Western Shifting Sands, this Earth-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/61",
+    "edition": 61,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 84,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Earth",
+      "rarity_score": 55,
+      "power_rating": 84,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Black Tortoise #0062",
+    "description": "Awakened from the Western Shifting Sands, this Void-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/62",
+    "edition": 62,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 94,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Void",
+      "rarity_score": 73,
+      "power_rating": 94,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0063",
+    "description": "Awakened from the Western Shifting Sands, this Fire-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/63",
+    "edition": 63,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 76,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Fire",
+      "rarity_score": 52,
+      "power_rating": 76,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0064",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Water-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/64",
+    "edition": 64,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 96,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Water",
+      "rarity_score": 59,
+      "power_rating": 96,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0065",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/65",
+    "edition": 65,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 78,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Fire",
+      "rarity_score": 53,
+      "power_rating": 78,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0066",
+    "description": "Awakened from the Western Shifting Sands, this Fire-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/66",
+    "edition": 66,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 68,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Fire",
+      "rarity_score": 50,
+      "power_rating": 68,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "White Tiger #0067",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Vermilion Feather War Fan and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/67",
+    "edition": 67,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 81,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Fire",
+      "rarity_score": 54,
+      "power_rating": 81,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0068",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Earth-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/68",
+    "edition": 68,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 68,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Earth",
+      "rarity_score": 50,
+      "power_rating": 68,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Vermilion Bird #0069",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Kunlun Primordial Dagger and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/69",
+    "edition": 69,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Air",
+      "rarity_score": 56,
+      "power_rating": 87,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0070",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Water-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/70",
+    "edition": 70,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 82,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Water",
+      "rarity_score": 54,
+      "power_rating": 82,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Azure Dragon #0071",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Water-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/71",
+    "edition": 71,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 92,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Water",
+      "rarity_score": 58,
+      "power_rating": 92,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Vermilion Bird #0072",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Fire-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/72",
+    "edition": 72,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 88,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Fire",
+      "rarity_score": 56,
+      "power_rating": 88,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0073",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Earth-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Astral Nebula Singularity, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/73",
+    "edition": 73,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Astral Nebula Singularity"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 72,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Earth",
+      "rarity_score": 51,
+      "power_rating": 72,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Azure Dragon #0074",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Air-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/74",
+    "edition": 74,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Air",
+      "rarity_score": 51,
+      "power_rating": 73,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Black Tortoise #0075",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Air-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Seven-Jeweled Void Vajra and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/75",
+    "edition": 75,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Seven-Jeweled Void Vajra"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 68,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Air",
+      "rarity_score": 50,
+      "power_rating": 68,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Black Tortoise #0076",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Void-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Astral Nebula Singularity, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/76",
+    "edition": 76,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Astral Nebula Singularity"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 94,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Void",
+      "rarity_score": 73,
+      "power_rating": 94,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Azure Dragon #0077",
+    "description": "Awakened from the Western Shifting Sands, this Air-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/77",
+    "edition": 77,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Air",
+      "rarity_score": 58,
+      "power_rating": 93,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Vermilion Bird #0078",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Water-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/78",
+    "edition": 78,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 94,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Water",
+      "rarity_score": 58,
+      "power_rating": 94,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Azure Dragon #0079",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Void-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/79",
+    "edition": 79,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 91,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Void",
+      "rarity_score": 72,
+      "power_rating": 91,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Garuda #0080",
+    "description": "Awakened from the Western Shifting Sands, this Water-attuned Garuda embodies Sun-Winged Vanquisher of Serpents. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Garuda_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/80",
+    "edition": 80,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Garuda"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 91,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Garuda",
+      "element_name": "Water",
+      "rarity_score": 72,
+      "power_rating": 91,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Vermilion Bird #0081",
+    "description": "Awakened from the Western Shifting Sands, this Air-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Vermilion Feather War Fan and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/81",
+    "edition": 81,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Vermilion Feather War Fan"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 82,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Air",
+      "rarity_score": 54,
+      "power_rating": 82,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Black Tortoise #0082",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Water-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Floating Kitsune-bi Wisps, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/82",
+    "edition": 82,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Floating Kitsune-bi Wisps"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Water",
+      "rarity_score": 58,
+      "power_rating": 93,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Vermilion Bird #0083",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Void-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Imperial Jade Dragon Seal and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/83",
+    "edition": 83,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Imperial Jade Dragon Seal"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 70,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Void",
+      "rarity_score": 65,
+      "power_rating": 70,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0084",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Earth-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/84",
+    "edition": 84,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Earth",
+      "rarity_score": 58,
+      "power_rating": 93,
+      "mastery_stars": 1
+    }
+  },
+  {
+    "name": "Azure Dragon #0085",
+    "description": "Awakened from the Floating Bamboo Sanctuary, this Water-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/85",
+    "edition": 85,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Floating Bamboo Sanctuary"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 84,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Water",
+      "rarity_score": 55,
+      "power_rating": 84,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "White Tiger #0086",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Air-attuned White Tiger embodies Celestial Arbiter of War & Metal. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/WhiteTiger_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/86",
+    "edition": 86,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "White Tiger"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 71,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "WhiteTiger",
+      "element_name": "Air",
+      "rarity_score": 51,
+      "power_rating": 71,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Vermilion Bird #0087",
+    "description": "Awakened from the Hundun Void Rift, this Air-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/87",
+    "edition": 87,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Hundun Void Rift"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 76,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Air",
+      "rarity_score": 52,
+      "power_rating": 76,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Garuda #0088",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Earth-attuned Garuda embodies Sun-Winged Vanquisher of Serpents. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Garuda_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/88",
+    "edition": 88,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Garuda"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 73,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 3,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Garuda",
+      "element_name": "Earth",
+      "rarity_score": 66,
+      "power_rating": 73,
+      "mastery_stars": 3
+    }
+  },
+  {
+    "name": "Azure Dragon #0089",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Earth-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Astral Nebula Singularity, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/89",
+    "edition": 89,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Astral Nebula Singularity"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 72,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Earth",
+      "rarity_score": 51,
+      "power_rating": 72,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Azure Dragon #0090",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/90",
+    "edition": 90,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 76,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Fire",
+      "rarity_score": 52,
+      "power_rating": 76,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Azure Dragon #0091",
+    "description": "Awakened from the Abyssal Trench of Guixu, this Fire-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/91",
+    "edition": 91,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Abyssal Trench of Guixu"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Fire",
+      "rarity_score": 58,
+      "power_rating": 93,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Qilin #0092",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Fire-attuned Qilin embodies Auspicious Chimera of Pure Void. Bearing the sacred Kunlun Primordial Dagger and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/Qilin_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/92",
+    "edition": 92,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Qilin"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Kunlun Primordial Dagger"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Glacial Ocean Sapphire"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 87,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "Qilin",
+      "element_name": "Fire",
+      "rarity_score": 71,
+      "power_rating": 87,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0093",
+    "description": "Awakened from the Western Shifting Sands, this Water-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/93",
+    "edition": 93,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 86,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Water",
+      "rarity_score": 56,
+      "power_rating": 86,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Azure Dragon #0094",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Void-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/94",
+    "edition": 94,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 70,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Void",
+      "rarity_score": 65,
+      "power_rating": 70,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Vermilion Bird #0095",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Earth-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/95",
+    "edition": 95,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 69,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Earth",
+      "rarity_score": 50,
+      "power_rating": 69,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Vermilion Bird #0096",
+    "description": "Awakened from the Western Shifting Sands, this Water-attuned Vermilion Bird embodies Immortal Solar Phoenix. Bearing the sacred Nine-Star Bronze Scrying Mirror and surrounded by Celestial Thunderclap, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/VermilionBird_Water.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/96",
+    "edition": 96,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Vermilion Bird"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Water"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "水"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Adaptive Flow / Glacial Ward"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Western Shifting Sands"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Celestial Thunderclap"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Nine-Star Bronze Scrying Mirror"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 93,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 5,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "VermilionBird",
+      "element_name": "Water",
+      "rarity_score": 58,
+      "power_rating": 93,
+      "mastery_stars": 5
+    }
+  },
+  {
+    "name": "Black Tortoise #0097",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Void-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Void.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/97",
+    "edition": 97,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Void"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "空"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Cosmic Transience / Spatial Tear"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Starlight Amethyst"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Epic"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 94,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 2,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Void",
+      "rarity_score": 73,
+      "power_rating": 94,
+      "mastery_stars": 2
+    }
+  },
+  {
+    "name": "Azure Dragon #0098",
+    "description": "Awakened from the Mount Penglai Immortal Isle, this Fire-attuned Azure Dragon embodies Sovereign of the Eastern Storms. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Quaking Geo-Spire, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/AzureDragon_Fire.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/98",
+    "edition": 98,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Azure Dragon"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Fire"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "火"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Aggressive Burst / Solar Cleansing"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Mount Penglai Immortal Isle"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Quaking Geo-Spire"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Molten Amber Flame"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 71,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "AzureDragon",
+      "element_name": "Fire",
+      "rarity_score": 51,
+      "power_rating": 71,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Black Tortoise #0099",
+    "description": "Awakened from the Hundun Void Rift, this Air-attuned Black Tortoise embodies Abyssal Sentinel of Guixu. Bearing the sacred Soul-Calling Lotus Bell and surrounded by Bioluminescent Abyssal Mists, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/BlackTortoise_Air.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/99",
+    "edition": 99,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Black Tortoise"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Air"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "风"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Swift Evasion / Gale Slashes"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Hundun Void Rift"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Bioluminescent Abyssal Mists"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Soul-Calling Lotus Bell"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Luminous Jade Gaze"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 69,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 4,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "BlackTortoise",
+      "element_name": "Air",
+      "rarity_score": 50,
+      "power_rating": 69,
+      "mastery_stars": 4
+    }
+  },
+  {
+    "name": "Nine-Tailed Fox #0100",
+    "description": "Awakened from the Kunlun Sacred Peaks, this Earth-attuned Nine-Tailed Fox embodies Spirit Enchantress of Kitsune-bi. Bearing the sacred Laozi Celestial Thunder Gourd and surrounded by Blazing Solar Cinders, it stands sentinel across the mortal and spirit thresholds.",
+    "image": "assets/beasts/NineTailedFox_Earth.svg",
+    "external_url": "https://mythicalbeasts.art/guardians/100",
+    "edition": 100,
+    "attributes": [
+      {
+        "trait_type": "Archetype",
+        "value": "Nine-Tailed Fox"
+      },
+      {
+        "trait_type": "Element",
+        "value": "Earth"
+      },
+      {
+        "trait_type": "Elemental Kanji",
+        "value": "地"
+      },
+      {
+        "trait_type": "Affinity Style",
+        "value": "Unyielding Stance / Petrification"
+      },
+      {
+        "trait_type": "Sacred Realm",
+        "value": "Kunlun Sacred Peaks"
+      },
+      {
+        "trait_type": "Aura Phenomenon",
+        "value": "Blazing Solar Cinders"
+      },
+      {
+        "trait_type": "Relic",
+        "value": "Laozi Celestial Thunder Gourd"
+      },
+      {
+        "trait_type": "Eye Brilliance",
+        "value": "Deep Obsidian Void"
+      },
+      {
+        "trait_type": "Rarity Tier",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Combat Power",
+        "value": 86,
+        "max_value": 100
+      },
+      {
+        "trait_type": "Affinity Mastery",
+        "value": 1,
+        "max_value": 5
+      }
+    ],
+    "properties": {
+      "beast_code": "NineTailedFox",
+      "element_name": "Earth",
+      "rarity_score": 56,
+      "power_rating": 86,
+      "mastery_stars": 1
+    }
+  }
+]

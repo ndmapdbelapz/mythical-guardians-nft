@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #0417",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Air-attuned Vermilion Bird stands in the 'Celestial Sun Crane' aspect as the Immortal Solar Phoenix. Adorned in Silver Moon Mist and haloed by the Bagua Eight Trigrams, it commands Cosmic Star Dust Clusters and bears the sacred Bagua Fengshui Astrolabe.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/417.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#417",
+  "edition": 417,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Sun Crane"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Silver Moon Mist"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Bagua Fengshui Astrolabe"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 182,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 84,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Air",
+    "stance": "Celestial Sun Crane",
+    "color_harmony": "Silver Moon Mist",
+    "rarity_score": 181.55,
+    "power_rating": 84,
+    "mastery_stars": 3,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "1783074aa149423958c16969fdccada5b6c34cba1fa03393da289e5feb30cc00"
+}

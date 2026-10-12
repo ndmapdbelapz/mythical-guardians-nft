@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #2077",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Void-attuned Garuda stands in the 'Four-Armed Solar Deity' aspect as the Sun-Winged Sky Sovereign. Adorned in Astral Singularity Amethyst and haloed by the Radiant Solar Sunburst, it commands Golden Lotus Petals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2077.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2077",
+  "edition": 2077,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Four-Armed Solar Deity"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Void"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Astral Singularity Amethyst"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Enlightened Third Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 127,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 76,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Void",
+    "stance": "Four-Armed Solar Deity",
+    "color_harmony": "Astral Singularity Amethyst",
+    "rarity_score": 127.43,
+    "power_rating": 76,
+    "mastery_stars": 5,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "82ee766e5b3cf52b4ae3ad79574dbf2de073bb476f4580de25bbea469ee3a8de"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #1371",
+  "description": "Conceived in the celestial ether of Cosmic Yin-Yang Vortex, this Air-attuned Black Tortoise stands in the 'Abyssal Serpent Behemoth' aspect as the Abyssal Sentinel of Guixu. Adorned in Zephyr Gale & Ivory and haloed by the Auspicious Cloud Scroll, it commands Sacred Incense Wisps and bears the sacred Bagua Fengshui Astrolabe.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1371.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1371",
+  "edition": 1371,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Abyssal Serpent Behemoth"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Cosmic Yin-Yang Vortex"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Bagua Fengshui Astrolabe"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 209,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 81,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Air",
+    "stance": "Abyssal Serpent Behemoth",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 209.25,
+    "power_rating": 81,
+    "mastery_stars": 4,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "fc00e50d51424f579ddc47e4dcf5fedc58f4a2a18ea18e011f2e293a6412a5ae"
+}

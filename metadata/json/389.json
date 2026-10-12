@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #0389",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Air-attuned Garuda stands in the 'Storm-Winged Raptor' aspect as the Sun-Winged Sky Sovereign. Adorned in Zephyr Gale & Ivory and haloed by the Auspicious Cloud Scroll, it commands Cosmic Star Dust Clusters and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/389.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#389",
+  "edition": 389,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Storm-Winged Raptor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Natural Primal Majesty"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 110,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 88,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Air",
+    "stance": "Storm-Winged Raptor",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 110.35,
+    "power_rating": 88,
+    "mastery_stars": 3,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "c1605091d3ce319542cf8b7d9da69a6ade54510ef704a40856fd8e5460ae3922"
+}

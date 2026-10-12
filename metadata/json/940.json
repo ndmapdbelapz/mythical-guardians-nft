@@ -1,0 +1,96 @@
+{
+  "name": "Azure Dragon #0940",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Air-attuned Azure Dragon stands in the 'Ascending Thunder Dragon' aspect as the Sovereign of Eastern Storms. Adorned in Zephyr Gale & Ivory and haloed by the Bagua Eight Trigrams, it commands Celestial Thunderbolts and bears the sacred Laozi Thunder Gourd.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/940.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#940",
+  "edition": 940,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Azure Dragon"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Thunder Dragon"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Laozi Thunder Gourd"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 96,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 71,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "AzureDragon",
+    "element_name": "Air",
+    "stance": "Ascending Thunder Dragon",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 96.19,
+    "power_rating": 71,
+    "mastery_stars": 1,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "328dabd416e6ab695d2a50e423e0a673754a8a9556bd5e8a5e8e7427fd8d251e"
+}

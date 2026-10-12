@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1803",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Fire-attuned Garuda stands in the 'Golden Sun King' aspect as the Sun-Winged Sky Sovereign. Adorned in Spirit Violet Kitsune Fire and haloed by the Auspicious Cloud Scroll, it commands Glacial Frost Crystals and bears the sacred Tengu Gale Leaf Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1803.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1803",
+  "edition": 1803,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Golden Sun King"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Spirit Violet Kitsune Fire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Fox Spirit Kitsune Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Tengu Gale Leaf Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 129,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 80,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Fire",
+    "stance": "Golden Sun King",
+    "color_harmony": "Spirit Violet Kitsune Fire",
+    "rarity_score": 128.98,
+    "power_rating": 80,
+    "mastery_stars": 4,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "5ad09f1ac41dca511920764179a2316adc00db1cf9c0d8fb4078eba2ee4e1e62"
+}

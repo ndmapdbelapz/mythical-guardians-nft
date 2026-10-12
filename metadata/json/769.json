@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #0769",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Water-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Coral Lagoon Turquoise and haloed by the Radiant Solar Sunburst, it commands Golden Lotus Petals and bears the sacred Kunlun Primordial Dagger.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/769.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#769",
+  "edition": 769,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Coral Lagoon Turquoise"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Astral Constellation Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "All-Seeing Celestial Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Tiger King Golden Diadem"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Kunlun Primordial Dagger"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 168,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 78,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Water",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Coral Lagoon Turquoise",
+    "rarity_score": 168.28,
+    "power_rating": 78,
+    "mastery_stars": 5,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "88e03d3a43c2bf1df58e8c6dbf8026188cd0c1205a5a9dd35ed9ec954823a5d1"
+}

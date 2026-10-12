@@ -1,0 +1,96 @@
+{
+  "name": "Black Tortoise #0498",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Earth-attuned Black Tortoise stands in the 'Ancient Spiked Citadel' aspect as the Abyssal Sentinel of Guixu. Adorned in Ancient Terracotta & Clay and haloed by the Radiant Solar Sunburst, it commands Void Space Fissures and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/498.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#498",
+  "edition": 498,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Black Tortoise"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ancient Spiked Citadel"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Void Space Fissures"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "All-Seeing Celestial Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Taiji Yin-Yang Crest"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 165,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 91,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "BlackTortoise",
+    "element_name": "Earth",
+    "stance": "Ancient Spiked Citadel",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 164.86,
+    "power_rating": 91,
+    "mastery_stars": 5,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "35f7d5d16c99170a4a0ed1ea108a2a9501b89d2a90d04e6944d1436e0dfaff07"
+}

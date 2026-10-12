@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #1862",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Air-attuned Garuda stands in the 'Four-Armed Solar Deity' aspect as the Sun-Winged Sky Sovereign. Adorned in Zephyr Gale & Ivory and haloed by the Radiant Solar Sunburst, it commands Falling Sakura Blossom and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1862.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1862",
+  "edition": 1862,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Four-Armed Solar Deity"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Zephyr Gale & Ivory"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Falling Sakura Blossom"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 102,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 97,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Air",
+    "stance": "Four-Armed Solar Deity",
+    "color_harmony": "Zephyr Gale & Ivory",
+    "rarity_score": 102.37,
+    "power_rating": 97,
+    "mastery_stars": 2,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "0792166375995f6c18344533ccdcc0c713303fee988eec35684cef8673e72661"
+}

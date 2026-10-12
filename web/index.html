@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mythical Beasts & Guardians | High-Art Generative PFP & Lore Game</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Elemental Particle Background Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <div class="content-wrapper">
+    <!-- Header -->
+    <header>
+      <div class="logo-container">
+        <div class="logo-seal">MG</div>
+        <div class="logo-text">
+          <h1>MYTHICAL BEASTS</h1>
+          <span>& GUARDIANS • CELESTIAL COLLECTION</span>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#mint" data-tab="tab-mint" class="active">Summon Portal</a>
+        <a href="#gallery" data-tab="tab-gallery">Codex Gallery</a>
+        <a href="#altar" data-tab="tab-altar">Elemental Altar</a>
+        <a href="#game" data-tab="tab-game">Lore Trial Game</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="btn-connect-wallet" class="btn-gold">
+          Connect Wallet
+        </button>
+      </div>
+    </header>
+
+    <!-- Tab: Mint Portal & Grand Genesis Showcase -->
+    <section id="tab-mint" class="tab-section active">
+      <!-- Title & Lore Header -->
+      <div class="genesis-summon-header">
+        <div class="hero-badge">⛩️ PRIMORDIAL FOLKLORE • 2,222 MAX SUPPLY • ROBINHOOD CHAIN & OPENSEA</div>
+        <h1 class="hero-grand-title">MYTHICAL BEASTS <span class="gold-gradient-text">& GUARDIANS</span></h1>
+        <p class="hero-grand-subtitle">
+          2,222 sovereign celestial entities forged at the nexus of primordial elements. Channel cosmic aether on Robinhood Chain to invoke your legendary Guardian, awaken divine familiars at the Pentagonal Altar, and trade on OpenSea.
+        </p>
+      </div>
+
+      <!-- Side-by-Side Dual Stage: Mint Terminal & Photo Showcase at the Exact Same Level -->
+      <div class="genesis-cards-level">
+        <!-- Left: Mint Terminal Card -->
+        <div class="mint-terminal-card">
+          <div class="mint-terminal-header">
+            <div class="terminal-title">
+              <span class="pulse-spark">⚡</span>
+              <h3>GENESIS SUMMONING TERMINAL</h3>
+            </div>
+            <span class="terminal-status-badge">🟢 Live on Robinhood</span>
+          </div>
+
+          <!-- Key Metrics Grid -->
+          <div class="mint-metrics-grid">
+            <div class="m-cell">
+              <span class="m-val">2,222</span>
+              <span class="m-lbl">Max Supply</span>
+            </div>
+            <div class="m-cell">
+              <span class="m-val" id="mint-single-price">0.0005 ETH</span>
+              <span class="m-lbl">Mint Tribute</span>
+            </div>
+            <div class="m-cell">
+              <span class="m-val" id="mint-wallet-limit-status">Max 5</span>
+              <span class="m-lbl" id="mint-wallet-limit-lbl">Wallet Limit</span>
+            </div>
+            <div class="m-cell highlight">
+              <span class="m-val" id="wallet-holdings-count">0 Owned</span>
+              <span class="m-lbl">Your Vault</span>
+            </div>
+          </div>
+
+          <!-- Mint Controls & Stepper -->
+          <div class="mint-control-row">
+            <div class="stepper-wrap">
+              <span class="stepper-label">Quantity:</span>
+              <div class="mint-stepper">
+                <button id="btn-mint-dec" aria-label="Decrease quantity">−</button>
+                <span id="mint-qty-text">1</span>
+                <button id="btn-mint-inc" aria-label="Increase quantity">+</button>
+              </div>
+            </div>
+
+            <div class="total-tribute-wrap">
+              <span class="total-label">Total Tribute:</span>
+              <span id="mint-total-eth" class="total-val">0.0005 ETH</span>
+            </div>
+          </div>
+
+          <!-- Action Summon Button -->
+          <button id="btn-summon-action" class="btn-summon-hero">
+            ⚡ Summon Guardian
+          </button>
+
+          <!-- Trust / Security Footnote -->
+          <div class="mint-security-footnote">
+            <span>⛽ Gas: ~0.001 Gwei</span>
+            <span>•</span>
+            <span>🛡️ Verified ERC-721A</span>
+            <span>•</span>
+            <span>🌊 OpenSea Trading Ready</span>
+          </div>
+        </div>
+
+        <!-- Right: Holographic Guardian Art Showcase (Same Level as Mint Terminal) -->
+        <div class="hero-holo-card" id="hero-holo-card" title="Click to inspect Guardian traits & metadata">
+          <div class="holo-card-shine"></div>
+          <div class="holo-card-badges">
+            <span id="hero-showcase-tier" class="beast-tier-badge tier-Legendary">LEGENDARY</span>
+            <span id="hero-showcase-el" class="el-pill air" style="font-size:0.7rem; padding:2px 8px;">🌪️ AIR</span>
+          </div>
+          <div class="holo-img-wrapper" id="hero-showcase-viewport">
+            <div class="hero-slider-track" id="hero-slider-track">
+              <div class="hero-slide-item">
+                <img id="hero-img-curr" src="assets/beasts/AzureDragon_Air.svg" alt="Showcase Guardian" />
+              </div>
+              <div class="hero-slide-item">
+                <img id="hero-img-next" src="assets/beasts/VermilionBird_Fire.svg" alt="Next Guardian" />
+              </div>
+            </div>
+          </div>
+          <div class="holo-card-footer">
+            <span class="holo-inspect-hint">🔍 Click Artwork to Inspect Full Traits & Rarity</span>
+          </div>
+          <div class="holo-slide-progress-bar">
+            <div class="holo-slide-progress-fill" id="hero-slide-progress"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ecosystem Utility Highlights Row -->
+      <div class="ecosystem-features-row">
+        <div class="eco-feature-card" data-tab="tab-altar">
+          <div class="eco-icon">🔮</div>
+          <h4>The Pentagonal Altar</h4>
+          <p>Gather Fire, Water, Earth, Air & Void guardians to awaken the rare Celestial Familiar.</p>
+          <span class="eco-link">Awaken Elements →</span>
+        </div>
+
+        <div class="eco-feature-card" data-tab="tab-game">
+          <div class="eco-icon">⚔️</div>
+          <h4>Trial of the Five Elements</h4>
+          <p>Turn-based strategic 1-for-1 combat. Deploy your NFT champions to harvest valuable Soul Shards.</p>
+          <span class="eco-link">Enter Arena →</span>
+        </div>
+      </div>
+
+      <!-- Robinhood Chain Mainnet Live Contract Banner (Hidden from view) -->
+      <div class="contract-banner" style="display:none;">
+        <div class="contract-banner-header">
+          <div>
+            <span style="font-size:0.8rem; letter-spacing:2px; text-transform:uppercase; color:var(--gold-primary); font-weight:700;">
+              ⚡ Network: Robinhood Chain Mainnet (Chain ID 4663)
+            </span>
+            <h4 style="font-family:var(--font-heading); color:var(--gold-light); margin-top:2px;">
+              Live Smart Contract: MythicalGuardiansNFT
+            </h4>
+          </div>
+          <div id="contract-status-badge" class="badge-tag" style="background:rgba(52,199,89,0.15); border-color:#34c759; color:#34c759;">
+            Ready to Connect & Mint
+          </div>
+        </div>
+
+        <div class="contract-address-box">
+          <span id="active-contract-addr">Checking contract deployment status...</span>
+          <a id="active-contract-link" href="https://robinhoodchain.blockscout.com" target="_blank" style="color:var(--gold-light); text-decoration:none; font-size:0.8rem; font-weight:700; white-space:nowrap;">
+            🔍 View on Robinhood Explorer ↗
+          </a>
+        </div>
+
+        <div class="contract-actions">
+          <button id="btn-deploy-contract" class="btn-gold" style="font-size:0.85rem; padding:8px 16px;">
+            🚀 1-Click Deploy Contract to Robinhood Chain (0.0005 ETH Mint)
+          </button>
+          <button id="btn-custom-contract" class="btn-outline" style="font-size:0.85rem; padding:8px 16px;">
+            ⚙️ Set Custom Contract Address
+          </button>
+          <button id="btn-update-base-uri" class="btn-outline" style="font-size:0.85rem; padding:8px 16px;">
+            🌐 Set Metadata Base URI for OpenSea
+          </button>
+          <button id="btn-fix-mint-price" class="btn-outline" style="font-size:0.85rem; padding:8px 16px; display:none;">
+            🔧 Set Active Contract Price to 0.0005 ETH
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab: 2,222 Guardian Codex Gallery -->
+    <section id="tab-gallery" class="tab-section">
+      <div class="section-header">
+        <h2>GUARDIAN CODEX & ARCHIVES</h2>
+        <p>Explore all 2,222 procedurally generated celestial guardians. Filter by archetype, elemental affinity, and rarity tier.</p>
+      </div>
+
+      <!-- Gallery Filters & Search -->
+      <div class="gallery-filters">
+        <input type="text" id="gallery-search" class="filter-select" placeholder="🔍 Search by name or #ID..." style="min-width: 240px;" />
+        
+        <select id="filter-beast" class="filter-select">
+          <option value="all">All Archetypes (8)</option>
+          <option value="Azure Dragon">Azure Dragon</option>
+          <option value="Vermilion Bird">Vermilion Bird</option>
+          <option value="White Tiger">White Tiger</option>
+          <option value="Black Tortoise">Black Tortoise</option>
+          <option value="Nine-Tailed Fox">Nine-Tailed Fox</option>
+          <option value="Qilin">Qilin</option>
+          <option value="Garuda">Garuda</option>
+          <option value="Tengu">Tengu</option>
+        </select>
+
+        <select id="filter-element" class="filter-select">
+          <option value="all">All Elements (5)</option>
+          <option value="Fire">🔥 Fire</option>
+          <option value="Water">💧 Water</option>
+          <option value="Earth">⛰️ Earth</option>
+          <option value="Air">🌪️ Air</option>
+          <option value="Void">🌌 Void</option>
+        </select>
+
+        <select id="filter-tier" class="filter-select">
+          <option value="all">All Rarity Tiers</option>
+          <option value="Legendary">🌟 Legendary (Max Tier)</option>
+          <option value="Epic">💎 Epic</option>
+          <option value="Rare">⚔️ Rare</option>
+          <option value="Uncommon">🌿 Uncommon</option>
+          <option value="Common">⚪ Common</option>
+        </select>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div id="gallery-grid" class="gallery-grid"></div>
+
+      <!-- Pagination Controls -->
+      <div style="display:flex; justify-content:center; align-items:center; gap:20px; margin-top:2.5rem; flex-wrap:wrap;">
+        <button id="btn-page-prev" class="btn-outline">← Previous</button>
+        <span id="gallery-page-indicator" style="font-weight:600; color:var(--gold-light);">Page 1</span>
+        <button id="btn-page-next" class="btn-outline">Next →</button>
+      </div>
+    </section>
+
+
+    <!-- Tab 3: The Pentagonal Altar (Companion Awakening) -->
+    <section id="tab-altar" class="tab-section">
+      <div class="section-header">
+        <h2>THE PENTAGONAL ALTAR</h2>
+        <p>The Sacred Sanctum of Convergence. Collect all 5 Elements to unlock Companion Art NFTs and empower your guardians.</p>
+      </div>
+
+      <div class="altar-container">
+        <div class="altar-circle-diagram">
+          <!-- Sacred Geometry Pentagram & Cosmic Mandala SVG -->
+          <svg class="altar-pentagram-lines" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="200" r="190" stroke="rgba(212, 175, 55, 0.18)" stroke-width="1.5" stroke-dasharray="6 8" />
+            <circle cx="200" cy="200" r="150" stroke="rgba(191, 90, 242, 0.25)" stroke-width="1.5" />
+            <circle cx="200" cy="200" r="110" stroke="rgba(212, 175, 55, 0.3)" stroke-width="1" stroke-dasharray="3 3" />
+            <polygon points="200,48 296,352 48,160 352,160 104,352" stroke="rgba(212, 175, 55, 0.4)" stroke-width="1.5" stroke-dasharray="4 4" />
+            <polygon points="200,48 352,160 296,352 104,352 48,160" stroke="rgba(191, 90, 242, 0.35)" stroke-width="1.5" />
+          </svg>
+
+          <!-- Five Element Slots around the circle -->
+          <div id="slot-fire" class="altar-slot">
+            <div style="font-size:26px;">🔥</div>
+            <div class="slot-label">FIRE</div>
+            <div class="slot-status">Empty</div>
+          </div>
+
+          <div id="slot-water" class="altar-slot">
+            <div style="font-size:26px;">💧</div>
+            <div class="slot-label">WATER</div>
+            <div class="slot-status">Empty</div>
+          </div>
+
+          <div id="slot-earth" class="altar-slot">
+            <div style="font-size:26px;">⛰️</div>
+            <div class="slot-label">EARTH</div>
+            <div class="slot-status">Empty</div>
+          </div>
+
+          <div id="slot-air" class="altar-slot">
+            <div style="font-size:26px;">🌪️</div>
+            <div class="slot-label">AIR</div>
+            <div class="slot-status">Empty</div>
+          </div>
+
+          <div id="slot-void" class="altar-slot">
+            <div style="font-size:26px;">🌌</div>
+            <div class="slot-label">VOID</div>
+            <div class="slot-status">Empty</div>
+          </div>
+
+          <!-- Central Core Button -->
+          <div id="altar-core-trigger" class="altar-core">
+            <div style="font-size:26px;">🔮</div>
+            <span>Checking...</span>
+          </div>
+        </div>
+
+        <div class="altar-action-bar">
+          <p id="altar-status-desc" style="color:var(--text-muted); font-size:1.05rem; margin-bottom:1rem;">
+            Gather Fire, Water, Earth, Air, and Void guardians to activate the Celestial Awakening ritual.
+          </p>
+        </div>
+
+        <!-- Unlocked Companion Card Reveal Box -->
+        <div id="companion-reveal-box" class="companion-unlocked-card">
+          <div class="companion-grid">
+            <img src="assets/companions/companion_1.svg" alt="Celestial Qilin Hatchling" />
+            <div class="companion-info">
+              <div class="badge-tag" style="background:rgba(191,90,242,0.2); border-color:var(--void-color);">
+                ERC-1155 COMPANION ART UNLOCKED
+              </div>
+              <h3>Celestial Qilin Hatchling</h3>
+              <p style="color:var(--text-muted); margin-bottom:1rem;">
+                A radiant starlight familiar born from the harmonious convergence of all five cosmic elements. Unlocks the devastating <em>True Celestial Damage Strike</em> in the Trial of the Five Elements web game.
+              </p>
+              <div style="display:flex; gap:10px;">
+                <button class="btn-gold hero-cta" data-tab="tab-game">Test In Battle</button>
+                <button class="btn-outline" onclick="window.guardianApp.showToast('Companion familiar unlocked!', 'success')">View In Vault</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 4: Lore Battle Game -->
+    <section id="tab-game" class="tab-section">
+      <div class="section-header">
+        <h2>TRIAL OF THE FIVE ELEMENTS</h2>
+        <p>The Void Rift has ruptured the barriers of Kunlun. Command your own Summoned Guardian in strategic elemental combat.</p>
+      </div>
+
+      <!-- Tactical Lore Briefing & Mechanics Guide -->
+      <div class="game-briefing-card">
+        <div class="briefing-header">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span style="font-size:1.2rem;">📜</span>
+            <h4 style="font-family:var(--font-heading); color:var(--gold-light); margin:0;">HOW THE TRIAL WORKS & REWARDS</h4>
+          </div>
+          <button id="btn-toggle-lore-guide" class="btn-outline" style="padding:4px 12px; font-size:0.75rem;">Collapse Guide</button>
+        </div>
+        <div id="game-lore-guide-body" class="briefing-grid">
+          <div class="briefing-col">
+            <h5>⚔️ 1. NFT-Locked Combat</h5>
+            <p>Only Guardians minted to your connected wallet can brave the Rift. No unowned phantoms can enter. Select which of your Guardians to send into battle.</p>
+          </div>
+          <div class="briefing-col">
+            <h5>💎 2. Rarity-Scaled Power</h5>
+            <p>Rarity dictates battlefield supremacy! Mythic & Legendary Guardians unleash massive HP pools, high critical strike chances, and devastating true aura damage.</p>
+          </div>
+          <div class="briefing-col">
+            <h5>🌀 3. Elemental Counters</h5>
+            <p>Elemental affinities deal 1.5x damage: <strong>Fire</strong> > Air > Earth > Water > <strong>Fire</strong>. Void fiends deal and receive 1.4x true chaos damage.</p>
+          </div>
+          <div class="briefing-col">
+            <h5>🏆 4. Victories & Soul Shards</h5>
+            <p>Each victory earns you <strong>Soul Shards (Aether)</strong>, tracks win streaks, and promotes your Guardian through battle ranks granting permanent combat buffs!</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- LOCKED STATE: When 0 NFTs are owned or wallet is disconnected -->
+      <div id="game-locked-screen" class="game-locked-container">
+        <div class="sealed-sanctum-box">
+          <div class="sealed-icon-glow">⛩️</div>
+          <div class="sealed-lock-badge">SEALED SANCTUM</div>
+          <h3 style="font-family:var(--font-heading); font-size:1.6rem; color:var(--gold-light); margin:12px 0 8px;">
+            THE ELEMENTAL RIFT IS LOCKED
+          </h3>
+          <p id="game-locked-desc" style="color:var(--text-muted); max-width:520px; margin:0 auto 20px; font-size:0.95rem; line-height:1.5;">
+            Only warriors who command their own Summoned Guardians can breach the barrier. No hollow phantoms can survive the Void Fiend's onslaught.
+          </p>
+          <div id="game-locked-actions" style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
+            <button id="btn-game-connect-wallet" class="btn-gold" style="padding:10px 24px;">
+              🔗 Connect Wallet to Enter
+            </button>
+            <button id="btn-game-go-mint" class="btn-gold hero-cta" data-tab="tab-mint" style="display:none; padding:10px 24px;">
+              ⚡ Summon Your Guardian (Mint)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- UNLOCKED STATE: Active Arena when user owns >= 1 NFT -->
+      <div id="game-unlocked-screen" class="game-container" style="display: none;">
+        
+        <!-- Top Stats & Rewards Bar -->
+        <div class="game-hud-bar">
+          <div class="hud-stat-pill">
+            <span class="hud-label">Summoner</span>
+            <span id="game-hud-wallet" class="hud-val">0x...</span>
+          </div>
+          <div class="hud-stat-pill">
+            <span class="hud-label">🪙 Soul Shards</span>
+            <span id="game-hud-shards" class="hud-val gold">0</span>
+          </div>
+          <div class="hud-stat-pill">
+            <span class="hud-label">🏆 Rift Wins</span>
+            <span id="game-hud-wins" class="hud-val">0</span>
+          </div>
+          <div class="hud-stat-pill">
+            <span class="hud-label">🔥 Win Streak</span>
+            <span id="game-hud-streak" class="hud-val fire">0</span>
+          </div>
+        </div>
+
+        <!-- Champion Selector Carousel -->
+        <div class="champion-selector-wrapper">
+          <div class="champion-selector-title">
+            <span>CHOOSE YOUR ACTIVE CHAMPION (<span id="champion-count">0</span> OWNED)</span>
+            <span style="font-size:0.75rem; color:var(--text-muted);">Click any Guardian to command them in the Rift</span>
+          </div>
+          <div id="game-champion-list" class="champion-list-row">
+            <!-- Dynamically populated from walletTokens -->
+          </div>
+        </div>
+
+        <!-- In-Page Victory Notification Banner -->
+        <div id="game-victory-banner" class="game-victory-banner" style="display: none;">
+          <div class="victory-banner-inner">
+            <div style="font-size:2rem;">🎉</div>
+            <div style="flex:1;">
+              <h4 id="victory-banner-title" style="margin:0; font-family:var(--font-heading); color:#ffd700; font-size:1.2rem;">
+                VICTORY OVER HUNDUN CHAOS FIEND!
+              </h4>
+              <p id="victory-banner-rewards" style="margin:4px 0 0; font-size:0.85rem; color:var(--text-main);">
+                +140 Soul Shards awarded!
+              </p>
+            </div>
+            <button id="btn-victory-next-battle" class="btn-gold" style="padding:8px 18px;">
+              Challenge Next Fiend ⚔️
+            </button>
+          </div>
+        </div>
+
+        <!-- Real-Time Combat Round & Turn Banner -->
+        <div id="combat-turn-indicator" class="combat-turn-banner player-turn">
+          <div class="turn-pulse-dot"></div>
+          <span id="turn-indicator-text">⚔️ ROUND 1 — YOUR TURN: Select your combat action below!</span>
+        </div>
+
+        <!-- Battle Arena -->
+        <div class="battle-arena">
+          <!-- Player Guardian Card -->
+          <div class="combatant-card player" id="player-combatant-card" style="position:relative;">
+            <div class="combatant-badges-top">
+              <span id="game-player-tier" class="beast-tier-badge tier-Legendary">LEGENDARY</span>
+              <span id="game-player-rank" class="rank-badge">Novice</span>
+            </div>
+            <img id="game-player-img" src="assets/beasts/AzureDragon_Air.svg" alt="Guardian" />
+            <h4 id="game-player-name" style="font-family:var(--font-heading); color:var(--gold-light);">Azure Dragon</h4>
+            <div id="game-player-el" class="el-pill air" style="margin:6px auto; width:fit-content;">AIR</div>
+            
+            <div class="hp-bar-container">
+              <div id="player-hp-fill" class="hp-fill"></div>
+            </div>
+            <span id="player-hp-text" style="font-size:0.85rem; font-weight:700;">800 / 800 HP</span>
+
+            <!-- Compact Combat Stats Breakdown -->
+            <div class="combat-stats-row">
+              <span id="stat-player-atk" title="Base Attack Power">⚔️ 145 ATK</span>
+              <span id="stat-player-crit" title="Critical Strike Chance">💥 30% Crit</span>
+              <span id="stat-player-def" title="Damage Absorption">🛡️ +38% Def</span>
+            </div>
+          </div>
+
+          <!-- VS Badge -->
+          <div class="vs-badge">
+            <div>VS</div>
+            <div class="vs-sub">Rift Clash</div>
+          </div>
+
+          <!-- Enemy Fiend Card -->
+          <div class="combatant-card boss" id="boss-combatant-card" style="position:relative;">
+            <div class="combatant-badges-top">
+              <span class="beast-tier-badge tier-Abyssal">ABYSSAL BOSS</span>
+              <span id="game-boss-rank" class="rank-badge boss">Level 1 Fiend</span>
+            </div>
+            <img id="game-boss-img" src="assets/beasts/VoidFiend_Boss.svg" alt="Hundun Boss" />
+            <h4 id="game-boss-name" style="font-family:var(--font-heading); color:#ff5252;">Hundun Chaos Fiend</h4>
+            <div id="game-boss-el" class="el-pill void" style="margin:6px auto; width:fit-content;">VOID</div>
+            
+            <div class="hp-bar-container">
+              <div id="boss-hp-fill" class="hp-fill boss-hp"></div>
+            </div>
+            <span id="boss-hp-text" style="font-size:0.85rem; font-weight:700;">600 / 600 HP</span>
+
+            <div class="combat-stats-row">
+              <span id="stat-boss-atk">👹 105 ATK</span>
+              <span id="stat-boss-type">🌀 Chaos Rift</span>
+              <span id="stat-boss-threat">⚠️ Deadly</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Combat Action Controls -->
+        <div class="combat-controls">
+          <button id="btn-attack" class="combat-btn">
+            Elemental Surge
+            <span>Rock-Paper-Scissors Strike</span>
+          </button>
+          <button id="btn-roar" class="combat-btn">
+            Celestial Roar
+            <span>Weakens Enemy & Chance to Stun</span>
+          </button>
+          <button id="btn-ward" class="combat-btn">
+            Altar Ward
+            <span>Regenerate & Shield Barrier</span>
+          </button>
+          <button id="btn-awakened-burst" class="combat-btn" disabled>
+            ✨ Awakened Strike
+            <span>Companion / Mythic True DMG</span>
+          </button>
+          <button id="btn-new-battle" class="combat-btn">
+            🔄 New Battle
+            <span>Summon New Fiend</span>
+          </button>
+        </div>
+
+        <!-- Combat Log -->
+        <div class="combat-log" id="combat-log-content">
+          <p class="log-highlight">Ready for battle. Select a combat action above to challenge the Void Rift.</p>
+        </div>
+
+        <!-- RIFT REWARDS VAULT & SOUL BAZAAR -->
+        <div class="rewards-vault-section">
+          <div class="rewards-vault-header">
+            <div>
+              <h3 style="font-family:var(--font-heading); color:var(--gold-light); margin:0 0 4px; font-size:1.3rem;">
+                🪙 RIFT REWARDS VAULT & SOUL BAZAAR
+              </h3>
+              <p style="font-size:0.85rem; color:var(--text-muted); margin:0;">
+                What you earn from playing: Redeem your hard-won Soul Shards for free mint credits, battle relics, and combat perks!
+              </p>
+            </div>
+            <div class="vault-balance-badge">
+              <span>Your Soul Shards:</span>
+              <strong id="vault-soul-shards-display">0</strong> 🪙
+            </div>
+          </div>
+
+          <div class="rewards-vault-grid">
+            <!-- Reward 1: Free Summon Voucher -->
+            <div class="reward-item-card">
+              <div class="reward-icon">🎟️</div>
+              <div class="reward-title">Free Summon Voucher</div>
+              <div class="reward-cost">1,000 Soul Shards</div>
+              <p class="reward-desc">
+                Redeem 1,000 Shards for a 100% free Guardian Summon credit in the Mint Portal!
+              </p>
+              <button class="btn-gold btn-redeem-reward" data-cost="1000" data-reward="voucher">Redeem Voucher</button>
+            </div>
+
+            <!-- Reward 2: Vermilion Phoenix Feather (Revive Relic) -->
+            <div class="reward-item-card">
+              <div class="reward-icon">🪶</div>
+              <div class="reward-title">Phoenix Rebirth Feather</div>
+              <div class="reward-cost">250 Soul Shards</div>
+              <p class="reward-desc">
+                Equips your active Guardian with auto-revive: heals 50% HP if fallen in the Rift!
+              </p>
+              <button class="btn-gold btn-redeem-reward" data-cost="250" data-reward="feather">Purchase Relic</button>
+            </div>
+
+            <!-- Reward 3: Dragon Thunder Pearl (Crit Booster) -->
+            <div class="reward-item-card">
+              <div class="reward-icon">🔮</div>
+              <div class="reward-title">Dragon Thunder Pearl</div>
+              <div class="reward-cost">200 Soul Shards</div>
+              <p class="reward-desc">
+                Empowers your Guardian with permanent +25% Critical Strike Chance in battles.
+              </p>
+              <button class="btn-gold btn-redeem-reward" data-cost="200" data-reward="pearl">Purchase Relic</button>
+            </div>
+
+            <!-- Reward 4: Celestial Aegis Crest (Battle Shield) -->
+            <div class="reward-item-card">
+              <div class="reward-icon">🛡️</div>
+              <div class="reward-title">Celestial Aegis Crest</div>
+              <div class="reward-cost">400 Soul Shards</div>
+              <p class="reward-desc">
+                Grants your active Guardian +30% Defense shield against all Rift attacks!
+              </p>
+              <button class="btn-gold btn-redeem-reward" data-cost="400" data-reward="aegis">Purchase Relic</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal: Token Inspector -->
+    <div id="inspector-modal" class="modal-overlay">
+      <div class="modal-box">
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        <div class="modal-content-grid">
+          <div>
+            <img id="modal-token-img" src="" alt="Guardian Detail" />
+          </div>
+          <div>
+            <h3 id="modal-token-title" style="font-family:var(--font-heading); font-size:1.8rem; color:var(--gold-light);"></h3>
+            <p id="modal-token-desc" style="color:var(--text-muted); font-size:0.9rem; margin:10px 0 16px;"></p>
+
+            <h4 style="font-size:0.85rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:8px;">Sacred Attributes</h4>
+            <div id="modal-token-traits" class="beast-traits-row"></div>
+
+            <div style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
+              <button id="modal-btn-battle" class="btn-gold" style="padding:8px 16px;">⚔️ Battle with Guardian</button>
+              <a id="modal-btn-opensea" class="btn-outline" target="_blank" rel="noopener noreferrer" style="padding:8px 16px; text-decoration:none; display:inline-flex; align-items:center; gap:6px;">🌊 View on OpenSea ↗</a>
+            </div>
+
+            <h4 style="font-size:0.85rem; letter-spacing:1px; text-transform:uppercase; margin-top:20px; margin-bottom:6px;">Token Metadata JSON</h4>
+            <pre id="modal-token-json" class="modal-meta-box"></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2026 Mythical Beasts & Guardians. All Rights Reserved.</p>
+    </footer>
+  </div>
+
+  <!-- Toast Notifications Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <script src="ethers.umd.min.js"></script>
+  <script src="audio.js"></script>
+  <script src="game.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

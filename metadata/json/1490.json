@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1490",
+  "description": "Conceived in the celestial ether of Full Harvest Moon Horizon, this Air-attuned Vermilion Bird stands in the 'Ascending Wings Unfurled' aspect as the Immortal Solar Phoenix. Adorned in Jade Whirlwind Hurricane and haloed by the Astrological Planetary Orbit, it commands Golden Lotus Petals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1490.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1490",
+  "edition": 1490,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Wings Unfurled"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Air"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Jade Whirlwind Hurricane"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Full Harvest Moon Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Astrological Planetary Orbit"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Vajra Thunder Spikes"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 120,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 72,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Air",
+    "stance": "Ascending Wings Unfurled",
+    "color_harmony": "Jade Whirlwind Hurricane",
+    "rarity_score": 119.73,
+    "power_rating": 72,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "f3153122c127db559bed826cc63a92e1e8b90870ee6b774d00dcd889382a444f"
+}

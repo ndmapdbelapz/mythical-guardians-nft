@@ -1,0 +1,96 @@
+{
+  "name": "White Tiger #1114",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Fire-attuned White Tiger stands in the 'Roaring War Sovereign' aspect as the Celestial Arbiter of War. Adorned in Spirit Violet Kitsune Fire and haloed by the Bagua Eight Trigrams, it commands Void Space Fissures and bears the sacred Heavenly Jade Sovereign Sword.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1114.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1114",
+  "edition": 1114,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "White Tiger"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Roaring War Sovereign"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Spirit Violet Kitsune Fire"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Void Space Fissures"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "All-Seeing Celestial Eye"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Dragon Pearl Crown"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Heavenly Jade Sovereign Sword"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Thunder Storm Trigram"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 220,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 80,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "WhiteTiger",
+    "element_name": "Fire",
+    "stance": "Roaring War Sovereign",
+    "color_harmony": "Spirit Violet Kitsune Fire",
+    "rarity_score": 220.38,
+    "power_rating": 80,
+    "mastery_stars": 3,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "eb15bd1aa63de750b9b262fec889bbc44caa5e44eefa533a275564e3436158e4"
+}

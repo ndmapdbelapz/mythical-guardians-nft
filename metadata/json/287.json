@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #0287",
+  "description": "Conceived in the celestial ether of Blood Moon Twilight, this Earth-attuned Tengu stands in the 'Hanadaka Crimson Lord' aspect as the Gale Blade Yōkai Lord. Adorned in Imperial Jade & Sun Gold and haloed by the Flaming Dragon Pearl Ring, it commands Rising Volcanic Embers and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/287.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#287",
+  "edition": 287,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Hanadaka Crimson Lord"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Blood Moon Twilight"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Rising Volcanic Embers"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Solar Crimson Feathers"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 108,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 69,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Earth",
+    "stance": "Hanadaka Crimson Lord",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 108.1,
+    "power_rating": 69,
+    "mastery_stars": 4,
+    "rarity_tier": "Uncommon",
+    "is_max_tier": false
+  },
+  "dna": "423a9594a9cb5897b2c6f66f33bca286555adcbb34249b003023fc67610a3463"
+}

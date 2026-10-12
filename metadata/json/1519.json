@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1519",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Fire-attuned Vermilion Bird stands in the 'Celestial Sun Crane' aspect as the Immortal Solar Phoenix. Adorned in Solar Crimson & Imperial Gold and haloed by the Auspicious Cloud Scroll, it commands Golden Lotus Petals and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1519.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1519",
+  "edition": 1519,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Celestial Sun Crane"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Solar Crimson & Imperial Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Golden Lotus Petals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 93,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 76,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Fire",
+    "stance": "Celestial Sun Crane",
+    "color_harmony": "Solar Crimson & Imperial Gold",
+    "rarity_score": 92.7,
+    "power_rating": 76,
+    "mastery_stars": 5,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "b1f7435275221af896199bcb10c12edd79f8156f3f8ec8a4df257f49c39277cb"
+}

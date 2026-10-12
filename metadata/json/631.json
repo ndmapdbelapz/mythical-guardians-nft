@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #0631",
+  "description": "Conceived in the celestial ether of Hundun Void Rift, this Fire-attuned Tengu stands in the 'Karasu Crow Tengu' aspect as the Gale Blade Yōkai Lord. Adorned in Volcanic Magma & Obsidian and haloed by the Sacred Lotus Mandala, it commands Cosmic Star Dust Clusters and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/631.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#631",
+  "edition": 631,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Karasu Crow Tengu"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Fire"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Volcanic Magma & Obsidian"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Hundun Void Rift"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Sacred Lotus Mandala"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Cosmic Star Dust Clusters"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Obsidian Polished Armor"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 175,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 71,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 1,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Fire",
+    "stance": "Karasu Crow Tengu",
+    "color_harmony": "Volcanic Magma & Obsidian",
+    "rarity_score": 175.27,
+    "power_rating": 71,
+    "mastery_stars": 1,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "62fdc9f7c4cee0ae07adfb35e23913dde84d57b6113e8c749ca726948304a116"
+}

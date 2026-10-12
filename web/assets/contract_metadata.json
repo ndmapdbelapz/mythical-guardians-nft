@@ -1,0 +1,11 @@
+{
+  "name": "Mythical Beasts & Guardians",
+  "description": "Celestial 2,222 Genesis NFT Collection featuring legendary mythical beasts (Azure Dragon, Vermilion Bird, White Tiger, Black Tortoise, Nine-Tailed Fox, Qilin, Garuda, and Tengu). Powered by on-chain elemental affinities, verifiable trait DNA, and instant OpenSea secondary trading on Robinhood Chain.",
+  "image": "https://gateway.pinata.cloud/ipfs/bafybeihr64y57x2z75t4j3efr7w42i3wz6fflcmxydb4n5v5mkn4eugtqe/1.png",
+  "external_link": "http://127.0.0.1:3000/",
+  "collaborators": [
+    "0xb862866110dbF9aD25d25A85422101d0b03615c3"
+  ],
+  "seller_fee_basis_points": 500,
+  "fee_recipient": "0xb862866110dbF9aD25d25A85422101d0b03615c3"
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Garuda #2009",
+  "description": "Conceived in the celestial ether of Zodiac Constellation Field, this Earth-attuned Garuda stands in the 'Four-Armed Solar Deity' aspect as the Sun-Winged Sky Sovereign. Adorned in Imperial Jade & Sun Gold and haloed by the Void Singularity Event Horizon, it commands Swirling Foxfire Orbs and bears the sacred Dragon-Taming Pearl Orb.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2009.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2009",
+  "edition": 2009,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Garuda"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Four-Armed Solar Deity"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Zodiac Constellation Field"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Void Singularity Event Horizon"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Slit Dragon Pearl Gaze"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Imperial Jade Antlers"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Dragon-Taming Pearl Orb"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Celestial Sun Flame"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Rare"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 116,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 71,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Garuda",
+    "element_name": "Earth",
+    "stance": "Four-Armed Solar Deity",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 116.18,
+    "power_rating": 71,
+    "mastery_stars": 2,
+    "rarity_tier": "Rare",
+    "is_max_tier": false
+  },
+  "dna": "0caaee2df9abced76b3ef82cf60f91e1fa58c8bf6338b82da88539f526cb4466"
+}

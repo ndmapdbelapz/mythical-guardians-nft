@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #0445",
+  "description": "Conceived in the celestial ether of Mount Penglai Floating Isles, this Water-attuned Vermilion Bird stands in the 'Ascending Wings Unfurled' aspect as the Immortal Solar Phoenix. Adorned in Coral Lagoon Turquoise and haloed by the Flaming Dragon Pearl Ring, it commands Gale Storm Spirals and bears the sacred Vermilion Phoenix War Fan.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/445.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#445",
+  "edition": 445,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Wings Unfurled"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Coral Lagoon Turquoise"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Mount Penglai Floating Isles"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Flaming Dragon Pearl Ring"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Gale Storm Spirals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Glacial Sapphire Abyss"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Celestial Hagoromo Scarf"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Vermilion Phoenix War Fan"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 141,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 80,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Water",
+    "stance": "Ascending Wings Unfurled",
+    "color_harmony": "Coral Lagoon Turquoise",
+    "rarity_score": 140.89,
+    "power_rating": 80,
+    "mastery_stars": 2,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "9496cd59a2d592fe90af2564cc00ea6c4534dd0dcad229df106a7f7fc2b4fcb9"
+}

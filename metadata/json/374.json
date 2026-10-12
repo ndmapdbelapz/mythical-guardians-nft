@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #0374",
+  "description": "Conceived in the celestial ether of Kunlun Sacred Peaks, this Water-attuned Nine-Tailed Fox stands in the 'Nine-Tail Fan Splendor' aspect as the Spirit Enchantress of Foxfire. Adorned in Arctic Glacial Frost and haloed by the Radiant Solar Sunburst, it commands Glacial Frost Crystals and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/374.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#374",
+  "edition": 374,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Nine-Tail Fan Splendor"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Arctic Glacial Frost"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Kunlun Sacred Peaks"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Glacial Frost Crystals"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Porcelain Kitsune Spirit Mask"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 96,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 77,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 3,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Water",
+    "stance": "Nine-Tail Fan Splendor",
+    "color_harmony": "Arctic Glacial Frost",
+    "rarity_score": 96.03,
+    "power_rating": 77,
+    "mastery_stars": 3,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "7ffecb96e46885889623171ca9c20a5b54647d62b5789c2d26725dfeed84d4fa"
+}

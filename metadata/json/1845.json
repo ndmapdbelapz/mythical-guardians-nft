@@ -1,0 +1,96 @@
+{
+  "name": "Tengu #1845",
+  "description": "Conceived in the celestial ether of Torii Sun Gate Horizon, this Earth-attuned Tengu stands in the 'Yamabushi Mountain Sage' aspect as the Gale Blade Yōkai Lord. Adorned in Imperial Jade & Sun Gold and haloed by the Bagua Eight Trigrams, it commands Sacred Incense Wisps and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1845.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1845",
+  "edition": 1845,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Tengu"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Yamabushi Mountain Sage"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Torii Sun Gate Horizon"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Bagua Eight Trigrams"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Sacred Incense Wisps"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Celestial Carved Jade"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Amethyst Void Spiral"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Shinto Shimenawa Rope & Shide"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Imperial King '王' Glyph"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 162,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 93,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 5,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "Tengu",
+    "element_name": "Earth",
+    "stance": "Yamabushi Mountain Sage",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 161.5,
+    "power_rating": 93,
+    "mastery_stars": 5,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "944bf3cd4ff34d9660db43d4dc1d34d43ed18aa8a57b8a165906fedd591771b8"
+}

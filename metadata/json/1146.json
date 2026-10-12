@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #1146",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Water-attuned Nine-Tailed Fox stands in the 'Divine Heavenly Fox' aspect as the Spirit Enchantress of Foxfire. Adorned in Abyssal Cobalt & Deep Cyan and haloed by the Radiant Solar Sunburst, it commands Celestial Thunderbolts and bears the sacred Nine-Star Bronze Mirror.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1146.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1146",
+  "edition": 1146,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Divine Heavenly Fox"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Water"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Abyssal Cobalt & Deep Cyan"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Prismatic Iridescent Scales"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Luminous Jade Star"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Vajra Thunder Spikes"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Nine-Star Bronze Mirror"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Void Singularity Bindu"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Epic"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 136,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 88,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 2,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Water",
+    "stance": "Divine Heavenly Fox",
+    "color_harmony": "Abyssal Cobalt & Deep Cyan",
+    "rarity_score": 136,
+    "power_rating": 88,
+    "mastery_stars": 2,
+    "rarity_tier": "Epic",
+    "is_max_tier": false
+  },
+  "dna": "8db3ab4a26cd15344bc1972ade4640d51cd1ee852b120e0be4ed7d71816d0fb6"
+}

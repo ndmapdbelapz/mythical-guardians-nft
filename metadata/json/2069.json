@@ -1,0 +1,96 @@
+{
+  "name": "Nine-Tailed Fox #2069",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Earth-attuned Nine-Tailed Fox stands in the 'Masked Spirit Kitsune' aspect as the Spirit Enchantress of Foxfire. Adorned in Ancient Terracotta & Clay and haloed by the Auspicious Cloud Scroll, it commands Celestial Thunderbolts and bears the sacred Imperial Jade Dragon Seal.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/2069.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#2069",
+  "edition": 2069,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Nine-Tailed Fox"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Masked Spirit Kitsune"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Ancient Terracotta & Clay"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Auspicious Cloud Scroll"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Celestial Thunderbolts"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Golden Leaf Engraved Fur"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Phoenix Golden Coronet"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Imperial Jade Dragon Seal"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "None"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 92,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 91,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "NineTailedFox",
+    "element_name": "Earth",
+    "stance": "Masked Spirit Kitsune",
+    "color_harmony": "Ancient Terracotta & Clay",
+    "rarity_score": 92.24,
+    "power_rating": 91,
+    "mastery_stars": 4,
+    "rarity_tier": "Common",
+    "is_max_tier": false
+  },
+  "dna": "3dc90586ff7edc7f0ef875ebdf63bd48a056b945a84be4000ebabd327edc5893"
+}

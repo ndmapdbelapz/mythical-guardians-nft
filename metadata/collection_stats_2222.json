@@ -1,0 +1,27 @@
+{
+  "total_supply": 2222,
+  "unique_combinations": 2222,
+  "element_distribution": {
+    "Water": 466,
+    "Earth": 483,
+    "Fire": 491,
+    "Void": 274,
+    "Air": 508
+  },
+  "archetype_distribution": {
+    "Black Tortoise": 372,
+    "Garuda": 169,
+    "Vermilion Bird": 350,
+    "Azure Dragon": 348,
+    "White Tiger": 336,
+    "Qilin": 218,
+    "Tengu": 123,
+    "Nine-Tailed Fox": 306
+  },
+  "tier_distribution": {
+    "Epic": 417,
+    "Legendary": 1337,
+    "Mythic": 468
+  },
+  "trait_categories_count": 12
+}

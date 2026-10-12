@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Heavy image exports & backups (not needed for web/metadata hosting)
+BACKUP_ORIGINAL_ART_V1/
+ART_PHOTOS_PNG/
+ART_PHOTOS_VECTOR_SVG/
+scratch/
+.gemini/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.log
+*.png

@@ -1,0 +1,30 @@
+{
+  "name": "mythical-beasts-guardians-nft",
+  "version": "1.0.0",
+  "description": "High-art generative NFT collection featuring legendary mythical beasts across traditions with 5-element companion awakening utility and lore game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "python scripts/generate_full_collection_2222.py",
+    "test": "node test/validate_2222_integrity.js && node test/contracts_test.js"
+  },
+  "keywords": [
+    "nft",
+    "erc721a",
+    "mythology",
+    "folklore",
+    "generative-art",
+    "web3",
+    "gamefi"
+  ],
+  "author": "Mythical Guardians Team",
+  "license": "MIT",
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "ethers": "^6.17.0",
+    "solc": "^0.8.20"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

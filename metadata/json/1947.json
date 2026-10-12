@@ -1,0 +1,96 @@
+{
+  "name": "Vermilion Bird #1947",
+  "description": "Conceived in the celestial ether of Solar Eclipse Corona, this Earth-attuned Vermilion Bird stands in the 'Ascending Wings Unfurled' aspect as the Immortal Solar Phoenix. Adorned in Imperial Jade & Sun Gold and haloed by the Radiant Solar Sunburst, it commands Swirling Foxfire Orbs and bears the sacred Seven-Treasure Vajra Scepter.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/tokens/1947.svg",
+  "external_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/#1947",
+  "edition": 1947,
+  "date": 1791728548,
+  "attributes": [
+    {
+      "trait_type": "Archetype",
+      "value": "Vermilion Bird"
+    },
+    {
+      "trait_type": "Stance",
+      "value": "Ascending Wings Unfurled"
+    },
+    {
+      "trait_type": "Element",
+      "value": "Earth"
+    },
+    {
+      "trait_type": "Color Harmony",
+      "value": "Imperial Jade & Sun Gold"
+    },
+    {
+      "trait_type": "Sacred Realm",
+      "value": "Solar Eclipse Corona"
+    },
+    {
+      "trait_type": "Sacred Halo",
+      "value": "Radiant Solar Sunburst"
+    },
+    {
+      "trait_type": "Aura Phenomenon",
+      "value": "Swirling Foxfire Orbs"
+    },
+    {
+      "trait_type": "Body Finish",
+      "value": "Translucent Spirit Ether"
+    },
+    {
+      "trait_type": "Eye Brilliance",
+      "value": "Molten Solar Amber"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Shinto Shimenawa Rope & Shide"
+    },
+    {
+      "trait_type": "Sacred Relic",
+      "value": "Seven-Treasure Vajra Scepter"
+    },
+    {
+      "trait_type": "Forehead Mark",
+      "value": "Sacred Lotus Petal"
+    },
+    {
+      "trait_type": "Rarity Tier",
+      "value": "Legendary"
+    },
+    {
+      "trait_type": "Rarity Score",
+      "value": 162,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Combat Power",
+      "value": 99,
+      "max_value": 100,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Affinity Mastery",
+      "value": 4,
+      "max_value": 5,
+      "display_type": "number"
+    },
+    {
+      "trait_type": "Generation",
+      "value": 1,
+      "display_type": "number"
+    }
+  ],
+  "properties": {
+    "beast_code": "VermilionBird",
+    "element_name": "Earth",
+    "stance": "Ascending Wings Unfurled",
+    "color_harmony": "Imperial Jade & Sun Gold",
+    "rarity_score": 161.51,
+    "power_rating": 99,
+    "mastery_stars": 4,
+    "rarity_tier": "Legendary",
+    "is_max_tier": true
+  },
+  "dna": "8c8068c49d04c7c56fe9a41ee677735a847337c6f2e2dabee181dae42b182612"
+}
