@@ -818,7 +818,7 @@ class GuardianApp {
 
       const baseURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/metadata/json/";
       const contract = await factory.deploy(
-        "Mythical Beasts and Guardians",
+        "Mythical Guardians Genesis",
         "MYTHIC",
         baseURI,
         DESTINATION_PAYOUT_WALLET
