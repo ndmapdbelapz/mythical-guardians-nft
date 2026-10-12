@@ -658,7 +658,6 @@ class GuardianApp {
       if (addrEl) addrEl.innerText = "No contract deployed on Robinhood Chain yet. Click '1-Click Deploy' below!";
       if (linkEl) linkEl.style.display = 'none';
       if (btnFix) btnFix.style.display = 'none';
-      if (btnUri) btnUri.style.display = 'none';
       if (btnDeploy) btnDeploy.style.display = 'inline-block';
       if (btnCustom) btnCustom.style.display = 'inline-block';
       if (deployControls) deployControls.style.display = 'flex';
@@ -699,10 +698,6 @@ class GuardianApp {
         if (btnFix) {
           btnFix.style.display = isOwner ? 'inline-block' : 'none';
         }
-        const btnUri = document.getElementById('btn-update-base-uri');
-        if (btnUri) {
-          btnUri.style.display = isOwner ? 'inline-block' : 'none';
-        }
       } catch (e) {}
     }
   }
@@ -710,6 +705,7 @@ class GuardianApp {
   async updateContractBaseURI(customUri = null) {
     if (!this.contractAddress || !this.signer) {
       this.showToast("Please connect your wallet first.", 'error');
+      await this.connectWallet(true);
       return;
     }
     const targetUri = customUri || "https://ndmapdbelapz.github.io/mythical-guardians-nft/metadata/json/";
@@ -719,6 +715,12 @@ class GuardianApp {
       this.showToast(`Setting Base URI to GitHub Pages... Confirm in wallet.`, "info");
 
       const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, this.signer);
+      const owner = await contract.owner();
+      if (owner.toLowerCase() !== this.userAddress.toLowerCase()) {
+        this.showToast(`Only the contract owner (${owner.slice(0, 6)}...${owner.slice(-4)}) can update Base URI.`, "error");
+        return;
+      }
+
       const tx = await contract.setBaseURI(targetUri);
       const expUrl = ROBINHOOD_MAINNET_PARAMS.blockExplorerUrls[0];
       this.showToast(`Base URI tx sent! Hash: ${tx.hash.slice(0, 10)}...`, "info", `${expUrl}/tx/${tx.hash}`);
