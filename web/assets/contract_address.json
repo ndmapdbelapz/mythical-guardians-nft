@@ -1,6 +1,6 @@
 {
-  "address": null,
-  "network": "Robinhood Chain Mainnet",
+  "address": "",
+  "network": "Robinhood Chain",
   "chainId": 4663,
   "rpcUrl": "https://rpc.mainnet.chain.robinhood.com",
   "explorerUrl": "https://robinhoodchain.blockscout.com",
