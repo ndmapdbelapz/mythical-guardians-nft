@@ -173,6 +173,11 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
         uint8 powerRating
     );
 
+    // EIP-4906 & OpenSea Indexer Discovery Events
+    event MetadataUpdate(uint256 _tokenId);
+    event BatchMetadataUpdate(uint256 _fromTokenId, uint256 _toTokenId);
+    event ContractURIUpdated();
+
     constructor(
         string memory name_,
         string memory symbol_,
@@ -185,6 +190,19 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
         _contractURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/contract_metadata.json";
         royaltyRecipient = royaltyReceiver_ != address(0) ? royaltyReceiver_ : msg.sender;
         treasury = payable(royaltyReceiver_ != address(0) ? royaltyReceiver_ : msg.sender);
+
+        // Reserve & auto-mint Genesis Token #1 on deployment so Token #1 exists immediately for OpenSea's indexer
+        _availableIds[0] = MAX_SUPPLY;
+        remainingSupply = MAX_SUPPLY - 1;
+
+        GuardianAttributes memory attrs = _generateAttributes(1, msg.sender, 0);
+        guardianAttributes[1] = attrs;
+        _safeMint(msg.sender, 1);
+
+        emit GuardianSummoned(msg.sender, 1, attrs.beastType, attrs.element, attrs.powerRating);
+        emit MetadataUpdate(1);
+        emit BatchMetadataUpdate(1, MAX_SUPPLY);
+        emit ContractURIUpdated();
     }
 
     // ==========================================
@@ -295,6 +313,7 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
             _safeMint(msg.sender, tokenId);
 
             emit GuardianSummoned(msg.sender, tokenId, attrs.beastType, attrs.element, attrs.powerRating);
+            emit MetadataUpdate(tokenId);
         }
 
         // Direct forward of ETH tribute to designated treasury wallet
@@ -329,6 +348,7 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
 
             _safeMint(recipient, tokenId);
             emit GuardianSummoned(recipient, tokenId, attrs.beastType, attrs.element, attrs.powerRating);
+            emit MetadataUpdate(tokenId);
         }
     }
 
@@ -628,10 +648,12 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
 
     function setBaseURI(string memory newURI) external onlyOwner {
         _baseTokenURI = newURI;
+        emit BatchMetadataUpdate(1, MAX_SUPPLY);
     }
 
     function setContractURI(string memory newURI) external onlyOwner {
         _contractURI = newURI;
+        emit ContractURIUpdated();
     }
 
     function contractURI() external view returns (string memory) {
@@ -651,7 +673,7 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
     }
 
     function tokenURI(uint256 tokenId) public view override returns (string memory) {
-        require(_exists(tokenId), "ERC721: URI query for nonexistent token");
+        require(tokenId >= 1 && tokenId <= MAX_SUPPLY, "ERC721: invalid token ID");
         return string(abi.encodePacked(_baseTokenURI, _uint2str(tokenId), ".json"));
     }
 
@@ -675,6 +697,7 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
             interfaceId == type(IERC721).interfaceId ||
             interfaceId == type(IERC721Metadata).interfaceId ||
             interfaceId == type(IERC2981).interfaceId ||
+            interfaceId == bytes4(0x49064906) ||
             interfaceId == type(IERC165).interfaceId;
     }
 

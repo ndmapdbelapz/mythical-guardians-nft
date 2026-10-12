@@ -348,7 +348,7 @@ class GuardianApp {
   // ==========================================
   async loadContractArtifact() {
     try {
-      const res = await fetch('assets/MythicalGuardiansNFT.json');
+      const res = await fetch(`assets/MythicalGuardiansNFT.json?v=${Date.now()}`);
       this.contractArtifact = await res.json();
     } catch (e) {
       console.warn("Could not load contract artifact:", e);
@@ -358,16 +358,17 @@ class GuardianApp {
   async loadActiveContractAddress() {
     try {
       localStorage.removeItem('giwa_mythic_contract');
+      localStorage.removeItem('robinhood_mythic_contract');
       let data = null;
       try {
-        const res = await fetch('/api/contract');
+        const res = await fetch(`/api/contract?v=${Date.now()}`);
         if (res.ok) data = await res.json();
       } catch (_) {}
 
       // Fallback for static hosting (e.g. GitHub Pages)
-      if (!data || !data.address) {
+      if (!data) {
         try {
-          const res = await fetch('assets/contract_address.json');
+          const res = await fetch(`assets/contract_address.json?v=${Date.now()}`);
           if (res.ok) data = await res.json();
         } catch (_) {}
       }
@@ -375,13 +376,12 @@ class GuardianApp {
       if (data && data.address && data.chainId === ROBINHOOD_MAINNET_PARAMS.chainIdDec) {
         this.contractAddress = data.address;
       } else {
-        // Default to verified deployed Robinhood Chain contract
-        this.contractAddress = "0xb61B19e865738f8dAdd17CD4E1D516e9F00B88bB";
+        this.contractAddress = null;
       }
       this.updateContractUI();
       this.updateMintControlsUI();
     } catch (e) {
-      this.contractAddress = "0xb61B19e865738f8dAdd17CD4E1D516e9F00B88bB";
+      this.contractAddress = null;
       this.updateContractUI();
       this.updateMintControlsUI();
     }
@@ -658,8 +658,11 @@ class GuardianApp {
         badgeEl.style.borderColor = "#34c759";
         badgeEl.style.color = "#34c759";
       }
-      if (btnDeploy) btnDeploy.style.display = 'none';
-      if (btnCustom) btnCustom.style.display = 'none';
+      if (btnDeploy) {
+        btnDeploy.style.display = 'inline-block';
+        btnDeploy.innerText = "🚀 1-Click Deploy OpenSea-Ready Contract (Auto-Mints Token #1)";
+      }
+      if (btnCustom) btnCustom.style.display = 'inline-block';
       if (deployControls) deployControls.style.display = 'flex';
 
       // Initialize Ethers contract instance (with fallback public RPC)
@@ -671,7 +674,10 @@ class GuardianApp {
       if (addrEl) addrEl.innerText = "No contract deployed on Robinhood Chain yet. Click '1-Click Deploy' below!";
       if (linkEl) linkEl.style.display = 'none';
       if (btnFix) btnFix.style.display = 'none';
-      if (btnDeploy) btnDeploy.style.display = 'inline-block';
+      if (btnDeploy) {
+        btnDeploy.style.display = 'inline-block';
+        btnDeploy.innerText = "🚀 1-Click Deploy OpenSea-Ready Contract (Auto-Mints Token #1)";
+      }
       if (btnCustom) btnCustom.style.display = 'inline-block';
       if (deployControls) deployControls.style.display = 'flex';
       if (badgeEl) {
@@ -785,8 +791,11 @@ class GuardianApp {
     if (!this.userAddress) {
       this.showToast("Please connect your wallet first to deploy the contract.", 'info');
       await this.connectWallet(true);
-      return;
+      if (!this.userAddress) return;
     }
+
+    // Always reload latest compiled artifact before deploying
+    await this.loadContractArtifact();
 
     if (!this.contractArtifact || !this.contractArtifact.bytecode) {
       this.showToast("Contract bytecode not loaded! Please compile contracts first.", 'error');
@@ -820,7 +829,7 @@ class GuardianApp {
       }
 
       const payoutWallet = this.userAddress || DESTINATION_PAYOUT_WALLET;
-      this.showToast(`Deploying Celestial Guardians with 100% mint tribute & 5% royalties to ${payoutWallet.slice(0, 8)}... Confirm in wallet.`, 'info');
+      this.showToast(`Deploying OpenSea-Ready Contract (auto-mints Genesis Token #1 to ${payoutWallet.slice(0, 8)}...) — Confirm in wallet.`, 'info');
 
       const runner = this.signer || (await this.provider.getSigner());
       const factory = new ethers.ContractFactory(
@@ -831,8 +840,8 @@ class GuardianApp {
 
       const baseURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/metadata/json/";
       const contract = await factory.deploy(
-        "Celestial Guardians: Genesis Order",
-        "MYTHIC",
+        "Mythical Beasts & Guardians",
+        "MYTH",
         baseURI,
         payoutWallet
       );
@@ -848,15 +857,6 @@ class GuardianApp {
       const newAddress = await contract.getAddress();
       this.contractAddress = newAddress;
       localStorage.setItem('robinhood_mythic_contract', newAddress);
-
-      // Set OpenSea contract storefront URI if supported
-      try {
-        const contractURI = "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/contract_metadata.json";
-        if (typeof contract.setContractURI === 'function') {
-          const txUri = await contract.setContractURI(contractURI);
-          await txUri.wait();
-        }
-      } catch (uErr) {}
 
       // Save to server
       try {
@@ -876,17 +876,23 @@ class GuardianApp {
         });
       } catch (err) {}
 
-      this.walletTokens = [];
+      this.walletTokens = [1];
       this.updateContractUI();
       this.updateMintControlsUI();
-      this.showToast(`🎉 MythicalGuardiansNFT deployed to ${netName}!`, 'success', `${expUrl}/address/${newAddress}`, `View Contract on ${netName} ↗`);
+      await this.checkOnChainHoldings();
+      this.showToast(
+        `🎉 Deployed & Minted Genesis Token #1! Contract: ${newAddress.slice(0, 8)}...`,
+        'success',
+        `https://opensea.io/item/robinhood/${newAddress}/1`,
+        `🌊 View Token #1 on OpenSea ↗`
+      );
     } catch (err) {
       console.error("Deployment failed:", err);
       this.showToast(`Deployment failed: ${err.message}`, 'error');
     } finally {
       if (btnDeploy) {
         btnDeploy.disabled = false;
-        btnDeploy.innerText = "🚀 1-Click Deploy Contract to Robinhood Chain (0.0005 ETH Mint)";
+        btnDeploy.innerText = "🚀 1-Click Deploy OpenSea-Ready Contract (Auto-Mints Token #1)";
       }
       this.updateMintControlsUI();
     }
@@ -1007,7 +1013,7 @@ class GuardianApp {
     if (btnMint) {
       if (!this.contractAddress) {
         btnMint.disabled = false;
-        btnMint.innerText = '🚀 1-Click Deploy to Robinhood Chain';
+        btnMint.innerText = '🚀 1-Click Deploy OpenSea-Ready Contract (Auto-Mints Token #1)';
         btnMint.style.opacity = '1';
         btnMint.style.cursor = 'pointer';
       } else if (this.userAddress && ownedCount >= maxPerWallet) {
