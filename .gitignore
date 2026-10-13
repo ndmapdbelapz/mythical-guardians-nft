@@ -12,5 +12,5 @@ scratch/
 # OS / Editor files
 .DS_Store
 Thumbs.db
-*.log
 *.png
+!web/assets/*.png

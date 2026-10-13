@@ -1,6 +1,8 @@
 {
-  "name": "Celestial Guardians: Genesis Order",
-  "description": "Celestial 2,222 Genesis NFT Collection featuring legendary mythical beasts (Azure Dragon, Vermilion Bird, White Tiger, Black Tortoise, Nine-Tailed Fox, Qilin, Garuda, and Tengu). Powered by on-chain elemental affinities, verifiable trait DNA, and decentralized secondary trading on Robinhood Chain.",
-  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/OPENSEA_PROFILE_LOGO.png",
+  "name": "Mythical Beasts & Guardians",
+  "description": "2,222 sovereign celestial entities forged at the nexus of primordial elements. Featuring Azure Dragon, Vermilion Bird, White Tiger, Black Tortoise, Nine-Tailed Fox, Qilin, Garuda, and Tengu with on-chain elemental affinities, verifiable trait DNA, and decentralized trading on Robinhood Chain.",
+  "image": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/collection_logo.png",
+  "banner_image_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/collection_banner.png",
+  "featured_image_url": "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/collection_logo.png",
   "external_link": "https://ndmapdbelapz.github.io/mythical-guardians-nft/"
 }
