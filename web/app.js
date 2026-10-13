@@ -617,6 +617,11 @@ class GuardianApp {
       btnFix.addEventListener('click', () => this.fixActiveContractPrice());
     }
 
+    const btnSync = document.getElementById('btn-sync-metadata');
+    if (btnSync) {
+      btnSync.addEventListener('click', () => this.syncCleanMetadata());
+    }
+
     const btnUri = document.getElementById('btn-update-base-uri');
     if (btnUri) {
       btnUri.addEventListener('click', () => this.updateContractBaseURI());
@@ -717,7 +722,44 @@ class GuardianApp {
         if (btnFix) {
           btnFix.style.display = isOwner ? 'inline-block' : 'none';
         }
+        const btnSync = document.getElementById('btn-sync-metadata');
+        if (btnSync) {
+          btnSync.style.display = isOwner ? 'inline-block' : 'none';
+        }
       } catch (e) {}
+    }
+  }
+
+  async syncCleanMetadata() {
+    if (!this.contractAddress || !this.signer) {
+      this.showToast("Please connect your owner wallet first.", 'error');
+      await this.connectWallet(true);
+      return;
+    }
+    const btn = document.getElementById('btn-sync-metadata');
+    try {
+      if (btn) { btn.disabled = true; btn.innerText = "Broadcasting to Robinhood Chain..."; }
+      this.showToast("Broadcasting sanitized metadata to Robinhood Chain... Confirm in wallet.", "info");
+
+      const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, this.signer);
+      const owner = await contract.owner();
+      if (owner.toLowerCase() !== this.userAddress.toLowerCase()) {
+        this.showToast(`Only contract owner (${owner.slice(0, 6)}...${owner.slice(-4)}) can trigger metadata sync.`, "error");
+        return;
+      }
+
+      const cleanContractUri = "https://ndmapdbelapz.github.io/mythical-guardians-nft/web/assets/contract_metadata.json";
+      const tx = await contract.setContractURI(cleanContractUri);
+      const expUrl = ROBINHOOD_MAINNET_PARAMS.blockExplorerUrls[0];
+      this.showToast(`setContractURI broadcast! Hash: ${tx.hash.slice(0, 10)}...`, "info", `${expUrl}/tx/${tx.hash}`);
+      await tx.wait();
+
+      this.showToast(`✅ Metadata event emitted! OpenSea indexer has been signaled to re-index the collection.`, "success");
+    } catch (err) {
+      console.error(err);
+      this.showToast("Could not sync metadata: " + err.message, "error");
+    } finally {
+      if (btn) { btn.disabled = false; btn.innerText = "🔄 Broadcast Clean Metadata to OpenSea Indexer"; }
     }
   }
 
