@@ -2151,13 +2151,20 @@ class GuardianApp {
 
     const btnOpensea = document.getElementById('modal-btn-opensea');
     if (btnOpensea) {
-      const activeContract = this.contractAddress || "0xb61B19e865738f8dAdd17CD4E1D516e9F00B88bB";
+      const activeContract = this.contractAddress || "0x27a0A6B0DF634719863767832CBF99D3a80d65bd";
       let openseaBase = ROBINHOOD_MAINNET_PARAMS.openseaBase;
       if (this.currentChainId === ROBINHOOD_TESTNET_PARAMS.chainIdDec) {
         openseaBase = ROBINHOOD_TESTNET_PARAMS.openseaBase;
       }
       btnOpensea.href = `${openseaBase}/${activeContract}/${tokenId}`;
       btnOpensea.title = `Trade Guardian #${tokenId} on OpenSea`;
+    }
+
+    const btnShareX = document.getElementById('modal-btn-share-x');
+    if (btnShareX) {
+      const guardianName = token.name || `Guardian #${tokenId}`;
+      const tweetText = encodeURIComponent(`Exploring ${guardianName} from @mythicalguardia ⛩️⚡\n\nSummon your primordial Guardian on Robinhood Chain:\nhttps://mythicalguardians.xyz/`);
+      btnShareX.href = `https://x.com/intent/tweet?text=${tweetText}`;
     }
   }
 }
