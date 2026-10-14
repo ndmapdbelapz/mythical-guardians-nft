@@ -83,6 +83,11 @@ class GuardianApp {
     this.currentPage = 1;
     this.pageSize = 24;
 
+    // Collection Supply Tracking
+    this.collectionTotalSupply = 60;
+    this.maxCollectionSupply = 2222;
+    this.supplyPollInterval = null;
+
     this.init();
   }
 
@@ -99,6 +104,10 @@ class GuardianApp {
     this.initMintControls();
     this.initGalleryFilters();
     this.updateAltarStatus();
+    this.refreshCollectionSupply();
+    if (!this.supplyPollInterval) {
+      this.supplyPollInterval = setInterval(() => this.refreshCollectionSupply(), 25000);
+    }
   }
 
   // ==========================================
@@ -1024,6 +1033,54 @@ class GuardianApp {
   }
 
   // ==========================================
+  // Live Collection Supply & Mint Progress Bar
+  // ==========================================
+  async refreshCollectionSupply() {
+    try {
+      const contractAddr = this.contractAddress || "0x27a0A6B0DF634719863767832CBF99D3a80d65bd";
+      let rpcProvider = this.provider;
+      if (!rpcProvider) {
+        rpcProvider = new ethers.JsonRpcProvider("https://rpc.mainnet.chain.robinhood.com");
+      }
+      const abi = ["function totalSupply() view returns (uint256)"];
+      const readContract = new ethers.Contract(contractAddr, abi, rpcProvider);
+      const supply = await readContract.totalSupply();
+      const count = Number(supply);
+      if (!isNaN(count) && count > 0) {
+        this.collectionTotalSupply = count;
+      }
+    } catch (e) {
+      console.warn("Could not query on-chain totalSupply:", e);
+    } finally {
+      this.updateCollectionSupplyUI();
+    }
+  }
+
+  updateCollectionSupplyUI() {
+    const minted = this.collectionTotalSupply || 60;
+    const max = this.maxCollectionSupply || 2222;
+    const left = Math.max(0, max - minted);
+    const pct = ((minted / max) * 100).toFixed(1);
+
+    const elMinted = document.getElementById('mint-bar-minted-count');
+    const elMax = document.getElementById('mint-bar-max-supply');
+    const elLeft = document.getElementById('mint-bar-remaining-count');
+    const elPct = document.getElementById('mint-bar-percent');
+    const elFill = document.getElementById('mint-progress-fill');
+    const elGridVal = document.getElementById('mint-grid-minted-val');
+
+    if (elMinted) elMinted.innerText = minted.toLocaleString();
+    if (elMax) elMax.innerText = max.toLocaleString();
+    if (elLeft) elLeft.innerText = left.toLocaleString();
+    if (elPct) elPct.innerText = `${pct}%`;
+    if (elGridVal) elGridVal.innerText = `${minted.toLocaleString()} / ${max.toLocaleString()}`;
+    if (elFill) {
+      const visualPct = Math.max(1.8, Math.min(100, parseFloat(pct)));
+      elFill.style.width = `${visualPct}%`;
+    }
+  }
+
+  // ==========================================
   // Minting Engine (Robinhood Chain Mainnet)
   // ==========================================
   updateMintControlsUI() {
@@ -1291,6 +1348,7 @@ class GuardianApp {
       this.updateWalletUI();
       this.updateAltarStatus();
       this.updateMintControlsUI();
+      this.refreshCollectionSupply();
       if (typeof this.renderMarketplaceGrids === 'function') {
         this.renderMarketplaceGrids();
       }
