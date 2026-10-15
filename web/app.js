@@ -84,7 +84,7 @@ class GuardianApp {
     this.pageSize = 24;
 
     // Collection Supply Tracking
-    this.collectionTotalSupply = 60;
+    this.collectionTotalSupply = 350;
     this.maxCollectionSupply = 2222;
     this.supplyPollInterval = null;
 
@@ -1057,7 +1057,7 @@ class GuardianApp {
   }
 
   updateCollectionSupplyUI() {
-    const minted = this.collectionTotalSupply || 60;
+    const minted = this.collectionTotalSupply || 350;
     const max = this.maxCollectionSupply || 2222;
     const left = Math.max(0, max - minted);
     const pct = ((minted / max) * 100).toFixed(1);
