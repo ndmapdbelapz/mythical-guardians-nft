@@ -68,8 +68,8 @@ class GuardianApp {
     this.optimisticRemovedListings = {};
     this.currentMintQty = 1;
     this.mintPriceEth = 0.00004; // ~$0.10 USD (at ~$2,500/ETH)
-    this.maxPerWallet = 20;
-    this.maxPerTx = 20;
+    this.maxPerWallet = 5;
+    this.maxPerTx = 5;
     this.treasuryAddress = DESTINATION_PAYOUT_WALLET;
 
     // Web3 State
@@ -633,16 +633,6 @@ class GuardianApp {
       btnSyncHero.addEventListener('click', () => this.fixActiveContractPrice());
     }
 
-    const btnDeployV2Hero = document.getElementById('btn-deploy-v2-hero');
-    if (btnDeployV2Hero) {
-      btnDeployV2Hero.addEventListener('click', () => this.deployContractToRobinhood());
-    }
-
-    const btnDeployNotice = document.getElementById('btn-deploy-v2-notice');
-    if (btnDeployNotice) {
-      btnDeployNotice.addEventListener('click', () => this.deployContractToRobinhood());
-    }
-
     const btnSync = document.getElementById('btn-sync-metadata');
     if (btnSync) {
       btnSync.addEventListener('click', () => this.syncCleanMetadata());
@@ -737,9 +727,9 @@ class GuardianApp {
       totalEth.innerText = `${parseFloat(total)} ETH`;
     }
 
-    // Wallet Limit is strictly 20
-    this.maxPerWallet = 20;
-    this.maxPerTx = 20;
+    // Wallet Limit is strictly 5
+    this.maxPerWallet = 5;
+    this.maxPerTx = 5;
 
     let onChainPriceEth = 0.00004;
     try {
@@ -1140,29 +1130,23 @@ class GuardianApp {
     const btnInc = document.getElementById('btn-mint-inc');
     const btnDec = document.getElementById('btn-mint-dec');
 
-    const maxPerWallet = this.maxPerWallet || 20;
-    const maxPerTx = this.maxPerTx || 20;
+    const maxPerWallet = 5;
+    const maxPerTx = 5;
     const ownedCount = (this.userAddress && this.contractAddress) ? this.walletTokens.length : 0;
     const remainingToMint = Math.max(0, maxPerWallet - ownedCount);
 
     if (limitStatusEl) {
       const limitLbl = document.getElementById('mint-wallet-limit-lbl');
       if (!this.userAddress || !this.contractAddress) {
-        limitStatusEl.innerHTML = `<span style="color:var(--gold-light); font-weight:700;">Max ${maxPerWallet}</span>`;
+        limitStatusEl.innerHTML = `<span style="color:var(--gold-light); font-weight:700;">Max 5</span>`;
         if (limitLbl) limitLbl.innerText = 'Wallet Limit';
       } else if (ownedCount >= maxPerWallet) {
-        limitStatusEl.innerHTML = `<span style="color:#ff5252; font-weight:800;">${maxPerWallet} / ${maxPerWallet}</span>`;
+        limitStatusEl.innerHTML = `<span style="color:#ff5252; font-weight:800;">5 / 5</span>`;
         if (limitLbl) limitLbl.innerText = 'Limit Reached';
       } else {
-        limitStatusEl.innerHTML = `<span style="color:#34c759; font-weight:800;">${ownedCount} / ${maxPerWallet}</span>`;
+        limitStatusEl.innerHTML = `<span style="color:#34c759; font-weight:800;">${ownedCount} / 5</span>`;
         if (limitLbl) limitLbl.innerText = `${remainingToMint} Left`;
       }
-    }
-
-    const isV1Contract = (this.contractAddress && this.contractAddress.toLowerCase() === '0x27a0a6b0df634719863767832cbf99d3a80d65bd');
-    const v1Notice = document.getElementById('v1-limit-notice');
-    if (v1Notice) {
-      v1Notice.style.display = (isV1Contract && ownedCount >= 5) ? 'block' : 'none';
     }
 
     if (btnMint) {
@@ -1171,14 +1155,9 @@ class GuardianApp {
         btnMint.innerText = '🚀 1-Click Deploy OpenSea-Ready Contract (Auto-Mints Token #1)';
         btnMint.style.opacity = '1';
         btnMint.style.cursor = 'pointer';
-      } else if (isV1Contract && ownedCount >= 5) {
-        btnMint.disabled = false;
-        btnMint.innerText = '⚡ Summon Guardian (Switch Wallet / Deploy V2)';
-        btnMint.style.opacity = '1';
-        btnMint.style.cursor = 'pointer';
       } else if (this.userAddress && ownedCount >= maxPerWallet) {
         btnMint.disabled = true;
-        btnMint.innerText = `Max Limit Reached (${maxPerWallet}/${maxPerWallet} Minted)`;
+        btnMint.innerText = 'Max Limit Reached (5/5 Minted)';
         btnMint.style.opacity = '0.55';
         btnMint.style.cursor = 'not-allowed';
       } else {
@@ -1227,14 +1206,14 @@ class GuardianApp {
 
     if (btnInc) {
       btnInc.addEventListener('click', () => {
-        const maxPerWallet = this.maxPerWallet || 20;
-        const maxPerTx = this.maxPerTx || 20;
+        const maxPerWallet = 5;
+        const maxPerTx = 5;
         const ownedCount = (this.userAddress && this.contractAddress) ? this.walletTokens.length : 0;
         const remainingToMint = Math.max(0, maxPerWallet - ownedCount);
         const maxAllowedNow = Math.min(remainingToMint, maxPerTx);
 
         if (this.userAddress && remainingToMint <= 0) {
-          this.showToast(`Wallet limit reached: You already have ${maxPerWallet} Guardians in this wallet.`, 'error');
+          this.showToast(`Wallet limit reached: You already have 5 Guardians in this wallet.`, 'error');
           return;
         }
 
@@ -1242,7 +1221,7 @@ class GuardianApp {
           this.currentMintQty++;
           this.updateMintControlsUI();
         } else {
-          this.showToast(`Wallet limit reached: Maximum ${maxPerWallet} Guardians allowed per wallet (${ownedCount}/${maxPerWallet} owned).`, 'error');
+          this.showToast(`Wallet limit reached: Maximum 5 Guardians allowed per wallet (${ownedCount}/5 owned).`, 'error');
         }
       });
     }
@@ -1274,19 +1253,19 @@ class GuardianApp {
       return;
     }
 
-    // Dynamic wallet & transaction limit enforcement
-    const maxPerWallet = this.maxPerWallet || 20;
-    const maxPerTx = this.maxPerTx || 20;
+    // 5-per-wallet limit enforcement
+    const maxPerWallet = 5;
+    const maxPerTx = 5;
     const ownedCount = this.walletTokens.length;
 
     if (ownedCount >= maxPerWallet) {
-      this.showToast(`Wallet limit reached: Maximum ${maxPerWallet} Guardians allowed per wallet.`, 'error');
+      this.showToast(`Wallet limit reached: Maximum 5 Guardians allowed per wallet.`, 'error');
       this.updateMintControlsUI();
       return;
     }
 
     if (this.currentMintQty > maxPerTx) {
-      this.showToast(`Transaction limit: Maximum ${maxPerTx} Guardians per summon transaction.`, 'error');
+      this.showToast(`Transaction limit: Maximum 5 Guardians per summon transaction.`, 'error');
       this.currentMintQty = maxPerTx;
       this.updateMintControlsUI();
       return;
@@ -1294,7 +1273,7 @@ class GuardianApp {
 
     if (ownedCount + this.currentMintQty > maxPerWallet) {
       const allowed = Math.max(1, maxPerWallet - ownedCount);
-      this.showToast(`Wallet limit: You already have ${ownedCount}/${maxPerWallet} Guardians. You can only mint ${allowed} more.`, 'error');
+      this.showToast(`Wallet limit: You already have ${ownedCount}/5 Guardians. You can only mint ${allowed} more.`, 'error');
       this.currentMintQty = Math.min(allowed, maxPerTx);
       this.updateMintControlsUI();
       return;
@@ -1315,30 +1294,18 @@ class GuardianApp {
       try {
         onChainBal = Number(await contract.balanceOf(this.userAddress));
         if (onChainBal >= maxPerWallet) {
-          this.showToast(`Wallet limit reached: This wallet already owns ${maxPerWallet} Guardians on-chain.`, 'error');
+          this.showToast(`Wallet limit reached: This wallet already owns 5 Guardians on-chain.`, 'error');
           this.updateMintControlsUI();
           return;
         }
         if (onChainBal + this.currentMintQty > maxPerWallet) {
           const allowed = Math.max(1, maxPerWallet - onChainBal);
-          this.showToast(`Wallet limit: You own ${onChainBal}/${maxPerWallet} on-chain. You can only mint ${allowed} more.`, 'error');
+          this.showToast(`Wallet limit: You own ${onChainBal}/5 on-chain. You can only mint ${allowed} more.`, 'error');
           this.currentMintQty = Math.min(allowed, maxPerTx);
           this.updateMintControlsUI();
           return;
         }
       } catch (eBal) {}
-
-      // Contract v1 bytecode safety check (0x27a0... has hardcoded 5 in bytecode)
-      if (this.contractAddress.toLowerCase() === '0x27a0a6b0df634719863767832cbf99d3a80d65bd' && onChainBal + this.currentMintQty > 5) {
-        const v1Notice = document.getElementById('v1-limit-notice');
-        if (v1Notice) {
-          v1Notice.style.display = 'block';
-          v1Notice.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-        this.showToast("Contract 0x27a0... has an immutable 5-limit on-chain. Click 'Deploy V2 Contract' below to enable 20 per wallet, or switch to an alternate wallet in MetaMask!", 'warning');
-        if (btnMint) { btnMint.disabled = false; btnMint.innerText = '⚡ Summon Guardian (Switch Wallet / Deploy V2)'; }
-        return;
-      }
 
       // 1. Fetch on-chain mint price
       let mintPriceBn;

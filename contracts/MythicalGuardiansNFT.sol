@@ -89,8 +89,8 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
     uint256 public constant MAX_SUPPLY = 2222;
     uint256 public remainingSupply = 2222;
     uint256 public mintPrice = 0.00004 ether;
-    uint256 public maxMintPerTx = 20;
-    uint256 public maxPerWallet = 20;
+    uint256 public maxMintPerTx = 5;
+    uint256 public maxPerWallet = 5;
     mapping(address => uint256) public mintedPerWallet;
     bool public mintActive = true;
 
