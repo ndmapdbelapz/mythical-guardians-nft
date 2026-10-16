@@ -155,12 +155,15 @@
             ⚡ Summon Guardian
           </button>
 
-          <!-- Owner Price Quick Controls (Visible with Clear Role Status) -->
-          <div id="owner-quick-controls" style="display:none; margin-top:14px; padding:12px 14px; background:rgba(212,175,55,0.08); border:1px solid rgba(212,175,55,0.35); border-radius:10px; text-align:center;">
-            <div id="owner-quick-title" style="font-size:0.75rem; color:var(--gold-light); font-weight:800; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px;">
-              👑 Contract Owner Quick Controls
+          <!-- Owner Price Quick Controls (Always Visible & Actionable) -->
+          <div id="owner-quick-controls" style="margin-top:16px; padding:14px 16px; background:rgba(212,175,55,0.12); border:1px solid #d4af37; border-radius:10px; text-align:center;">
+            <div id="owner-quick-title" style="font-size:0.8rem; color:var(--gold-light); font-weight:800; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px;">
+              👑 CONTRACT OWNER: SET MINT PRICE TO $0.10 (0.00004 ETH)
             </div>
-            <button id="btn-sync-price-hero" class="btn-gold" style="font-size:0.8rem; padding:8px 14px; width:100%; cursor:pointer;">
+            <p style="font-size:0.75rem; color:#ccc; margin-bottom:10px; line-height:1.4;">
+              Robinhood Chain requires the deployer account (<code>0xC7F9...6B07</code>) to send a 1-time on-chain transaction to update the tribute.
+            </p>
+            <button id="btn-sync-price-hero" class="btn-gold" style="font-size:0.85rem; padding:10px 16px; width:100%; cursor:pointer; font-weight:700;">
               ⚡ Write $0.10 (0.00004 ETH) Price to Active Contract
             </button>
           </div>
@@ -756,6 +759,6 @@
   <script src="ethers.umd.min.js"></script>
   <script src="audio.js"></script>
   <script src="game.js"></script>
-  <script src="app.js?v=11"></script>
+  <script src="app.js?v=12"></script>
 </body>
 </html>

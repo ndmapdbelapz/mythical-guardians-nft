@@ -785,14 +785,13 @@ class GuardianApp {
     }
 
     if (ownerQuick) {
-      if (isOwner) {
-        ownerQuick.style.display = 'block';
-        if (ownerTitle) ownerTitle.innerText = "👑 Contract Owner Controls (Ready to Update)";
-      } else if (!isPriceSynced) {
-        ownerQuick.style.display = 'block';
-        if (ownerTitle) ownerTitle.innerText = "🔒 Contract Owner Action Required";
+      ownerQuick.style.display = 'block';
+      if (isPriceSynced) {
+        if (ownerTitle) ownerTitle.innerText = "✅ CONTRACT PRICE VERIFIED: $0.10 (0.00004 ETH)";
+      } else if (isOwner) {
+        if (ownerTitle) ownerTitle.innerText = "👑 CONTRACT OWNER (YOU): READY TO UPDATE PRICE";
       } else {
-        ownerQuick.style.display = 'none';
+        if (ownerTitle) ownerTitle.innerText = "👑 CONTRACT OWNER: SET MINT PRICE TO $0.10";
       }
     }
 
@@ -807,9 +806,9 @@ class GuardianApp {
         btnSyncHero.disabled = false;
       } else {
         const shortOwner = ownerAddr ? `${ownerAddr.slice(0, 6)}...${ownerAddr.slice(-4)}` : '0xC7F9...6B07';
-        btnSyncHero.innerText = `🔒 Switch to Deployer (${shortOwner}) in MetaMask to Update Price`;
-        btnSyncHero.style.opacity = "0.85";
-        btnSyncHero.disabled = true;
+        btnSyncHero.innerText = `⚡ Click to Write 0.00004 ETH ($0.10) Price (Requires Owner ${shortOwner})`;
+        btnSyncHero.style.opacity = "1";
+        btnSyncHero.disabled = false;
       }
     }
 
@@ -892,18 +891,32 @@ class GuardianApp {
   }
 
   async fixActiveContractPrice() {
-    if (!this.contractAddress || !this.signer) {
-      this.showToast("Please connect your wallet first.", 'error');
-      return;
+    if (!this.userAddress || !this.signer) {
+      this.showToast("Connecting wallet to Robinhood Chain...", 'info');
+      await this.connectWallet(true);
+      if (!this.userAddress || !this.signer) return;
     }
     const btn = document.getElementById('btn-fix-mint-price');
     const btnHero = document.getElementById('btn-sync-price-hero');
+
+    const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, this.signer);
+    let ownerAddr = "";
+    try {
+      ownerAddr = await contract.owner();
+    } catch (e) {}
+
+    if (ownerAddr && ownerAddr.toLowerCase() !== this.userAddress.toLowerCase()) {
+      const shortOwner = `${ownerAddr.slice(0, 6)}...${ownerAddr.slice(-4)}`;
+      this.showToast(`Action Restricted: Connected as ${this.userAddress.slice(0,6)}... Must switch to owner (${shortOwner}) in MetaMask!`, 'error');
+      alert(`⚠️ Switch Account in MetaMask\n\nYour connected account:\n${this.userAddress}\n\nContract deployer / owner:\n${ownerAddr}\n\nRobinhood Chain only allows the owner to change the price. Please switch accounts at the top of MetaMask to ${shortOwner}, then click this button again!`);
+      return;
+    }
+
     try {
       if (btn) { btn.disabled = true; btn.innerText = "Adjusting on Robinhood Chain..."; }
       if (btnHero) { btnHero.disabled = true; btnHero.innerText = "⏳ Confirm Price Update in MetaMask..."; }
       this.showToast("Setting mint price to 0.00004 ETH (~$0.10 USD)... Confirm in wallet.", "info");
 
-      const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, this.signer);
       const tx = await contract.setMintPrice(ethers.parseEther("0.00004"));
       const expUrl = ROBINHOOD_MAINNET_PARAMS.blockExplorerUrls[0];
       this.showToast(`Adjustment tx broadcast! ${tx.hash.slice(0, 10)}...`, "info", `${expUrl}/tx/${tx.hash}`);
