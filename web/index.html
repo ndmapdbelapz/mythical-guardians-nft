@@ -147,14 +147,17 @@
             </div>
           </div>
 
+          <!-- On-Chain Price Sync Notice Banner -->
+          <div id="mint-price-status-banner" style="display:none; margin:12px 0; padding:10px 14px; border-radius:8px; font-size:0.82rem; line-height:1.4;"></div>
+
           <!-- Action Summon Button -->
           <button id="btn-summon-action" class="btn-summon-hero">
             ⚡ Summon Guardian
           </button>
 
-          <!-- Owner Price Quick Controls (Visible Only to Contract Owner) -->
+          <!-- Owner Price Quick Controls (Visible with Clear Role Status) -->
           <div id="owner-quick-controls" style="display:none; margin-top:14px; padding:12px 14px; background:rgba(212,175,55,0.08); border:1px solid rgba(212,175,55,0.35); border-radius:10px; text-align:center;">
-            <div style="font-size:0.75rem; color:var(--gold-light); font-weight:800; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px;">
+            <div id="owner-quick-title" style="font-size:0.75rem; color:var(--gold-light); font-weight:800; letter-spacing:1px; text-transform:uppercase; margin-bottom:6px;">
               👑 Contract Owner Quick Controls
             </div>
             <button id="btn-sync-price-hero" class="btn-gold" style="font-size:0.8rem; padding:8px 14px; width:100%; cursor:pointer;">
@@ -753,6 +756,6 @@
   <script src="ethers.umd.min.js"></script>
   <script src="audio.js"></script>
   <script src="game.js"></script>
-  <script src="app.js?v=10"></script>
+  <script src="app.js?v=11"></script>
 </body>
 </html>
