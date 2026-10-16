@@ -17,7 +17,7 @@ const { ethers } = require('ethers');
 const fs = require('fs');
 const path = require('path');
 
-const DESTINATION_WALLET = '0xb862866110dbF9aD25d25A85422101d0b03615c3';
+const DESTINATION_WALLET = '0xC7F9B41E07a1CC37b551A3D0814E1ba15F2B6B07';
 
 const NETWORKS = {
   testnet: {

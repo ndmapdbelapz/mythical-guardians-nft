@@ -10,7 +10,7 @@
  */
 
 // Destination Wallet for 100% Mint Funds & 5% OpenSea Royalties
-const DESTINATION_PAYOUT_WALLET = "0xb862866110dbF9aD25d25A85422101d0b03615c3";
+const DESTINATION_PAYOUT_WALLET = "0xC7F9B41E07a1CC37b551A3D0814E1ba15F2B6B07";
 
 // Robinhood Chain Networks (Arbitrum Orbit L2)
 const ROBINHOOD_MAINNET_PARAMS = {
@@ -623,7 +623,10 @@ class GuardianApp {
       btnCustom.addEventListener('click', () => this.setCustomContractPrompt());
     }
 
-
+    const btnTreasury = document.getElementById('btn-set-treasury');
+    if (btnTreasury) {
+      btnTreasury.addEventListener('click', () => this.updateContractTreasury());
+    }
 
     const btnSync = document.getElementById('btn-sync-metadata');
     if (btnSync) {
@@ -725,8 +728,10 @@ class GuardianApp {
     }
 
     let isOwner = false;
+    let currentTreasury = "";
     try {
       const ownerAddr = await this.contract.owner();
+      currentTreasury = await this.contract.treasury();
       if (this.userAddress) {
         isOwner = (ownerAddr.toLowerCase() === this.userAddress.toLowerCase());
       }
@@ -737,17 +742,48 @@ class GuardianApp {
       btnSync.style.display = isOwner ? 'inline-block' : 'none';
     }
 
+    const btnTreasury = document.getElementById('btn-set-treasury');
+    if (btnTreasury) {
+      if (isOwner && currentTreasury.toLowerCase() !== this.userAddress.toLowerCase()) {
+        btnTreasury.style.display = 'inline-block';
+        btnTreasury.innerText = `💰 Direct Mint Funds to My Wallet (${this.userAddress.slice(0,6)}...${this.userAddress.slice(-4)})`;
+      } else {
+        btnTreasury.style.display = 'none';
+      }
+    }
+
     this.updateMintControlsUI();
 
     try {
       const treasuryAddr = await this.contract.treasury();
       this.treasuryAddress = treasuryAddr;
-      const tributeRecipientEl = document.getElementById('tribute-recipient-addr');
-      if (tributeRecipientEl) {
-        tributeRecipientEl.innerText = `${treasuryAddr.slice(0, 6)}...${treasuryAddr.slice(-4)}`;
-        tributeRecipientEl.title = treasuryAddr;
-      }
     } catch (e) {}
+  }
+
+  async updateContractTreasury() {
+    if (!this.contractAddress || !this.signer) {
+      this.showToast("Please connect your wallet first.", 'error');
+      await this.connectWallet(true);
+      if (!this.signer) return;
+    }
+    const btn = document.getElementById('btn-set-treasury');
+    try {
+      if (btn) { btn.disabled = true; btn.innerText = "Confirm in MetaMask..."; }
+      this.showToast(`Updating mint payout recipient to ${this.userAddress}... Confirm in MetaMask.`, "info");
+      const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, this.signer);
+      const tx = await contract.setTreasury(this.userAddress);
+      const expUrl = ROBINHOOD_MAINNET_PARAMS.blockExplorerUrls[0];
+      this.showToast(`Treasury tx broadcast! ${tx.hash.slice(0, 10)}...`, "info", `${expUrl}/tx/${tx.hash}`);
+      if (btn) btn.innerText = "Confirming on Robinhood Chain...";
+      await tx.wait();
+      await this.refreshContractOnChainInfo();
+      this.showToast(`✅ Treasury successfully set to ${this.userAddress}! All future mint funds will go directly to your wallet.`, "success");
+    } catch (err) {
+      console.error(err);
+      this.showToast("Could not update treasury: " + err.message, "error");
+    } finally {
+      if (btn) btn.disabled = false;
+    }
   }
 
   async syncCleanMetadata() {
