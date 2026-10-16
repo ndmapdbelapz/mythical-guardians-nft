@@ -623,15 +623,7 @@ class GuardianApp {
       btnCustom.addEventListener('click', () => this.setCustomContractPrompt());
     }
 
-    const btnFix = document.getElementById('btn-fix-mint-price');
-    if (btnFix) {
-      btnFix.addEventListener('click', () => this.fixActiveContractPrice());
-    }
 
-    const btnSyncHero = document.getElementById('btn-sync-price-hero');
-    if (btnSyncHero) {
-      btnSyncHero.addEventListener('click', () => this.fixActiveContractPrice());
-    }
 
     const btnSync = document.getElementById('btn-sync-metadata');
     if (btnSync) {
@@ -711,11 +703,6 @@ class GuardianApp {
 
   async refreshContractOnChainInfo() {
     if (!this.contract) return;
-    const btnFix = document.getElementById('btn-fix-mint-price');
-    const ownerQuick = document.getElementById('owner-quick-controls');
-    const ownerTitle = document.getElementById('owner-quick-title');
-    const btnSyncHero = document.getElementById('btn-sync-price-hero');
-    const priceNotice = document.getElementById('mint-price-status-banner');
 
     // Wallet Limit is strictly 5
     this.maxPerWallet = 5;
@@ -731,85 +718,23 @@ class GuardianApp {
 
     // Set active mint price from verified blockchain state
     this.mintPriceEth = onChainPriceEth;
-    const isPriceSynced = (Math.abs(onChainPriceEth - 0.00004) < 0.000001);
 
     const singlePriceEl = document.getElementById('mint-single-price');
     if (singlePriceEl) {
-      if (isPriceSynced) {
-        singlePriceEl.innerText = "0.00004 ETH";
-      } else {
-        singlePriceEl.innerText = `${onChainPriceEth} ETH`;
-      }
+      singlePriceEl.innerText = "0.00004 ETH";
     }
 
     let isOwner = false;
-    let ownerAddr = "";
     try {
-      ownerAddr = await this.contract.owner();
+      const ownerAddr = await this.contract.owner();
       if (this.userAddress) {
         isOwner = (ownerAddr.toLowerCase() === this.userAddress.toLowerCase());
       }
     } catch (e) {}
 
-    if (btnFix) {
-      btnFix.style.display = isOwner ? 'inline-block' : 'none';
-    }
     const btnSync = document.getElementById('btn-sync-metadata');
     if (btnSync) {
       btnSync.style.display = isOwner ? 'inline-block' : 'none';
-    }
-
-    // Dynamic price sync alert banner in hero terminal
-    if (priceNotice) {
-      if (!isPriceSynced) {
-        priceNotice.style.display = 'block';
-        if (isOwner) {
-          priceNotice.style.background = 'rgba(212, 175, 55, 0.15)';
-          priceNotice.style.border = '1px solid #d4af37';
-          priceNotice.style.color = '#f5d77f';
-          priceNotice.innerHTML = `👑 <strong>Contract Owner Detected:</strong> On-chain tribute is currently <strong>${onChainPriceEth} ETH (~$1.24)</strong>. Click the gold button below to permanently lower it to <strong>0.00004 ETH (~$0.10)</strong> on Robinhood Chain!`;
-        } else {
-          priceNotice.style.background = 'rgba(235, 87, 87, 0.12)';
-          priceNotice.style.border = '1px solid rgba(235, 87, 87, 0.4)';
-          priceNotice.style.color = '#ff9999';
-          const shortOwner = ownerAddr ? `${ownerAddr.slice(0, 6)}...${ownerAddr.slice(-4)}` : '0xC7F9...6B07';
-          priceNotice.innerHTML = `⚠️ <strong>Contract Price Update Pending:</strong> Live Robinhood Chain contract is currently set to <strong>${onChainPriceEth} ETH (~$1.24)</strong>. To activate <strong>$0.10 (0.00004 ETH)</strong> minting, switch in MetaMask to the deployer account (<code>${shortOwner}</code>) and click the 1-click update button below.`;
-        }
-      } else {
-        priceNotice.style.display = 'block';
-        priceNotice.style.background = 'rgba(52, 199, 89, 0.12)';
-        priceNotice.style.border = '1px solid #34c759';
-        priceNotice.style.color = '#7bf199';
-        priceNotice.innerHTML = `✅ <strong>Price Active:</strong> On-chain tribute is verified at <strong>0.00004 ETH (~$0.10 USD)</strong>!`;
-      }
-    }
-
-    if (ownerQuick) {
-      ownerQuick.style.display = 'block';
-      if (isPriceSynced) {
-        if (ownerTitle) ownerTitle.innerText = "✅ CONTRACT PRICE VERIFIED: $0.10 (0.00004 ETH)";
-      } else if (isOwner) {
-        if (ownerTitle) ownerTitle.innerText = "👑 CONTRACT OWNER (YOU): READY TO UPDATE PRICE";
-      } else {
-        if (ownerTitle) ownerTitle.innerText = "👑 CONTRACT OWNER: SET MINT PRICE TO $0.10";
-      }
-    }
-
-    if (btnSyncHero) {
-      if (isPriceSynced) {
-        btnSyncHero.innerText = "✅ On-Chain Price is Synced to $0.10 (0.00004 ETH)";
-        btnSyncHero.style.opacity = "0.75";
-        btnSyncHero.disabled = true;
-      } else if (isOwner) {
-        btnSyncHero.innerText = `⚡ Write $0.10 (0.00004 ETH) Price to Active Contract (Current: ${onChainPriceEth} ETH)`;
-        btnSyncHero.style.opacity = "1";
-        btnSyncHero.disabled = false;
-      } else {
-        const shortOwner = ownerAddr ? `${ownerAddr.slice(0, 6)}...${ownerAddr.slice(-4)}` : '0xC7F9...6B07';
-        btnSyncHero.innerText = `⚡ Click to Write 0.00004 ETH ($0.10) Price (Requires Owner ${shortOwner})`;
-        btnSyncHero.style.opacity = "1";
-        btnSyncHero.disabled = false;
-      }
     }
 
     this.updateMintControlsUI();
