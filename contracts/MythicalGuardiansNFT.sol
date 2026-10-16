@@ -88,11 +88,15 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
 
     uint256 public constant MAX_SUPPLY = 2222;
     uint256 public remainingSupply = 2222;
-    uint256 public mintPrice = 0.0005 ether;
-    uint256 public maxMintPerTx = 5;
-    uint256 public constant MAX_PER_WALLET = 5;
+    uint256 public mintPrice = 0.00004 ether;
+    uint256 public maxMintPerTx = 20;
+    uint256 public maxPerWallet = 20;
     mapping(address => uint256) public mintedPerWallet;
     bool public mintActive = true;
+
+    function MAX_PER_WALLET() external view returns (uint256) {
+        return maxPerWallet;
+    }
 
     // Fisher-Yates Random Token ID Shuffler (1 to 2222)
     mapping(uint256 => uint256) private _availableIds;
@@ -286,7 +290,7 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
     function summonGuardians(uint256 quantity) external payable {
         require(mintActive, "Summoning portal is dormant");
         require(quantity > 0 && quantity <= maxMintPerTx, "Invalid summon quantity");
-        require(mintedPerWallet[msg.sender] + quantity <= MAX_PER_WALLET, "Exceeds max 5 per wallet limit");
+        require(mintedPerWallet[msg.sender] + quantity <= maxPerWallet, "Exceeds max per wallet limit");
         require(remainingSupply >= quantity, "Exceeds remaining guardian supply");
         require(msg.value >= mintPrice * quantity, "Insufficient tribute");
 
@@ -662,6 +666,16 @@ contract MythicalGuardiansNFT is Context, Ownable, IERC721, IERC721Metadata, IER
 
     function setMintPrice(uint256 newPrice) external onlyOwner {
         mintPrice = newPrice;
+    }
+
+    function setMaxPerWallet(uint256 newLimit) external onlyOwner {
+        require(newLimit > 0, "Limit must be greater than zero");
+        maxPerWallet = newLimit;
+    }
+
+    function setMaxMintPerTx(uint256 newLimit) external onlyOwner {
+        require(newLimit > 0, "Limit must be greater than zero");
+        maxMintPerTx = newLimit;
     }
 
     function setMintActive(bool active) external onlyOwner {

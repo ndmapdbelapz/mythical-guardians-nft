@@ -67,7 +67,9 @@ class GuardianApp {
     this.activeListings = [];
     this.optimisticRemovedListings = {};
     this.currentMintQty = 1;
-    this.mintPriceEth = 0.0005; // Friendly testnet mint tribute
+    this.mintPriceEth = 0.00004; // ~$0.10 USD (at ~$2,500/ETH)
+    this.maxPerWallet = 20;
+    this.maxPerTx = 20;
     this.treasuryAddress = DESTINATION_PAYOUT_WALLET;
 
     // Web3 State
@@ -695,7 +697,7 @@ class GuardianApp {
       if (btnCustom) btnCustom.style.display = 'inline-block';
       if (deployControls) deployControls.style.display = 'flex';
       if (badgeEl) {
-        badgeEl.innerText = "🟡 Ready to Deploy to Robinhood Chain (0.0005 ETH Mint)";
+        badgeEl.innerText = "🟡 Ready to Deploy to Robinhood Chain (0.00004 ETH Mint / Max 20)";
         badgeEl.style.borderColor = "#d4af37";
         badgeEl.style.color = "#d4af37";
       }
@@ -709,10 +711,40 @@ class GuardianApp {
       const priceBn = await this.contract.mintPrice();
       this.mintPriceEth = parseFloat(ethers.formatEther(priceBn));
       const singlePriceEl = document.getElementById('mint-single-price');
-      if (singlePriceEl) singlePriceEl.innerText = `${this.mintPriceEth} ETH`;
+      if (singlePriceEl) {
+        if (Math.abs(this.mintPriceEth - 0.00004) < 0.000001) {
+          singlePriceEl.innerText = "0.00004 ETH (~$0.10)";
+        } else {
+          const approxUsd = (this.mintPriceEth * 2500).toFixed(2);
+          singlePriceEl.innerText = `${this.mintPriceEth} ETH (~$${approxUsd})`;
+        }
+      }
       const totalEth = document.getElementById('mint-total-eth');
-      if (totalEth) totalEth.innerText = (this.currentMintQty * this.mintPriceEth).toFixed(4) + " ETH";
+      if (totalEth) {
+        const total = (this.currentMintQty * this.mintPriceEth).toFixed(5);
+        totalEth.innerText = `${parseFloat(total)} ETH`;
+      }
     } catch (e) {}
+
+    try {
+      if (typeof this.contract.maxPerWallet === 'function') {
+        this.maxPerWallet = Number(await this.contract.maxPerWallet());
+      } else if (typeof this.contract.MAX_PER_WALLET === 'function') {
+        this.maxPerWallet = Number(await this.contract.MAX_PER_WALLET());
+      }
+    } catch (e) {
+      this.maxPerWallet = 20;
+    }
+
+    try {
+      if (typeof this.contract.maxMintPerTx === 'function') {
+        this.maxPerTx = Number(await this.contract.maxMintPerTx());
+      }
+    } catch (e) {
+      this.maxPerTx = 20;
+    }
+
+    this.updateMintControlsUI();
 
     try {
       const treasuryAddr = await this.contract.treasury();
@@ -812,10 +844,10 @@ class GuardianApp {
     const btn = document.getElementById('btn-fix-mint-price');
     try {
       if (btn) { btn.disabled = true; btn.innerText = "Adjusting on Robinhood Chain..."; }
-      this.showToast("Lowering mint price to 0.0005 ETH... Confirm in wallet.", "info");
+      this.showToast("Setting mint price to 0.00004 ETH (~$0.10 USD)... Confirm in wallet.", "info");
 
       const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, this.signer);
-      const tx = await contract.setMintPrice(ethers.parseEther("0.0005"));
+      const tx = await contract.setMintPrice(ethers.parseEther("0.00004"));
       const expUrl = ROBINHOOD_MAINNET_PARAMS.blockExplorerUrls[0];
       this.showToast(`Adjustment tx broadcast! ${tx.hash.slice(0, 10)}...`, "info", `${expUrl}/tx/${tx.hash}`);
       await tx.wait();
@@ -827,14 +859,14 @@ class GuardianApp {
         }
       } catch (tErr) {}
 
-      this.mintPriceEth = 0.0005;
+      this.mintPriceEth = 0.00004;
       await this.refreshContractOnChainInfo();
-      this.showToast("✅ Active contract mint price lowered to 0.0005 ETH!", "success");
+      this.showToast("✅ Active contract mint price updated to 0.00004 ETH (~$0.10 USD)!", "success");
     } catch (err) {
       console.error(err);
       this.showToast("Could not adjust price: " + err.message, "error");
     } finally {
-      if (btn) { btn.disabled = false; btn.innerText = "🔧 Set Active Contract Price to 0.0005 ETH"; }
+      if (btn) { btn.disabled = false; btn.innerText = "⚡ Set Active Contract Price to 0.00004 ETH (~$0.10 USD)"; }
     }
   }
 
@@ -1091,20 +1123,21 @@ class GuardianApp {
     const btnInc = document.getElementById('btn-mint-inc');
     const btnDec = document.getElementById('btn-mint-dec');
 
-    const maxPerWallet = 5;
+    const maxPerWallet = this.maxPerWallet || 20;
+    const maxPerTx = this.maxPerTx || 20;
     const ownedCount = (this.userAddress && this.contractAddress) ? this.walletTokens.length : 0;
     const remainingToMint = Math.max(0, maxPerWallet - ownedCount);
 
     if (limitStatusEl) {
       const limitLbl = document.getElementById('mint-wallet-limit-lbl');
       if (!this.userAddress || !this.contractAddress) {
-        limitStatusEl.innerHTML = `<span style="color:var(--gold-light); font-weight:700;">Max 5</span>`;
+        limitStatusEl.innerHTML = `<span style="color:var(--gold-light); font-weight:700;">Max ${maxPerWallet}</span>`;
         if (limitLbl) limitLbl.innerText = 'Wallet Limit';
       } else if (ownedCount >= maxPerWallet) {
-        limitStatusEl.innerHTML = `<span style="color:#ff5252; font-weight:800;">5 / 5</span>`;
+        limitStatusEl.innerHTML = `<span style="color:#ff5252; font-weight:800;">${maxPerWallet} / ${maxPerWallet}</span>`;
         if (limitLbl) limitLbl.innerText = 'Limit Reached';
       } else {
-        limitStatusEl.innerHTML = `<span style="color:#34c759; font-weight:800;">${ownedCount} / 5</span>`;
+        limitStatusEl.innerHTML = `<span style="color:#34c759; font-weight:800;">${ownedCount} / ${maxPerWallet}</span>`;
         if (limitLbl) limitLbl.innerText = `${remainingToMint} Left`;
       }
     }
@@ -1117,7 +1150,7 @@ class GuardianApp {
         btnMint.style.cursor = 'pointer';
       } else if (this.userAddress && ownedCount >= maxPerWallet) {
         btnMint.disabled = true;
-        btnMint.innerText = 'Max Limit Reached (5/5 Minted)';
+        btnMint.innerText = `Max Limit Reached (${maxPerWallet}/${maxPerWallet} Minted)`;
         btnMint.style.opacity = '0.55';
         btnMint.style.cursor = 'not-allowed';
       } else {
@@ -1128,18 +1161,22 @@ class GuardianApp {
       }
     }
 
-    if (remainingToMint > 0) {
-      this.currentMintQty = Math.min(this.currentMintQty, remainingToMint);
+    const maxAllowedNow = Math.min(remainingToMint, maxPerTx);
+    if (maxAllowedNow > 0) {
+      this.currentMintQty = Math.min(this.currentMintQty, maxAllowedNow);
       if (this.currentMintQty < 1) this.currentMintQty = 1;
     } else {
       this.currentMintQty = 1;
     }
 
     if (qtyText) qtyText.innerText = this.currentMintQty;
-    if (totalEth) totalEth.innerText = (this.currentMintQty * this.mintPriceEth).toFixed(4) + " ETH";
+    if (totalEth) {
+      const total = (this.currentMintQty * this.mintPriceEth).toFixed(5);
+      totalEth.innerText = `${parseFloat(total)} ETH`;
+    }
 
     if (btnInc) {
-      btnInc.disabled = (this.currentMintQty >= remainingToMint || remainingToMint === 0);
+      btnInc.disabled = (this.currentMintQty >= maxAllowedNow || remainingToMint === 0);
     }
     if (btnDec) {
       btnDec.disabled = (this.currentMintQty <= 1);
@@ -1150,8 +1187,6 @@ class GuardianApp {
     const btnDec = document.getElementById('btn-mint-dec');
     const btnInc = document.getElementById('btn-mint-inc');
     const btnMint = document.getElementById('btn-summon-action');
-
-    const maxPerWallet = 5;
 
     if (btnDec) {
       btnDec.addEventListener('click', () => {
@@ -1164,19 +1199,22 @@ class GuardianApp {
 
     if (btnInc) {
       btnInc.addEventListener('click', () => {
+        const maxPerWallet = this.maxPerWallet || 20;
+        const maxPerTx = this.maxPerTx || 20;
         const ownedCount = (this.userAddress && this.contractAddress) ? this.walletTokens.length : 0;
         const remainingToMint = Math.max(0, maxPerWallet - ownedCount);
+        const maxAllowedNow = Math.min(remainingToMint, maxPerTx);
 
         if (this.userAddress && remainingToMint <= 0) {
-          this.showToast("Wallet limit reached: You already have 5 Guardians in this wallet.", 'error');
+          this.showToast(`Wallet limit reached: You already have ${maxPerWallet} Guardians in this wallet.`, 'error');
           return;
         }
 
-        if (this.currentMintQty < remainingToMint) {
+        if (this.currentMintQty < maxAllowedNow) {
           this.currentMintQty++;
           this.updateMintControlsUI();
         } else {
-          this.showToast(`Wallet limit reached: Maximum 5 Guardians allowed per wallet (${ownedCount}/5 owned).`, 'error');
+          this.showToast(`Wallet limit reached: Maximum ${maxPerWallet} Guardians allowed per wallet (${ownedCount}/${maxPerWallet} owned).`, 'error');
         }
       });
     }
@@ -1208,20 +1246,28 @@ class GuardianApp {
       return;
     }
 
-    // STRICT 5-PER-WALLET LIMIT ENFORCEMENT
-    const maxPerWallet = 5;
+    // Dynamic wallet & transaction limit enforcement
+    const maxPerWallet = this.maxPerWallet || 20;
+    const maxPerTx = this.maxPerTx || 20;
     const ownedCount = this.walletTokens.length;
 
     if (ownedCount >= maxPerWallet) {
-      this.showToast("Wallet limit reached: Maximum 5 Guardians allowed per wallet.", 'error');
+      this.showToast(`Wallet limit reached: Maximum ${maxPerWallet} Guardians allowed per wallet.`, 'error');
+      this.updateMintControlsUI();
+      return;
+    }
+
+    if (this.currentMintQty > maxPerTx) {
+      this.showToast(`Transaction limit: Maximum ${maxPerTx} Guardians per summon transaction.`, 'error');
+      this.currentMintQty = maxPerTx;
       this.updateMintControlsUI();
       return;
     }
 
     if (ownedCount + this.currentMintQty > maxPerWallet) {
       const allowed = Math.max(1, maxPerWallet - ownedCount);
-      this.showToast(`Wallet limit: You already have ${ownedCount}/5 Guardians. You can only mint ${allowed} more.`, 'error');
-      this.currentMintQty = allowed;
+      this.showToast(`Wallet limit: You already have ${ownedCount}/${maxPerWallet} Guardians. You can only mint ${allowed} more.`, 'error');
+      this.currentMintQty = Math.min(allowed, maxPerTx);
       this.updateMintControlsUI();
       return;
     }
@@ -1236,18 +1282,18 @@ class GuardianApp {
       const runner = this.signer || (await this.provider.getSigner());
       const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, runner);
 
-      // On-chain balance validation for 5 per wallet
+      // On-chain balance validation for wallet limit
       try {
         const onChainBal = Number(await contract.balanceOf(this.userAddress));
         if (onChainBal >= maxPerWallet) {
-          this.showToast("Wallet limit reached: This wallet already owns 5 Guardians on-chain.", 'error');
+          this.showToast(`Wallet limit reached: This wallet already owns ${maxPerWallet} Guardians on-chain.`, 'error');
           this.updateMintControlsUI();
           return;
         }
         if (onChainBal + this.currentMintQty > maxPerWallet) {
           const allowed = Math.max(1, maxPerWallet - onChainBal);
-          this.showToast(`Wallet limit: You own ${onChainBal}/5 on-chain. You can only mint ${allowed} more.`, 'error');
-          this.currentMintQty = allowed;
+          this.showToast(`Wallet limit: You own ${onChainBal}/${maxPerWallet} on-chain. You can only mint ${allowed} more.`, 'error');
+          this.currentMintQty = Math.min(allowed, maxPerTx);
           this.updateMintControlsUI();
           return;
         }
@@ -1258,7 +1304,7 @@ class GuardianApp {
       try {
         mintPriceBn = await contract.mintPrice();
       } catch (e) {
-        mintPriceBn = ethers.parseEther(String(this.mintPriceEth || "0.0005"));
+        mintPriceBn = ethers.parseEther(String(this.mintPriceEth || "0.00004"));
       }
 
       const totalValue = mintPriceBn * BigInt(this.currentMintQty);
