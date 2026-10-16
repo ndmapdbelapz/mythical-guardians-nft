@@ -638,6 +638,11 @@ class GuardianApp {
       btnDeployV2Hero.addEventListener('click', () => this.deployContractToRobinhood());
     }
 
+    const btnDeployNotice = document.getElementById('btn-deploy-v2-notice');
+    if (btnDeployNotice) {
+      btnDeployNotice.addEventListener('click', () => this.deployContractToRobinhood());
+    }
+
     const btnSync = document.getElementById('btn-sync-metadata');
     if (btnSync) {
       btnSync.addEventListener('click', () => this.syncCleanMetadata());
@@ -1154,10 +1159,21 @@ class GuardianApp {
       }
     }
 
+    const isV1Contract = (this.contractAddress && this.contractAddress.toLowerCase() === '0x27a0a6b0df634719863767832cbf99d3a80d65bd');
+    const v1Notice = document.getElementById('v1-limit-notice');
+    if (v1Notice) {
+      v1Notice.style.display = (isV1Contract && ownedCount >= 5) ? 'block' : 'none';
+    }
+
     if (btnMint) {
       if (!this.contractAddress) {
         btnMint.disabled = false;
         btnMint.innerText = '🚀 1-Click Deploy OpenSea-Ready Contract (Auto-Mints Token #1)';
+        btnMint.style.opacity = '1';
+        btnMint.style.cursor = 'pointer';
+      } else if (isV1Contract && ownedCount >= 5) {
+        btnMint.disabled = false;
+        btnMint.innerText = '⚡ Summon Guardian (Switch Wallet / Deploy V2)';
         btnMint.style.opacity = '1';
         btnMint.style.cursor = 'pointer';
       } else if (this.userAddress && ownedCount >= maxPerWallet) {
@@ -1314,8 +1330,13 @@ class GuardianApp {
 
       // Contract v1 bytecode safety check (0x27a0... has hardcoded 5 in bytecode)
       if (this.contractAddress.toLowerCase() === '0x27a0a6b0df634719863767832cbf99d3a80d65bd' && onChainBal + this.currentMintQty > 5) {
-        this.showToast("Contract 0x27a0... has a hardcoded 5 limit on-chain. Click 'Deploy V2 Contract' below to enable 20 per wallet, or mint using another wallet!", 'warning');
-        if (btnMint) { btnMint.disabled = false; btnMint.innerText = '⚡ Summon Guardian'; }
+        const v1Notice = document.getElementById('v1-limit-notice');
+        if (v1Notice) {
+          v1Notice.style.display = 'block';
+          v1Notice.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        this.showToast("Contract 0x27a0... has an immutable 5-limit on-chain. Click 'Deploy V2 Contract' below to enable 20 per wallet, or switch to an alternate wallet in MetaMask!", 'warning');
+        if (btnMint) { btnMint.disabled = false; btnMint.innerText = '⚡ Summon Guardian (Switch Wallet / Deploy V2)'; }
         return;
       }
 

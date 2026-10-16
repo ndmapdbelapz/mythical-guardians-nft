@@ -25,7 +25,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <!-- Elemental Particle Background Canvas -->
@@ -162,6 +162,19 @@
             </button>
             <button id="btn-deploy-v2-hero" class="btn-outline" style="font-size:0.75rem; padding:6px 12px; width:100%; border-color:#2081e2; color:#58a6ff; cursor:pointer;">
               🚀 Deploy V2 Contract (Enables 20 Per Wallet on-chain)
+            </button>
+          </div>
+
+          <!-- V1 Limit Reached Notice & Quick Upgrade -->
+          <div id="v1-limit-notice" style="display:none; margin-top:14px; padding:12px 14px; background:rgba(255,82,82,0.1); border:1px solid rgba(255,82,82,0.4); border-radius:10px; text-align:center;">
+            <div style="font-size:0.8rem; color:#ff5252; font-weight:800; margin-bottom:4px;">
+              ⚠️ Contract 0x27a0... Max Limit Reached (5/5)
+            </div>
+            <p style="font-size:0.75rem; color:#cbd5e1; margin-bottom:8px; line-height:1.4;">
+              Active contract 0x27a0... has a permanent 5-per-wallet limit baked into its blockchain code. To enable 20 per wallet, deploy the V2 contract below, or switch to an alternate wallet in MetaMask!
+            </p>
+            <button id="btn-deploy-v2-notice" class="btn-gold" style="font-size:0.8rem; padding:8px 14px; width:100%; cursor:pointer;">
+              🚀 1-Click Deploy V2 Contract (Enables 20 Per Wallet)
             </button>
           </div>
         </div>
@@ -756,6 +769,6 @@
   <script src="ethers.umd.min.js"></script>
   <script src="audio.js"></script>
   <script src="game.js"></script>
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>
