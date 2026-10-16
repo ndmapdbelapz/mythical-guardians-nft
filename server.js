@@ -63,7 +63,14 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  let filePath = path.join(WEB_DIR, reqPath === '/' ? 'index.html' : reqPath);
+  let normalizedPath = reqPath;
+  if (normalizedPath === '/web' || normalizedPath === '/web/') {
+    normalizedPath = '/';
+  } else if (normalizedPath.startsWith('/web/')) {
+    normalizedPath = normalizedPath.slice(4);
+  }
+
+  let filePath = path.join(WEB_DIR, normalizedPath === '/' ? 'index.html' : normalizedPath);
 
   // Allow accessing metadata directory
   if (reqPath.startsWith('/metadata/')) {

@@ -628,6 +628,16 @@ class GuardianApp {
       btnFix.addEventListener('click', () => this.fixActiveContractPrice());
     }
 
+    const btnSyncHero = document.getElementById('btn-sync-price-hero');
+    if (btnSyncHero) {
+      btnSyncHero.addEventListener('click', () => this.fixActiveContractPrice());
+    }
+
+    const btnDeployV2Hero = document.getElementById('btn-deploy-v2-hero');
+    if (btnDeployV2Hero) {
+      btnDeployV2Hero.addEventListener('click', () => this.deployContractToRobinhood());
+    }
+
     const btnSync = document.getElementById('btn-sync-metadata');
     if (btnSync) {
       btnSync.addEventListener('click', () => this.syncCleanMetadata());
@@ -707,53 +717,29 @@ class GuardianApp {
   async refreshContractOnChainInfo() {
     if (!this.contract) return;
     const btnFix = document.getElementById('btn-fix-mint-price');
+    const ownerQuick = document.getElementById('owner-quick-controls');
+    const btnSyncHero = document.getElementById('btn-sync-price-hero');
+
+    // Mint Tribute is strictly 0.00004 ETH (~$0.10 USD)
+    this.mintPriceEth = 0.00004;
+    const singlePriceEl = document.getElementById('mint-single-price');
+    if (singlePriceEl) {
+      singlePriceEl.innerText = "0.00004 ETH";
+    }
+    const totalEth = document.getElementById('mint-total-eth');
+    if (totalEth) {
+      const total = (this.currentMintQty * this.mintPriceEth).toFixed(5);
+      totalEth.innerText = `${parseFloat(total)} ETH`;
+    }
+
+    // Wallet Limit is strictly 20
+    this.maxPerWallet = 20;
+    this.maxPerTx = 20;
+
+    let onChainPriceEth = 0.00004;
     try {
       const priceBn = await this.contract.mintPrice();
-      this.mintPriceEth = parseFloat(ethers.formatEther(priceBn));
-      const singlePriceEl = document.getElementById('mint-single-price');
-      if (singlePriceEl) {
-        if (Math.abs(this.mintPriceEth - 0.00004) < 0.000001) {
-          singlePriceEl.innerText = "0.00004 ETH (~$0.10)";
-        } else {
-          const approxUsd = (this.mintPriceEth * 2500).toFixed(2);
-          singlePriceEl.innerText = `${this.mintPriceEth} ETH (~$${approxUsd})`;
-        }
-      }
-      const totalEth = document.getElementById('mint-total-eth');
-      if (totalEth) {
-        const total = (this.currentMintQty * this.mintPriceEth).toFixed(5);
-        totalEth.innerText = `${parseFloat(total)} ETH`;
-      }
-    } catch (e) {}
-
-    try {
-      if (typeof this.contract.maxPerWallet === 'function') {
-        this.maxPerWallet = Number(await this.contract.maxPerWallet());
-      } else if (typeof this.contract.MAX_PER_WALLET === 'function') {
-        this.maxPerWallet = Number(await this.contract.MAX_PER_WALLET());
-      }
-    } catch (e) {
-      this.maxPerWallet = 20;
-    }
-
-    try {
-      if (typeof this.contract.maxMintPerTx === 'function') {
-        this.maxPerTx = Number(await this.contract.maxMintPerTx());
-      }
-    } catch (e) {
-      this.maxPerTx = 20;
-    }
-
-    this.updateMintControlsUI();
-
-    try {
-      const treasuryAddr = await this.contract.treasury();
-      this.treasuryAddress = treasuryAddr;
-      const tributeRecipientEl = document.getElementById('tribute-recipient-addr');
-      if (tributeRecipientEl) {
-        tributeRecipientEl.innerText = `${treasuryAddr.slice(0, 6)}...${treasuryAddr.slice(-4)}`;
-        tributeRecipientEl.title = treasuryAddr;
-      }
+      onChainPriceEth = parseFloat(ethers.formatEther(priceBn));
     } catch (e) {}
 
     if (this.userAddress) {
@@ -767,8 +753,34 @@ class GuardianApp {
         if (btnSync) {
           btnSync.style.display = isOwner ? 'inline-block' : 'none';
         }
+        if (ownerQuick) {
+          ownerQuick.style.display = isOwner ? 'block' : 'none';
+        }
+        if (btnSyncHero) {
+          if (Math.abs(onChainPriceEth - 0.00004) < 0.000001) {
+            btnSyncHero.innerText = "✅ On-Chain Price is Synced to $0.10 (0.00004 ETH)";
+            btnSyncHero.style.opacity = "0.75";
+          } else {
+            btnSyncHero.innerText = `⚡ Write $0.10 (0.00004 ETH) Price to Active Contract (Current: ${onChainPriceEth} ETH)`;
+            btnSyncHero.style.opacity = "1";
+          }
+        }
       } catch (e) {}
+    } else {
+      if (ownerQuick) ownerQuick.style.display = 'none';
     }
+
+    this.updateMintControlsUI();
+
+    try {
+      const treasuryAddr = await this.contract.treasury();
+      this.treasuryAddress = treasuryAddr;
+      const tributeRecipientEl = document.getElementById('tribute-recipient-addr');
+      if (tributeRecipientEl) {
+        tributeRecipientEl.innerText = `${treasuryAddr.slice(0, 6)}...${treasuryAddr.slice(-4)}`;
+        tributeRecipientEl.title = treasuryAddr;
+      }
+    } catch (e) {}
   }
 
   async syncCleanMetadata() {
@@ -1283,8 +1295,9 @@ class GuardianApp {
       const contract = new ethers.Contract(this.contractAddress, this.contractArtifact.abi, runner);
 
       // On-chain balance validation for wallet limit
+      let onChainBal = 0;
       try {
-        const onChainBal = Number(await contract.balanceOf(this.userAddress));
+        onChainBal = Number(await contract.balanceOf(this.userAddress));
         if (onChainBal >= maxPerWallet) {
           this.showToast(`Wallet limit reached: This wallet already owns ${maxPerWallet} Guardians on-chain.`, 'error');
           this.updateMintControlsUI();
@@ -1299,12 +1312,19 @@ class GuardianApp {
         }
       } catch (eBal) {}
 
+      // Contract v1 bytecode safety check (0x27a0... has hardcoded 5 in bytecode)
+      if (this.contractAddress.toLowerCase() === '0x27a0a6b0df634719863767832cbf99d3a80d65bd' && onChainBal + this.currentMintQty > 5) {
+        this.showToast("Contract 0x27a0... has a hardcoded 5 limit on-chain. Click 'Deploy V2 Contract' below to enable 20 per wallet, or mint using another wallet!", 'warning');
+        if (btnMint) { btnMint.disabled = false; btnMint.innerText = '⚡ Summon Guardian'; }
+        return;
+      }
+
       // 1. Fetch on-chain mint price
       let mintPriceBn;
       try {
         mintPriceBn = await contract.mintPrice();
       } catch (e) {
-        mintPriceBn = ethers.parseEther(String(this.mintPriceEth || "0.00004"));
+        mintPriceBn = ethers.parseEther("0.00004");
       }
 
       const totalValue = mintPriceBn * BigInt(this.currentMintQty);
