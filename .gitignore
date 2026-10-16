@@ -14,3 +14,5 @@ scratch/
 Thumbs.db
 *.png
 !web/assets/*.png
+!web/assets/room/*.png
+!web/play/assets/locations/*.png
