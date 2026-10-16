@@ -1,0 +1,95 @@
+.hub-run-status{font:12px/1.6 monospace;color:#c3cbb8;max-width:400px}
+.hub-run-status:empty,#resultCopyFeedback:empty{display:none}
+#postToX{border-color:#7da68f;color:#d4e6d8}
+#postToX:hover,#postToX:focus-visible{border-color:#9bd9be}
+.result-photo{display:grid;justify-items:center;gap:18px;min-width:0}
+.result-photo .photo-download{background:transparent;border-color:transparent;color:#a6b4b5;font-weight:400;text-transform:none;text-decoration:underline;text-underline-offset:4px}
+.result-photo .photo-download:hover,.result-photo .photo-download:focus-visible{color:#c7e9d8;border-color:#9bd9be}
+#shareHint,#resultCopyFeedback{margin:8px 0 0;font:12px/1.5 monospace;max-width:400px}
+#shareHint{color:#a6bbb1}
+#resultCopyFeedback{color:#d9d9ad}
+.result-copy:has(#resultCopyFeedback:not(:empty)) #shareHint{display:none}
+.result-back{margin-top:16px;background:transparent;color:#a6b4b5}
+.result-screen{align-items:safe center}
+@media(max-width:850px){.result-screen{align-content:safe center}}
+.hub-polaroid{padding:0!important}
+@media(min-width:851px){.hub-polaroid{width:min(100%,360px)}}
+.hub-polaroid>canvas{display:block;width:100%;height:auto;image-rendering:pixelated}
+.hub-polaroid figcaption{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);padding:0;white-space:nowrap}
+body[data-hub-embedded="true"] .game-header .exit-game{display:none}
+
+/* Prevent selection/callouts on held and repeatedly tapped controls, including
+   their labels (e.g. the Attack counter). Do not disable page-wide text/zoom. */
+button,button *,[data-close-game],#gameCanvas{
+ -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;
+}
+button,[data-close-game]{touch-action:manipulation}
+.runner-controls button,#gameCanvas{touch-action:none}
+.hub-mobile-game-tools .pickup-settings{display:none}
+.hub-pause-tools{display:flex;gap:8px;margin-top:16px;padding-top:12px;border-top:1px solid #304651}
+.pause-dialog .hub-pause-tools button{flex:1;min-width:0;width:auto;margin:0;padding-inline:8px;min-height:44px;font-size:10px}
+
+@media(any-pointer:coarse),(max-width:850px){
+ .final-stage{padding:12px;gap:8px}
+ .game-header{padding-bottom:2px}
+ .game-header h1{font-size:21px}
+ .game-hud{min-height:44px;gap:10px}
+ #pauseButton{min-height:44px;min-width:44px;padding:0 10px}
+ .runner-controls button{min-height:56px;font-size:12px}
+ .pickup-settings button,.result-actions button,.photo-download,.result-back,.guide-footer button{min-height:44px}
+ .guide-exit{width:44px;min-height:44px}
+ .guide-heading{padding-inline:26px}
+ .game-signoff{margin-top:0}
+}
+
+/* Keep the 960x540 drawing buffer/physics. Landscape controls flank the scene
+   for two thumbs; the screen can be short when mobile browser bars are open. */
+@media(any-pointer:coarse) and (orientation:landscape) and (max-height:900px),
+ (max-width:950px) and (orientation:landscape) and (max-height:500px){
+ body[data-hub-embedded="true"] .final-stage{
+  width:100%;height:100dvh;min-height:0;max-width:none;margin:0;padding:8px 12px;
+  display:grid;grid-template-columns:clamp(76px,12vw,112px) minmax(0,1fr) clamp(76px,12vw,112px);
+  grid-template-rows:44px minmax(0,1fr) minmax(0,1fr);gap:8px 12px;
+ }
+ body[data-hub-embedded="true"] .game-header,
+ body[data-hub-embedded="true"] .game-signoff{display:none}
+ body[data-hub-embedded="true"] .game-hud{grid-column:1/-1;grid-row:1;margin:0}
+ body[data-hub-embedded="true"] .game-hud .hud-scene{max-width:none;font-size:11px}
+ body[data-hub-embedded="true"] .final-stage .game-shell{
+  grid-column:2;grid-row:2/-1;align-self:center;justify-self:center;min-height:0;
+  width:min(100%,calc((100dvh - 68px)*16/9));height:auto;aspect-ratio:16/9;
+ }
+ body[data-hub-embedded="true"] .runner-controls{
+  display:contents;
+ }
+ body[data-hub-embedded="true"] .runner-controls button{min-height:44px;height:clamp(44px,22dvh,76px);padding:4px 8px;font-size:11px}
+ body[data-hub-embedded="true"] #jumpButton{grid-column:1;grid-row:2;align-self:end}
+ body[data-hub-embedded="true"] #duckButton{grid-column:1;grid-row:3;align-self:start}
+ body[data-hub-embedded="true"] #throwButton{grid-column:3;grid-row:2/-1;align-self:center;height:clamp(64px,30dvh,96px)}
+ body[data-hub-embedded="true"] .pickup-settings{display:none}
+ body[data-hub-embedded="true"] .final-stage:has(.has-result){grid-template-columns:1fr;grid-template-rows:minmax(0,1fr)}
+ body[data-hub-embedded="true"] .final-stage:has(.has-result) .game-hud{display:none}
+ body[data-hub-embedded="true"] .final-stage .game-shell.has-result{grid-column:1;grid-row:1;width:100%;height:100%;min-height:0;aspect-ratio:auto}
+ body[data-hub-embedded="true"] .final-stage:has(.has-result) .runner-controls{display:none}
+ .result-screen{grid-template-columns:minmax(120px,.75fr) minmax(0,1.25fr);align-items:start;align-content:start;gap:16px;padding:16px}
+ .result-photo{align-self:start;gap:8px}
+ .result-copy{align-self:start}
+ .hub-polaroid{width:min(100%,220px,max(120px,calc((100dvh - 96px)*44/54)))}
+ .distance{font-size:28px;margin-bottom:12px}
+ .combat-guide,.pause-dialog{max-height:calc(100dvh - 16px);overflow-y:auto;overscroll-behavior:contain}
+ .pause-dialog{padding:16px}
+ .pause-dialog h2{font-size:22px;margin:8px 0 14px}
+ .pause-dialog a{margin-top:12px;min-height:44px;display:inline-flex;align-items:center}
+ .hub-mobile-game-tools .pause-dialog{width:min(460px,calc(100% - 32px));padding:12px}
+ .hub-mobile-game-tools .pause-dialog[open]{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+ .hub-mobile-game-tools .pause-dialog .eyebrow{display:none}
+ .hub-mobile-game-tools .pause-dialog h2{grid-column:1/-1;margin:0 0 4px}
+ .hub-mobile-game-tools .pause-dialog>button{margin:0}
+ .hub-mobile-game-tools .hub-pause-tools{grid-column:1/-1;margin:0;padding-top:8px}
+ .hub-mobile-game-tools .pause-dialog a{grid-column:1/-1;margin:0;justify-self:center}
+}
+@media(any-pointer:coarse) and (orientation:landscape) and (max-height:900px) and (max-width:1400px){
+ /* Match the parent's compact close button without overlapping Pause/content. */
+ body[data-hub-embedded="true"] .game-hud{padding-right:56px}
+ body[data-hub-embedded="true"] .result-copy{padding-right:48px}
+}

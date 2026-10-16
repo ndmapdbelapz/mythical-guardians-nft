@@ -191,22 +191,18 @@ class GuardianApp {
   // Navigation
   // ==========================================
   initNavigation() {
-    const navLinks = document.querySelectorAll('nav a[data-tab]');
-    navLinks.forEach(link => {
-      link.addEventListener('click', e => {
-        e.preventDefault();
-        const tabId = link.getAttribute('data-tab');
-        this.switchTab(tabId);
-      });
-    });
-
     document.querySelectorAll('[data-tab]').forEach(el => {
-      if (el.tagName !== 'A') {
-        el.addEventListener('click', () => {
-          const tabId = el.getAttribute('data-tab');
-          if (tabId) this.switchTab(tabId);
-        });
-      }
+      el.addEventListener('click', e => {
+        e.preventDefault();
+        const tabId = el.getAttribute('data-tab');
+        if (tabId) {
+          this.switchTab(tabId);
+          const anchor = document.getElementById('summon-portal-anchor') || document.getElementById(tabId);
+          if (anchor) {
+            anchor.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      });
     });
   }
 

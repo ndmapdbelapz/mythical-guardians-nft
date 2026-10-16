@@ -22,51 +22,120 @@
   <meta property="og:description" content="2,222 sovereign celestial entities forged on Robinhood Chain. Channel cosmic aether, summon your Guardian, and trade on OpenSea.">
   <meta property="og:image" content="https://mythicalguardians.xyz/web/assets/X_BANNER_1500x500.png">
   
+  <link rel="preload" href="assets/notebook/caveat.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800;900&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=10">
+  <link rel="stylesheet" href="style.css?v=11">
+  <link rel="stylesheet" href="sanctum-world.css?v=2">
+  <link rel="stylesheet" href="notebook.css?v=2">
+  <link rel="stylesheet" href="room-game.css?v=2">
 </head>
-<body>
+<body data-site-mode="guest-game" data-time="night">
   <!-- Elemental Particle Background Canvas -->
   <canvas id="particle-canvas"></canvas>
 
   <div class="content-wrapper">
-    <!-- Header -->
-    <header>
-      <div class="logo-container">
-        <div class="logo-seal">MG</div>
-        <div class="logo-text">
-          <h1>MYTHICAL BEASTS</h1>
-          <span>& GUARDIANS • CELESTIAL COLLECTION</span>
-        </div>
-      </div>
+    <!-- Robin Frens Style Fixed Site Header -->
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Mythical Guardians home">
+        <span class="brand-pixel-badge">MG</span>
+        <span class="brand-wordmark-text">Mythical Guardians</span>
+      </a>
 
-      <nav>
-        <a href="#mint" data-tab="tab-mint" class="active">Summon Portal</a>
-        <a href="#gallery" data-tab="tab-gallery">Codex Gallery</a>
-        <a href="#altar" data-tab="tab-altar">Elemental Altar</a>
-        <a href="#game" data-tab="tab-game">Lore Trial Game</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <button type="button" data-open-notebook aria-haspopup="dialog" aria-controls="notebookDialog">About</button>
+        <button type="button" data-open-game aria-label="Play Guardians Run" aria-haspopup="dialog" aria-controls="gameDialog">Run Game</button>
+        <a href="#summon-portal-anchor" data-tab="tab-mint" class="active">Summon</a>
+        <a href="#summon-portal-anchor" data-tab="tab-gallery">Codex (2,222)</a>
+        <a href="#summon-portal-anchor" data-tab="tab-altar">Altar</a>
+        <a href="#summon-portal-anchor" data-tab="tab-game">Trial RPG</a>
+        <a class="collection-link" href="https://opensea.io/collection/mythical-beasts-guardians" target="_blank" rel="noopener noreferrer" aria-label="Mythical Guardians on OpenSea (opens in a new tab)" title="OpenSea">
+          <svg class="opensea-icon" viewBox="0 0 360 360" width="22" height="22" fill="currentColor" aria-hidden="true" focusable="false"><path d="M181.566 1.00604e-05C80.91 -0.82799 -0.82799 80.91 1.00604e-05 181.566C0.84601 279.306 80.694 359.172 178.416 359.982C279.072 360.846 360.846 279.072 359.982 178.416C359.172 80.712 279.306 0.84601 181.566 1.00604e-05ZM127.746 89.586C139.266 104.22 146.16 122.742 146.16 142.83C146.16 160.236 140.994 176.436 132.12 189.954H69.714L127.728 89.568L127.746 89.586ZM318.006 199.242V212.202C318.006 213.048 317.556 213.768 316.782 214.092C312.552 215.892 298.602 222.372 292.788 230.436C277.812 251.28 266.382 284.04 240.822 284.04H134.172C96.408 284.04 64.818 254.07 64.836 214.146C64.836 213.156 65.682 212.346 66.672 212.346H117.216C118.962 212.346 120.33 213.75 120.33 215.46V225.216C120.33 230.4 124.524 234.612 129.726 234.612H168.066V212.292H141.876C156.942 193.212 165.906 169.128 165.906 142.902C165.906 113.652 154.692 86.976 136.332 67.032C147.438 68.328 158.058 70.542 168.066 73.476V67.266C168.066 60.822 173.286 55.602 179.73 55.602C186.174 55.602 191.394 60.822 191.394 67.266V82.242C227.178 98.946 250.614 126.666 250.614 158.022C250.614 176.418 242.568 193.536 228.69 207.936C226.026 210.69 222.336 212.256 218.466 212.256H191.412V234.54H225.378C232.704 234.54 245.844 220.644 252.072 212.274C252.072 212.274 252.342 211.86 253.062 211.644C253.782 211.428 315.432 197.28 315.432 197.28C316.728 196.92 318.006 197.91 318.006 199.224V199.242Z"/></svg>
+        </a>
+        <a class="social-link" href="https://x.com/mythicalguardia" target="_blank" rel="noopener noreferrer" aria-label="Mythical Guardians on X (opens in a new tab)" title="@mythicalguardia">𝕏</a>
       </nav>
 
-      <div class="header-actions">
-        <a href="https://x.com/mythicalguardia" target="_blank" rel="noopener noreferrer" class="btn-social-header btn-header-x" title="Follow @mythicalguardia on X" aria-label="Official X Profile">
-          <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
-          <span class="social-header-label">@mythicalguardia</span>
-        </a>
-        <a href="https://opensea.io/collection/mythical-beasts-guardians" target="_blank" rel="noopener noreferrer" class="btn-social-header btn-header-opensea" title="View Collection on OpenSea" aria-label="OpenSea Collection">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.84 13.91l-3.36 1.94a.96.96 0 01-.96 0l-3.36-1.94A.96.96 0 017.68 15V9.72c0-.35.19-.68.5-.86l3.36-1.94a.96.96 0 01.96 0l3.36 1.94c.31.18.5.51.5.86V15c0 .35-.19.68-.5.91z"/>
-          </svg>
-          <span class="social-header-label">OpenSea</span>
-        </a>
+      <div class="header-controls">
+        <button class="time-toggle" id="timeToggle" type="button" aria-pressed="false">
+          <span aria-hidden="true" id="timeIcon">☾</span>
+          <span id="timeLabel">Night</span>
+        </button>
         <button id="btn-connect-wallet" class="btn-gold">
           Connect Wallet
         </button>
       </div>
     </header>
+
+    <!-- World-First Interactive Collector's Sanctum Stage (Robin Frens Architecture) -->
+    <section class="sanctum-hero" id="home" aria-label="Mythical Guardians Collector Sanctum">
+      <div class="hero-copy-mobile">
+        <p class="eyebrow">ROBINHOOD CHAIN • 2,222 ON-CHAIN</p>
+        <h1>Mythical Guardians</h1>
+        <p>Explore the interactive sanctum: click the desk scrolls to read lore, the laptop to play Guardians Run, the bedside lamp to rest, or any of the 25 framed Guardians on the wall.</p>
+      </div>
+      <div class="room-shell">
+        <div class="room-stage" id="roomStage" data-time="night" data-lamp="on">
+          <img class="room-art" src="assets/room/room-night.png" width="2560" height="960" alt="Mythical Guardians collector sanctum with a panoramic city window, desk, laptop, 25 framed guardians and bed">
+          <img class="day-window" id="dayWindow" src="assets/room/day-window-overlay.png" width="2560" height="960" alt="" aria-hidden="true">
+          <img class="sleep-scene sleep-night" src="assets/room/room-sleep-night-v3.png" width="2560" height="960" alt="" aria-hidden="true">
+          <img class="sleep-scene sleep-day" src="assets/room/room-sleep-day-v7.png" width="2560" height="960" alt="" aria-hidden="true">
+          <svg class="room-sky" viewBox="0 0 640 240" preserveAspectRatio="none" aria-hidden="true" focusable="false" shape-rendering="crispEdges">
+            <g class="sky-night">
+              <path class="sky-patch" d="M170 42h15v16h-15z"/>
+              <path class="sky-moon" d="M179 43h-4v1h-2v2h-1v2h-1v4h1v2h2v2h3v1h4v-1h3v-2h-4v-1h-3v-2h-1v-5h1v-2h2z"/>
+            </g>
+            <g class="sky-day">
+              <path class="sky-patch" d="M170 42h15v16h-15z"/>
+              <path class="sky-sun" d="M175 44h6v1h2v2h1v6h-1v2h-2v1h-6v-1h-2v-2h-1v-6h1v-2h2z"/>
+            </g>
+          </svg>
+          <div class="window-copy">
+            <p class="eyebrow">ROBINHOOD CHAIN • 2,222 ON-CHAIN</p>
+            <h1>Mythical Guardians</h1>
+            <p>Sovereign celestial beasts, five primordial elements, and their living sanctum.</p>
+          </div>
+          <button class="room-hotspot books-hotspot" id="openNotebook" type="button" aria-label="Open the lore notebook on the desk" aria-haspopup="dialog" aria-controls="notebookDialog">
+            <span class="sr-only">Read the desk notebook</span>
+          </button>
+          <button class="room-hotspot laptop-hotspot" type="button" data-open-game aria-label="Play Guardians Run on the laptop" aria-haspopup="dialog" aria-controls="gameDialog">
+            <span class="sr-only">Play Guardians Run</span>
+            <svg class="laptop-game-icon" viewBox="0 0 8 9" aria-hidden="true" focusable="false" shape-rendering="crispEdges">
+              <rect width="1" height="9"/>
+              <rect x="1" y="1" width="2" height="7"/>
+              <rect x="3" y="2" width="2" height="5"/>
+              <rect x="5" y="3" width="2" height="3"/>
+              <rect x="7" y="4" width="1" height="1"/>
+            </svg>
+          </button>
+          <button class="room-hotspot lamp-hotspot" id="lampToggle" type="button" aria-label="Bedside lamp" aria-pressed="true" title="Turn lamp off">
+            <span class="sr-only">Bedside lamp</span>
+          </button>
+          <div class="photo-hotspots" id="photoHotspots" aria-label="25 Framed Guardians"></div>
+          <svg class="room-hints" viewBox="0 0 640 240" width="640" height="240" preserveAspectRatio="none" aria-hidden="true" focusable="false" shape-rendering="crispEdges">
+            <g class="room-hint-cue hint-books" data-hint-target="books">
+              <g transform="translate(58 153.5) scale(.75)"><path class="hint-label" data-label="Read" d="M0 0h4v1h-4zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM4 2h1v1h-1zM0 3h4v1h-4zM0 4h1v1h-1zM2 4h1v1h-1zM0 5h1v1h-1zM3 5h1v1h-1zM0 6h1v1h-1zM4 6h1v1h-1zM7 2h3v1h-3zM6 3h1v1h-1zM10 3h1v1h-1zM6 4h5v1h-5zM6 5h1v1h-1zM7 6h3v1h-3zM13 2h3v1h-3zM16 3h1v1h-1zM13 4h4v1h-4zM12 5h1v1h-1zM16 5h1v1h-1zM13 6h4v1h-4zM22 0h1v1h-1zM22 1h1v1h-1zM19 2h4v1h-4zM18 3h1v1h-1zM22 3h1v1h-1zM18 4h1v1h-1zM22 4h1v1h-1zM18 5h1v1h-1zM22 5h1v1h-1zM19 6h4v1h-4z"/></g>
+            </g>
+            <g class="room-hint-cue hint-laptop" data-hint-target="laptop">
+              <g transform="translate(184.05 125.7) scale(.9)"><path class="hint-label" data-label="Play" d="M0 0h4v1h-4zM0 1h1v1h-1zM4 1h1v1h-1zM0 2h1v1h-1zM4 2h1v1h-1zM0 3h4v1h-4zM0 4h1v1h-1zM0 5h1v1h-1zM0 6h1v1h-1zM6 0h2v1h-2zM7 1h1v1h-1zM7 2h1v1h-1zM7 3h1v1h-1zM7 4h1v1h-1zM7 5h1v1h-1zM6 6h3v1h-3zM11 2h3v1h-3zM14 3h1v1h-1zM11 4h4v1h-4zM10 5h1v1h-1zM14 5h1v1h-1zM11 6h4v1h-4zM16 2h1v1h-1zM20 2h1v1h-1zM16 3h1v1h-1zM20 3h1v1h-1zM17 4h4v1h-4zM20 5h1v1h-1zM16 6h4v1h-4z"/></g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Quick Action Strip beneath the Sanctum Stage -->
+      <div class="sanctum-action-strip" id="summon-portal-anchor">
+        <div class="sanctum-strip-hint">
+          <span><strong>INTERACTIVE ROOM:</strong> Click the books to read desk notes, the laptop to play Guardians Run, the lamp to sleep, or any of the 25 wall frames.</span>
+        </div>
+        <div class="sanctum-strip-buttons">
+          <a href="#summon-portal-anchor" data-tab="tab-mint" class="primary-button">⚡ Summon Guardian (0.00004 ETH)</a>
+          <button type="button" data-open-game class="secondary-button">▶ Play Guardians Run</button>
+          <button type="button" data-open-notebook class="secondary-button">📖 Read Desk Notes</button>
+          <a href="#summon-portal-anchor" data-tab="tab-gallery" class="secondary-button">🗂️ Explore 2,222 Codex</a>
+        </div>
+      </div>
+    </section>
 
     <!-- Tab: Mint Portal & Grand Genesis Showcase -->
     <section id="tab-mint" class="tab-section active">
@@ -740,9 +809,91 @@
   <!-- Toast Notifications Container -->
   <div id="toast-container" class="toast-container"></div>
 
+  <!-- 1. Framed Guardian Wall Preview Dialog (Double-Bezel Pixel Modal) -->
+  <dialog class="fren-dialog" id="frenDialog" aria-labelledby="frenDialogTitle">
+    <button class="dialog-close" id="closeFren" type="button" aria-label="Close guardian preview">×</button>
+    <figure class="fren-view">
+      <img id="frenDialogImage" src="assets/tokens/4.svg" width="320" height="320" alt="">
+      <figcaption>
+        <p class="eyebrow" id="frenDialogNumber">Guardian #0004 · Legendary</p>
+        <h2 id="frenDialogTitle">Azure Dragon #0004</h2>
+        <p id="frenDialogTraits">Fire Element · Sovereign Celestial</p>
+        <div class="fren-dialog-actions">
+          <button type="button" id="frenDialogInspectBtn" class="primary-button">⚔️ Full Traits & Battle</button>
+          <a id="frenDialogOpenSea" href="https://opensea.io/collection/mythical-beasts-guardians" target="_blank" rel="noopener noreferrer" class="secondary-button">🌊 View on OpenSea ↗</a>
+        </div>
+      </figcaption>
+    </figure>
+  </dialog>
+
+  <!-- 2. Two-Page Skeuomorphic Desk Notebook Modal -->
+  <dialog class="notebook-dialog" id="notebookDialog" aria-label="Notes from the Kunlun desk" data-page="notes">
+    <div class="notebook-toolbar">
+      <span>From the collector's desk</span>
+      <button id="closeNotebook" class="notebook-close" type="button" autofocus>Close <span aria-hidden="true">×</span></button>
+    </div>
+    <div class="notebook-cover">
+      <div class="notebook-spread">
+        <section class="notebook-page notebook-notes" id="notebookNotes" aria-labelledby="notebookTitle" tabindex="0">
+          <p class="notebook-kicker">A little note to begin with</p>
+          <h2 id="notebookTitle">Meet Mythical Guardians</h2>
+          <div class="notebook-copy">
+            <p>2,222 sovereign celestial beasts. Forged on Robinhood Chain.</p>
+            <p>Azure Dragons, Vermilion Birds, White Tigers, Nine-Tailed Foxes, Qilin, Garuda, and Tengu — each attuned to Fire, Water, Earth, Air, or Void.</p>
+            <p>Five primordial elements.<br><span class="notebook-underline">One eternal sanctum.</span></p>
+            <p>Summon your Guardian for 0.00004 ETH (~$0.10), awaken the Pentagonal Altar, or run the Kunlun rooftops.</p>
+          </div>
+          <p class="notebook-postscript">May your element guide you.</p>
+          <footer class="notebook-page-footer"><span>The beginning</span><span>01</span></footer>
+        </section>
+        <section class="notebook-page notebook-concept" id="notebookConcept" aria-labelledby="notebookFrenTitle" tabindex="0">
+          <p class="notebook-kicker">Character study</p>
+          <h2 id="notebookFrenTitle">Guardian #4</h2>
+          <figure class="notebook-drawing">
+            <img src="assets/notebook/guardian-01-ink.svg" width="720" height="720" loading="lazy" decoding="async" alt="Monochrome ink character study of Legendary Azure Dragon #0004 on parchment.">
+            <figcaption>Sovereign of the Celestial Gale.</figcaption>
+          </figure>
+          <footer class="notebook-page-footer"><span>Ink on paper</span><span>02</span></footer>
+        </section>
+      </div>
+    </div>
+    <nav class="notebook-page-switch" aria-label="Notebook pages">
+      <button type="button" data-notebook-page="notes" aria-controls="notebookNotes" aria-pressed="true">01 · Notes</button>
+      <button type="button" data-notebook-page="concept" aria-controls="notebookConcept" aria-pressed="false">02 · Guardian #4</button>
+    </nav>
+  </dialog>
+
+  <!-- 3. Embedded Playable "Guardians Run" Game Window & Exit Guard -->
+  <dialog class="game-dialog" id="gameDialog" aria-labelledby="gameWindowTitle">
+    <header class="game-window-bar">
+      <span id="gameWindowTitle"><img src="assets/tokens/4.svg" width="24" height="24" alt="">Guardians Run — Kunlun Rooftops</span>
+      <button id="closeGame" type="button" aria-label="Back to sanctum">×</button>
+    </header>
+    <div class="game-viewport">
+      <iframe id="gameFrame" title="Guardians Run — Mythical Guardians game" allow="autoplay; clipboard-write" src="about:blank"></iframe>
+      <div id="gameLoading" class="game-loading" role="status">
+        <span id="gameLoadingLabel">Opening Guardians Run…</span>
+        <button id="retryGameLoad" type="button" hidden>Retry</button>
+        <button id="cancelGameLoad" type="button">Back to sanctum</button>
+      </div>
+    </div>
+  </dialog>
+  <dialog class="game-exit-dialog" id="gameExitDialog" aria-labelledby="gameExitTitle" aria-describedby="gameExitDescription">
+    <h2 id="gameExitTitle">Leave this run?</h2>
+    <p id="gameExitDescription">Your run is paused. Leaving discards this attempt.</p>
+    <div class="game-exit-actions">
+      <button id="stayGame" type="button" autofocus>Keep playing</button>
+      <button id="leaveGame" type="button">Back to sanctum</button>
+    </div>
+  </dialog>
+
+  <script src="assets/room/showcase.js"></script>
+  <script src="sanctum-world.js"></script>
+  <script src="notebook.js"></script>
+  <script src="game-host.js"></script>
   <script src="ethers.umd.min.js"></script>
   <script src="audio.js"></script>
   <script src="game.js"></script>
-  <script src="app.js?v=15"></script>
+  <script src="app.js?v=16"></script>
 </body>
 </html>

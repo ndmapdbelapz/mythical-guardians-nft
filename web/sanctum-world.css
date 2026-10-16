@@ -1,0 +1,1041 @@
+/* ==========================================================================
+   ROBIN FRENS (robinfrens.fun) WORLD-FIRST DESIGN SYSTEM FOR MYTHICAL GUARDIANS
+   ========================================================================== */
+:root {
+  color-scheme: dark;
+  --ink: #0c131b;
+  --deep: #111923;
+  --panel: #17222d;
+  --panel-2: #1c2935;
+  --line: #344656;
+  --cream: #dce6d9;
+  --muted: #93a6ad;
+  --sage: #79947d;
+  --mint: #bcd9bd;
+  --gold: #cbb47b;
+  --rose: #d695a3;
+  --shadow: #070b10b8;
+  --page: 1280px;
+
+  /* Map legacy variables to Robin Frens earthy slate/sage/mint/gold palette */
+  --bg-dark: #0c131b;
+  --bg-card: #16212b;
+  --bg-card-hover: #1c2935;
+  --gold-primary: #cbb47b;
+  --gold-light: #dce6d9;
+  --gold-glow: rgba(188, 217, 189, 0.22);
+  --text-main: #dce6d9;
+  --text-muted: #93a6ad;
+  --font-heading: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--ink);
+}
+
+body {
+  margin: 0;
+  min-width: 300px;
+  min-height: 100dvh;
+  background: radial-gradient(circle at 50% 43%, #1b2a36 0, #111923 48%, #080e15 100%) !important;
+  color: var(--cream) !important;
+  font-family: var(--font-body) !important;
+  transition: background .45s steps(5, end), color .45s steps(5, end);
+}
+
+body[data-time="day"] {
+  background: radial-gradient(circle at 50% 43%, #dce6dd 0, #b7c9c5 48%, #82999d 100%) !important;
+  color: #15222a !important;
+  --bg-card: #cad8d2;
+  --bg-card-hover: #d5e2dc;
+  --text-main: #15222a;
+  --text-muted: #36504a;
+  --line: #536f70;
+}
+
+#particle-canvas {
+  opacity: 0.22 !important;
+}
+body[data-time="day"] #particle-canvas {
+  opacity: 0.08 !important;
+}
+
+button:focus-visible, a:focus-visible {
+  outline: 3px solid var(--mint);
+  outline-offset: 4px;
+}
+
+/* ==========================================================================
+   ROBIN FRENS SITE HEADER & NAVIGATION
+   ========================================================================== */
+header.site-header {
+  position: fixed !important;
+  z-index: 100 !important;
+  inset: 0 0 auto !important;
+  display: grid !important;
+  grid-template-columns: auto 1fr auto !important;
+  align-items: center !important;
+  gap: 20px !important;
+  padding: 12px clamp(16px, 3vw, 42px) !important;
+  border-bottom: 1px solid #ffffff14 !important;
+  background: linear-gradient(#081019f0, #081019bd 76%, transparent) !important;
+  backdrop-filter: blur(8px) !important;
+  box-shadow: none !important;
+  transition: background .45s steps(5, end), color .45s steps(5, end);
+}
+
+body[data-time="day"] header.site-header {
+  border-bottom-color: #263d4630 !important;
+  background: linear-gradient(#d6e1daf0, #c2d0c7bd 76%, transparent) !important;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: max-content;
+  text-decoration: none;
+  color: #d9dfdb;
+}
+body[data-time="day"] .brand {
+  color: #17242b;
+}
+
+.brand-pixel-badge {
+  display: inline-grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  background: #182530;
+  border: 1px solid var(--mint);
+  box-shadow: 2px 2px 0 #0a1118;
+  color: var(--mint);
+  font: 800 12px/1 var(--font-heading);
+  letter-spacing: -.04em;
+}
+body[data-time="day"] .brand-pixel-badge {
+  background: #e1e9e0;
+  border-color: #304b47;
+  color: #17242b;
+  box-shadow: 2px 2px 0 #9ab0ac;
+}
+
+.brand-wordmark-text {
+  font: 800 16px/1 var(--font-heading);
+  letter-spacing: -.06em;
+  color: inherit;
+  text-shadow: 2px 2px 0 #0a1118;
+  position: relative;
+}
+.brand-wordmark-text::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 14px;
+  height: 2px;
+  background: #728d38;
+}
+body[data-time="day"] .brand-wordmark-text {
+  text-shadow: 2px 2px 0 #eef4ee;
+}
+
+nav.site-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: clamp(6px, 1.4vw, 18px) !important;
+  color: #bdc9ca !important;
+  font: 600 13px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace !important;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+nav.site-nav :is(button, a) {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 40px !important;
+  padding: 8px 8px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: inherit !important;
+  cursor: pointer !important;
+  text-transform: none !important;
+  letter-spacing: -.01em !important;
+  text-underline-offset: 7px !important;
+  text-decoration-thickness: 1.5px !important;
+  box-shadow: none !important;
+  font: inherit !important;
+}
+
+nav.site-nav :is(button, a):hover,
+nav.site-nav :is(button, a):focus-visible,
+nav.site-nav a.active {
+  color: var(--mint) !important;
+  background: transparent !important;
+  text-decoration-line: underline !important;
+  box-shadow: none !important;
+}
+
+body[data-time="day"] nav.site-nav {
+  color: #304b47 !important;
+}
+body[data-time="day"] nav.site-nav :is(button, a):hover,
+body[data-time="day"] nav.site-nav :is(button, a):focus-visible,
+body[data-time="day"] nav.site-nav a.active {
+  color: #132c24 !important;
+}
+
+.opensea-icon {
+  display: block;
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+nav.site-nav .social-link {
+  min-width: 36px !important;
+  font-size: 16px !important;
+}
+nav.site-nav .collection-link {
+  min-width: 36px !important;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-self: end;
+}
+
+.time-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 38px;
+  min-width: 86px;
+  padding: 7px 12px;
+  border: 1px solid var(--line);
+  background: #14212be8;
+  color: var(--cream);
+  font: 700 12px/1 var(--font-heading);
+  cursor: pointer;
+}
+.time-toggle:hover {
+  border-color: var(--mint);
+  color: var(--mint);
+}
+body[data-time="day"] .time-toggle {
+  border-color: #536f70;
+  background: #e1e9e0e8;
+  color: #17242b;
+}
+
+#btn-connect-wallet {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 38px !important;
+  padding: 8px 14px !important;
+  border: 1px solid var(--mint) !important;
+  border-radius: 0 !important;
+  background: var(--mint) !important;
+  color: #112019 !important;
+  font: 800 12px/1 var(--font-heading) !important;
+  letter-spacing: -.02em !important;
+  text-transform: none !important;
+  box-shadow: 3px 3px 0 #4e6b59 !important;
+  transform: none !important;
+}
+#btn-connect-wallet:hover {
+  background: #d5ebd2 !important;
+}
+
+/* ==========================================================================
+   INTERACTIVE PANORAMIC SANCTUM ROOM STAGE (640x240 -> 2560x960)
+   ========================================================================== */
+.sanctum-hero {
+  display: grid;
+  align-content: start;
+  padding: 68px 0 0;
+}
+
+.hero-copy-mobile {
+  display: none;
+}
+
+.room-shell {
+  width: 100%;
+  margin: auto;
+}
+
+.room-swipe-hint {
+  display: none;
+  margin: 12px 16px 0;
+  color: var(--muted);
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: .03em;
+  text-align: center;
+  pointer-events: none;
+  user-select: none;
+}
+body[data-time="day"] .room-swipe-hint {
+  color: #36504a;
+}
+@media (max-width: 600px) and (pointer: coarse) {
+  .room-swipe-hint:not([hidden]) {
+    display: block;
+  }
+}
+
+.room-stage {
+  position: relative;
+  overflow: hidden;
+  width: min(100vw, 2560px);
+  margin: auto;
+  aspect-ratio: 8 / 3;
+  border-block: 1px solid #40505d;
+  background: #303943;
+  box-shadow: 0 28px 100px #02070caa;
+  isolation: isolate;
+  transition: box-shadow .45s steps(5, end);
+}
+body[data-time="day"] .room-stage {
+  box-shadow: 0 28px 100px #314c525e;
+}
+
+.room-art, .day-window {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  image-rendering: pixelated;
+}
+
+.day-window {
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .45s steps(5, end);
+}
+.room-stage[data-time="day"] .day-window {
+  opacity: 1;
+}
+
+.sleep-scene {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  image-rendering: pixelated;
+  pointer-events: none;
+  visibility: hidden;
+}
+.room-stage[data-lamp="off"][data-time="night"] .sleep-night,
+.room-stage[data-lamp="off"][data-time="day"] .sleep-day {
+  visibility: visible;
+}
+.room-stage[data-lamp="off"] .day-window {
+  visibility: hidden;
+}
+.room-stage[data-lamp="off"] .hint-laptop,
+.room-hotspot[hidden] {
+  display: none;
+}
+
+.room-sky {
+  position: absolute;
+  z-index: 3;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.sky-night .sky-patch { fill: #162434; }
+.sky-moon { fill: #b8c2aa; }
+.sky-day { display: none; }
+.sky-day .sky-patch { fill: #8fb6bd; }
+.sky-sun { fill: #f1de99; }
+.room-stage[data-time="day"] .sky-night { display: none; }
+.room-stage[data-time="day"] .sky-day { display: inline; }
+.room-stage[data-lamp="off"] .sky-night .sky-patch { fill: #0e1926; }
+.room-stage[data-lamp="off"] .sky-moon { fill: #89978e; }
+
+.window-copy {
+  position: absolute;
+  z-index: 3;
+  left: 5.8%;
+  top: 13.5%;
+  width: 24.5%;
+  text-shadow: 0 3px #0c1620;
+  pointer-events: none;
+}
+.room-stage[data-time="day"] .window-copy {
+  text-shadow: 0 2px #2c4a5299;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: var(--gold);
+  font: 700 11px/1.3 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.room-stage[data-time="day"] .window-copy .eyebrow {
+  color: #213c38;
+  text-shadow: none;
+}
+
+.window-copy h1 {
+  margin: 0 0 12px;
+  font: 800 clamp(22px, 3.1vw, 52px)/.95 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: -.07em;
+  color: #d9e6da;
+}
+.room-stage[data-time="day"] .window-copy h1 {
+  color: #13282c;
+  text-shadow: 0 2px #e6f0ea80;
+}
+
+.window-copy > p:last-child {
+  margin: 0;
+  max-width: 340px;
+  color: #d5dfdc;
+  font-size: clamp(9px, 0.98vw, 14px);
+  font-weight: 650;
+  line-height: 1.45;
+}
+.room-stage[data-time="day"] .window-copy > p:last-child {
+  color: #1f393e;
+  text-shadow: none;
+}
+
+.room-hotspot {
+  position: absolute;
+  z-index: 6;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+.room-hotspot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url('assets/room/room-night.png');
+  background-size: var(--art-size);
+  background-position: var(--art-position);
+  image-rendering: pixelated;
+  opacity: 0;
+  filter: brightness(1.24);
+  transition: opacity .16s;
+}
+.laptop-hotspot {
+  left: 23.75%;
+  top: 57.083333%;
+  width: 12.96875%;
+  height: 17.083333%;
+  --art-size: 771.084337% 585.365854%;
+  --art-position: 27.289048% 68.844221%;
+  clip-path: polygon(12% 0, 88% 0, 88% 80%, 93% 80%, 93% 87%, 100% 95%, 100% 100%, 0 100%, 0 95%, 6% 87%, 6% 80%, 12% 80%);
+}
+.lamp-hotspot {
+  left: 52.1875%;
+  top: 63.333333%;
+  width: 4.53125%;
+  height: 13.333333%;
+  --art-size: 2206.896552% 750%;
+  --art-position: 54.664484% 73.076923%;
+}
+.lamp-hotspot::before {
+  clip-path: polygon(31% 0, 69% 0, 90% 37%, 90% 45%, 57% 45%, 57% 91%, 85% 91%, 85% 100%, 16% 100%, 16% 91%, 45% 91%, 45% 45%, 10% 45%, 10% 37%);
+}
+.lamp-hotspot::after {
+  content: "";
+  position: absolute;
+  inset: -9px;
+}
+.room-stage[data-lamp="off"] .room-hotspot::before,
+.room-stage[data-lamp="off"] .photo-hotspot::after {
+  background-image: url('assets/room/room-sleep-night-v3.png');
+}
+.room-stage[data-lamp="off"][data-time="day"] .room-hotspot::before,
+.room-stage[data-lamp="off"][data-time="day"] .photo-hotspot::after {
+  background-image: url('assets/room/room-sleep-day-v7.png');
+}
+.room-hotspot:focus-visible, .photo-hotspot:focus-visible { outline: none; }
+.room-hotspot:focus-visible::before { opacity: 1; filter: brightness(1.4); }
+.room-hotspot:active::before { opacity: 1; filter: brightness(1.5); }
+
+.photo-hotspots {
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  pointer-events: none;
+}
+.photo-hotspot {
+  position: absolute;
+  left: var(--left);
+  top: var(--top);
+  width: var(--width);
+  height: var(--height);
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  pointer-events: auto;
+}
+.photo-hotspot::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url('assets/room/room-night.png');
+  background-size: 1600% 545.454545%;
+  background-position: var(--art-position);
+  clip-path: polygon(40% 0, 60% 0, 60% 4.545455%, 100% 4.545455%, 100% 100%, 0 100%, 0 4.545455%, 40% 4.545455%);
+  image-rendering: pixelated;
+  opacity: 0;
+  filter: brightness(1.22);
+  transition: opacity .16s;
+}
+.photo-hotspot:focus-visible::after { opacity: 1; filter: brightness(1.4); }
+.photo-hotspot:active::after { opacity: 1; filter: brightness(1.5); }
+
+.room-hints {
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  color: #c5d6c1;
+  filter: drop-shadow(0 1px 0 #0a172938);
+}
+.room-hints * { pointer-events: none; }
+.room-stage[data-time="day"] .room-hints {
+  color: #315957;
+  filter: drop-shadow(0 1px 0 #edf4d838);
+}
+.room-hint-cue { opacity: .88; fill: currentColor; }
+body:has(dialog[open]) .room-hints { visibility: hidden; }
+
+@media (hover: hover) and (pointer: fine) {
+  .room-hotspot:hover::before, .photo-hotspot:hover::after { opacity: 1; }
+}
+
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/* Quick-action bar directly under the interactive Sanctum room */
+.sanctum-action-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: min(var(--page), calc(100% - 40px));
+  margin: 22px auto 0;
+  padding: 14px 20px;
+  border: 1px solid var(--line);
+  background: #14212be6;
+  box-shadow: 6px 6px 0 #070d13;
+}
+body[data-time="day"] .sanctum-action-strip {
+  background: #d2dfd9f0;
+  border-color: #536f70;
+  box-shadow: 6px 6px 0 #66808255;
+}
+
+.sanctum-strip-hint {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+  font: 600 12px/1.4 var(--font-heading);
+}
+.sanctum-strip-hint strong {
+  color: var(--gold);
+}
+body[data-time="day"] .sanctum-strip-hint strong {
+  color: #214037;
+}
+
+.sanctum-strip-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.primary-button, .secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 10px 16px;
+  border: 1px solid var(--mint);
+  cursor: pointer;
+  font: 800 12px/1 var(--font-heading);
+  letter-spacing: -.02em;
+  text-decoration: none;
+}
+.primary-button {
+  background: var(--mint);
+  color: #112019;
+  box-shadow: 4px 4px 0 #4e6b59;
+}
+.primary-button:hover {
+  background: #d5ebd2;
+}
+.secondary-button {
+  background: #14212b;
+  color: var(--cream);
+  border-color: #526776;
+  box-shadow: 4px 4px 0 #091017;
+}
+.secondary-button:hover {
+  border-color: var(--mint);
+  color: var(--mint);
+}
+body[data-time="day"] .secondary-button {
+  background: #e1e9e0;
+  color: #17242b;
+  border-color: #536f70;
+  box-shadow: 4px 4px 0 #7b9496;
+}
+
+/* ==========================================================================
+   FRAMED GUARDIAN PREVIEW DIALOG (#frenDialog)
+   ========================================================================== */
+.fren-dialog {
+  width: min(560px, calc(100% - 24px));
+  max-width: none;
+  max-height: calc(100dvh - 24px);
+  margin: auto;
+  padding: 0;
+  border: 1px solid #536775;
+  background: #0c131bf5;
+  color: var(--cream);
+  box-shadow: 12px 14px 0 #04080c, 0 30px 120px #000;
+}
+.fren-dialog::backdrop {
+  background: #03070be3;
+  backdrop-filter: blur(8px);
+}
+.dialog-close {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 1px solid #627786;
+  background: #111d27e8;
+  color: #e8efea;
+  cursor: pointer;
+  font: 300 28px/1 system-ui;
+}
+.fren-view {
+  display: grid;
+  justify-items: center;
+  gap: 18px;
+  margin: 0;
+  padding: 32px;
+  text-align: center;
+}
+.fren-view img {
+  display: block;
+  width: min(68vw, 340px);
+  height: auto;
+  background: #16212b;
+  border: 8px solid #d7d8c9;
+  outline: 5px solid #6c6b61;
+  box-shadow: 13px 15px #05090c99;
+}
+.fren-view figcaption {
+  display: grid;
+  justify-items: center;
+  gap: 6px;
+}
+.fren-view h2 {
+  margin: 0;
+  font: 800 clamp(22px, 4.5vw, 34px)/1.05 var(--font-heading);
+  letter-spacing: -.05em;
+  color: var(--cream);
+}
+.fren-view figcaption > p:last-of-type {
+  margin: 0;
+  color: #94a7ad;
+  font: 600 12px/1.5 var(--font-heading);
+}
+.fren-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* ==========================================================================
+   RESTYLING LIVE WEB3 MODULES TO MATCH ROBIN FRENS AESTHETIC
+   ========================================================================== */
+.tab-section {
+  width: min(var(--page), calc(100% - 40px)) !important;
+  max-width: var(--page) !important;
+  margin: 0 auto !important;
+  padding: 36px 0 80px !important;
+}
+
+.genesis-summon-header {
+  max-width: 100% !important;
+  margin: 0 0 24px !important;
+  padding: 0 0 18px !important;
+  border-bottom: 1px solid var(--line) !important;
+  display: grid !important;
+  grid-template-columns: 1.15fr 0.85fr !important;
+  align-items: end !important;
+  text-align: left !important;
+  gap: 32px !important;
+}
+.genesis-summon-header .hero-badge {
+  grid-column: 1 / -1 !important;
+  justify-self: start !important;
+  margin-bottom: -14px !important;
+}
+.genesis-summon-header .hero-grand-title {
+  margin: 0 !important;
+  font: 800 clamp(26px, 3.4vw, 44px)/.98 var(--font-heading) !important;
+  letter-spacing: -.065em !important;
+}
+.genesis-summon-header .hero-grand-subtitle {
+  margin: 0 !important;
+  color: var(--muted) !important;
+  font-size: 13.5px !important;
+  line-height: 1.55 !important;
+  text-align: left !important;
+}
+
+@media (max-width: 900px) {
+  .genesis-summon-header {
+    grid-template-columns: 1fr !important;
+    gap: 14px !important;
+  }
+  .genesis-summon-header .hero-badge {
+    margin-bottom: 0 !important;
+  }
+}
+
+.hero-badge,
+.terminal-status-badge,
+.beast-tier-badge,
+.el-pill,
+.badge-tag,
+.progress-tag,
+.progress-percent-badge,
+.hud-stat-pill,
+.rank-badge {
+  border-radius: 0 !important;
+  font-family: var(--font-heading) !important;
+}
+
+.hero-badge {
+  background: #14212b !important;
+  border: 1px solid var(--line) !important;
+  color: var(--gold) !important;
+  font: 700 11px/1.3 var(--font-heading) !important;
+  letter-spacing: .15em !important;
+  padding: 6px 12px !important;
+  box-shadow: 3px 3px 0 #070d13 !important;
+}
+
+.terminal-status-badge {
+  background: #11241e !important;
+  border: 1px solid #4e6b59 !important;
+  color: var(--mint) !important;
+  font: 700 11px/1 var(--font-heading) !important;
+  padding: 6px 10px !important;
+}
+
+.hero-grand-title,
+.section-header h2 {
+  font: 800 clamp(28px, 4.2vw, 52px)/1 var(--font-heading) !important;
+  letter-spacing: -.06em !important;
+  color: var(--cream) !important;
+  text-shadow: none !important;
+}
+body[data-time="day"] .hero-grand-title,
+body[data-time="day"] .section-header h2 {
+  color: #15222a !important;
+}
+
+.gold-gradient-text {
+  background: none !important;
+  -webkit-text-fill-color: var(--mint) !important;
+  color: var(--mint) !important;
+}
+body[data-time="day"] .gold-gradient-text {
+  -webkit-text-fill-color: #265242 !important;
+  color: #265242 !important;
+}
+
+.mint-terminal-card,
+.hero-holo-card,
+.eco-feature-card,
+.contract-banner,
+.beast-card,
+.altar-container,
+.game-briefing-card,
+.sealed-sanctum-box,
+.combatant-card,
+.rewards-vault-section,
+.reward-item-card,
+.modal-box {
+  border-radius: 0 !important;
+  border: 1px solid #344553 !important;
+  background: #16212b !important;
+  box-shadow: 10px 12px 0 #070d13 !important;
+}
+body[data-time="day"] :is(.mint-terminal-card, .hero-holo-card, .eco-feature-card, .contract-banner, .beast-card, .altar-container, .game-briefing-card, .sealed-sanctum-box, .combatant-card, .rewards-vault-section, .reward-item-card) {
+  background: #cddad4 !important;
+  border-color: #536f70 !important;
+  box-shadow: 8px 10px 0 #66808255 !important;
+}
+
+/* Double-bezel frame on hero showcase card & gallery cards */
+.holo-img-wrapper {
+  border-radius: 0 !important;
+  border: 8px solid #d7d8c9 !important;
+  outline: 5px solid #6c6b61 !important;
+  box-shadow: 12px 14px 0 #05090c99 !important;
+}
+
+.btn-summon-hero,
+.btn-gold {
+  border-radius: 0 !important;
+  background: var(--mint) !important;
+  color: #112019 !important;
+  border: 1px solid var(--mint) !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 800 !important;
+  letter-spacing: -.02em !important;
+  box-shadow: 4px 4px 0 #4e6b59 !important;
+  text-transform: uppercase !important;
+}
+.btn-summon-hero:hover,
+.btn-gold:hover {
+  background: #d5ebd2 !important;
+  transform: translate(-1px, -1px) !important;
+  box-shadow: 5px 5px 0 #4e6b59 !important;
+}
+
+.btn-outline,
+.filter-select {
+  border-radius: 0 !important;
+  background: #14212b !important;
+  color: var(--cream) !important;
+  border: 1px solid #526776 !important;
+  font-family: var(--font-heading) !important;
+  box-shadow: 3px 3px 0 #070d13 !important;
+}
+
+.m-cell {
+  border-radius: 0 !important;
+  border: 1px solid #2c3d49 !important;
+  background: #111d27 !important;
+  padding: 12px 10px !important;
+}
+.m-cell.highlight {
+  border-color: #4e6b59 !important;
+  background: #132321 !important;
+}
+.m-val {
+  font: 800 clamp(12px, 1.1vw, 15px)/1.2 var(--font-heading) !important;
+  color: var(--cream) !important;
+  white-space: nowrap !important;
+  letter-spacing: -.03em !important;
+}
+.m-cell.highlight .m-val {
+  color: var(--mint) !important;
+}
+.m-lbl {
+  font: 600 10px/1.2 var(--font-heading) !important;
+  color: var(--muted) !important;
+  text-transform: uppercase !important;
+  letter-spacing: .06em !important;
+}
+body[data-time="day"] .m-cell {
+  background: #dce6dd !important;
+  border-color: #6b8586 !important;
+}
+body[data-time="day"] .m-val {
+  color: #15222a !important;
+}
+
+.mint-progress-section,
+.mint-control-row,
+.contract-address-box {
+  border-radius: 0 !important;
+  border: 1px solid #2c3d49 !important;
+  background: #111d27 !important;
+}
+.progress-tag {
+  background: #1c2d27 !important;
+  color: var(--mint) !important;
+  border: 1px solid #4e6b59 !important;
+}
+.progress-count strong {
+  color: var(--gold) !important;
+  font-family: var(--font-heading) !important;
+}
+.remaining-highlight {
+  color: var(--mint) !important;
+  font-family: var(--font-heading) !important;
+}
+.progress-percent-badge {
+  background: #172531 !important;
+  border: 1px solid #3b4f5e !important;
+  color: var(--cream) !important;
+  font-family: var(--font-heading) !important;
+}
+.mint-progress-track {
+  border-radius: 0 !important;
+  background: #0b131a !important;
+  border: 1px solid #344553 !important;
+  height: 10px !important;
+}
+.mint-progress-fill {
+  border-radius: 0 !important;
+  background: linear-gradient(90deg, #79947d, #bcd9bd) !important;
+  box-shadow: none !important;
+}
+.progress-glow-head {
+  display: none !important;
+}
+
+.mint-stepper {
+  border-radius: 0 !important;
+  border: 1px solid #3b4f5e !important;
+  background: #0d1720 !important;
+  padding: 3px !important;
+}
+.mint-stepper button {
+  border-radius: 0 !important;
+  border: 1px solid #46606a !important;
+  background: #182834 !important;
+  color: var(--cream) !important;
+  width: 32px !important;
+  height: 32px !important;
+  font-family: var(--font-heading) !important;
+}
+.mint-stepper button:hover {
+  background: var(--mint) !important;
+  color: #112019 !important;
+  border-color: var(--mint) !important;
+}
+#mint-qty-text,
+.total-val {
+  font-family: var(--font-heading) !important;
+  color: var(--gold) !important;
+}
+
+.beast-card {
+  padding: 8px !important;
+  box-shadow: 6px 6px 0 #070d13 !important;
+  transition: translate .2s, border-color .2s !important;
+}
+.beast-card:hover {
+  translate: 0 -5px !important;
+  border-color: var(--mint) !important;
+}
+.beast-card .beast-img-box {
+  border-radius: 0 !important;
+  border: 4px solid #d7d8c9 !important;
+  outline: 2px solid #6c6b61 !important;
+}
+
+.site-footer {
+  border-top: 1px solid var(--line) !important;
+  background: #0c131b !important;
+  font-family: var(--font-heading) !important;
+}
+
+@media (max-width: 900px) {
+  .window-copy { display: none; }
+  .hero-copy-mobile {
+    display: block;
+    width: min(720px, calc(100% - 32px));
+    margin: 0 auto 16px;
+  }
+  .hero-copy-mobile h1 {
+    margin: 0 0 8px;
+    font: 800 clamp(30px, 8vw, 52px)/.95 var(--font-heading);
+    letter-spacing: -.07em;
+  }
+  .hero-copy-mobile p:last-child {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 700px) {
+  header.site-header {
+    grid-template-columns: 1fr auto !important;
+    row-gap: 4px !important;
+    padding: 8px 14px !important;
+  }
+  nav.site-nav {
+    grid-row: 2 !important;
+    grid-column: 1 / -1 !important;
+    flex-wrap: wrap !important;
+    gap: 4px 10px !important;
+  }
+  .header-controls {
+    grid-row: 1 !important;
+    grid-column: 2 !important;
+  }
+  .sanctum-hero {
+    padding-top: 104px;
+  }
+  .room-shell {
+    padding: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .room-stage {
+    width: 900px;
+    transform-origin: left top;
+  }
+  .sanctum-action-strip {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .sanctum-strip-buttons {
+    flex-direction: column;
+  }
+}
