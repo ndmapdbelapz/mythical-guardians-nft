@@ -1,23 +1,23 @@
-/* Same game window geometry as the Robin Frens laptop shell. */
-.laptop-game-icon{position:absolute;z-index:1;left:71.084337%;top:21.95122%;width:9.638554%;height:auto;fill:#9eb6b3;pointer-events:none}
-.game-dialog{position:fixed;inset:0;width:min(1200px,calc(100vw - 88px));height:min(880px,calc(100dvh - 100px));max-width:none;max-height:none;margin:auto;padding:0;border:2px solid #718675;box-shadow:10px 12px 0 #05121899,0 24px 90px #0009;overflow:hidden;background:#081018;color:#e0e7d9;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;flex-direction:column}
+/* Kunlun Sky Trial — Imperial Sanctuary Game Window Styling */
+.laptop-game-icon{position:absolute;z-index:1;left:71.084337%;top:21.95122%;width:9.638554%;height:auto;fill:#f0c36d;pointer-events:none}
+.game-dialog{position:fixed;inset:0;width:min(1200px,calc(100vw - 88px));height:min(880px,calc(100dvh - 100px));max-width:none;max-height:none;margin:auto;padding:0;border:2px solid #d4a44c;box-shadow:10px 12px 0 #050611cc,0 24px 90px #000c;overflow:hidden;background:#070814;color:#f5efe2;font:13px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;flex-direction:column}
 .game-dialog[open]{display:flex}
-.game-dialog::backdrop{background:#06171d66;backdrop-filter:blur(2px)}
-.game-window-bar{height:44px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding-left:16px;background:#203c3f;border-bottom:1px solid #718675;color:#e0e7d9;font-size:13px;font-weight:700}
+.game-dialog::backdrop{background:#05061299;backdrop-filter:blur(4px)}
+.game-window-bar{height:44px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;padding-left:16px;background:linear-gradient(90deg,#2a1019,#151836);border-bottom:1px solid #d4a44c;color:#f0c36d;font-size:13px;font-weight:700;letter-spacing:.03em}
 .game-window-bar>span{display:flex;align-items:center;gap:10px}
-.game-window-bar img{image-rendering:pixelated;border-radius:2px}
-.game-window-bar button{height:42px;width:48px;border:0;border-left:1px solid #718675;background:none;color:#e0e7d9;font-size:24px;padding:0;cursor:pointer}
-.game-window-bar button:hover{background:#2c5256;color:#fff}
+.game-window-bar img{image-rendering:pixelated;border-radius:2px;border:1px solid #f0c36d}
+.game-window-bar button{height:42px;width:48px;border:0;border-left:1px solid #d4a44c66;background:none;color:#f5efe2;font-size:24px;padding:0;cursor:pointer}
+.game-window-bar button:hover{background:#c8372d;color:#fff}
 .game-viewport{position:relative;flex:1;min-height:0}
-.game-dialog iframe{width:100%;height:100%;border:0;display:block;background:#081018}
-.game-loading{position:absolute;inset:0;display:grid;place-content:center;gap:20px;background:#081018;color:#e0e7d9;text-align:center;padding:20px}
+.game-dialog iframe{width:100%;height:100%;border:0;display:block;background:#070814}
+.game-loading{position:absolute;inset:0;display:grid;place-content:center;gap:20px;background:#070814;color:#f0c36d;text-align:center;padding:20px}
 .game-loading[hidden],.game-loading button[hidden]{display:none}
-.game-loading button,.game-exit-dialog button{min-height:44px;padding:10px 16px;border:1px solid #718675;background:#203c3f;color:#e0e7d9;cursor:pointer;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-weight:700}
-.game-loading button:hover,.game-exit-dialog button:hover{background:#2d5256;border-color:#bcd9bd}
+.game-loading button,.game-exit-dialog button{min-height:44px;padding:10px 16px;border:1px solid #d4a44c;background:#1a142e;color:#f5efe2;cursor:pointer;font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-weight:700}
+.game-loading button:hover,.game-exit-dialog button:hover{background:#f0c36d;color:#120d1e;border-color:#f0c36d}
 .game-window-bar button,.game-loading button,.game-exit-dialog button{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;touch-action:manipulation}
-.game-exit-dialog{max-width:min(440px,calc(100vw - 32px));max-height:calc(100dvh - 24px);margin:auto;overflow:auto;padding:24px;border:1px solid #718675;background:#10252a;color:#e0e7d9;font:13px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;box-shadow:8px 8px #05121899}
-.game-exit-dialog::backdrop{background:#041219cc}
-.game-exit-dialog h2{margin-top:0;font-size:22px;color:#dce6d9}
+.game-exit-dialog{max-width:min(440px,calc(100vw - 32px));max-height:calc(100dvh - 24px);margin:auto;overflow:auto;padding:24px;border:2px solid #d4a44c;background:#11142b;color:#f5efe2;font:13px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;box-shadow:8px 8px #050611cc}
+.game-exit-dialog::backdrop{background:#050612cc}
+.game-exit-dialog h2{margin-top:0;font-size:22px;color:#f0c36d}
 .game-exit-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
 .game-exit-actions button{flex:1}
 @media(max-width:800px),(any-pointer:coarse) and (max-width:1400px){
@@ -28,5 +28,5 @@
 @media(any-pointer:coarse) and (orientation:landscape) and (max-height:900px) and (max-width:1400px){
  .game-window-bar{position:absolute;z-index:2;top:calc(8px + env(safe-area-inset-top));right:calc(12px + env(safe-area-inset-right));width:44px;height:44px;padding:0;border:0;background:none}
  .game-window-bar>span{display:none}
- .game-window-bar button{width:44px;height:44px;border:1px solid #46606a;background:#14222c}
+ .game-window-bar button{width:44px;height:44px;border:1px solid #d4a44c;background:#151836}
 }

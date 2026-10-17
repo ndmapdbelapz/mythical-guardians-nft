@@ -1,0 +1,1164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080914">
+  <title>Kunlun Sky Trial — Mythical Beasts & Guardians</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --ink: #070812;
+      --deep: #0d1021;
+      --panel: #131830;
+      --line: #353f6b;
+      --gold: #f0c36d;
+      --gold-bright: #ffe29e;
+      --crimson: #e04f44;
+      --jade: #4cd4a9;
+      --aether: #a378ff;
+      --cream: #f4efe6;
+      --muted: #9aa3c4;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
+    html, body {
+      margin: 0;
+      min-height: 100dvh;
+      background: radial-gradient(ellipse at 50% 20%, #191d3a 0%, #090b16 70%);
+      color: var(--cream);
+      font-family: var(--font-mono);
+      overflow-x: hidden;
+    }
+    .trial-stage {
+      width: min(1120px, 100%);
+      min-height: 100dvh;
+      margin: auto;
+      padding: 18px 20px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+    }
+    .trial-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 10px;
+    }
+    .trial-brand {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .trial-brand h1 {
+      margin: 0;
+      font-size: 22px;
+      letter-spacing: -.05em;
+      color: var(--gold-bright);
+      text-transform: uppercase;
+    }
+    .trial-brand p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .guardian-picker {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .guardian-picker label {
+      font-size: 11px;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .guardian-picker select {
+      min-height: 34px;
+      padding: 0 10px;
+      background: var(--panel);
+      color: var(--cream);
+      border: 1px solid var(--gold);
+      font: 700 11px var(--font-mono);
+      cursor: pointer;
+    }
+    .hud-bar {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      padding: 8px 12px;
+      background: #0e1326;
+      border: 1px solid var(--line);
+      font-size: 12px;
+    }
+    .hud-metric {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      color: var(--muted);
+    }
+    .hud-metric b {
+      color: var(--cream);
+      font-size: 16px;
+    }
+    .hud-metric.gold b { color: var(--gold-bright); }
+    .hud-metric.jade b { color: var(--jade); }
+    .hud-metric.crimson b { color: var(--crimson); }
+    .hud-realm {
+      margin-left: auto;
+      color: var(--gold);
+      font-size: 11px;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    .hud-btn {
+      min-height: 32px;
+      padding: 0 12px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: var(--cream);
+      font: 800 11px var(--font-mono);
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+    .hud-btn:hover, .hud-btn:focus-visible {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+      outline: none;
+    }
+
+    .arena-shell {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #060811;
+      border: 2px solid var(--gold);
+      box-shadow: 8px 10px 0 #03040a, 0 24px 60px rgba(0,0,0,0.8);
+      overflow: hidden;
+    }
+    #gameCanvas {
+      display: block;
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+
+    /* Result Screen Overlay */
+    .result-screen {
+      position: absolute;
+      inset: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 340px) minmax(0, 420px);
+      justify-content: center;
+      align-items: center;
+      gap: 28px;
+      padding: 24px;
+      background: linear-gradient(115deg, rgba(7, 8, 18, 0.96), rgba(18, 22, 46, 0.95));
+      overflow: auto;
+    }
+    .scroll-card-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    #photoCard {
+      width: min(100%, 300px);
+      height: auto;
+      border: 4px solid var(--gold);
+      box-shadow: 8px 10px 0 #04050b;
+      transform: rotate(-1deg);
+    }
+    .result-copy h2 {
+      margin: 0 0 6px;
+      font-size: clamp(24px, 4vw, 44px);
+      color: var(--gold-bright);
+      letter-spacing: -.05em;
+      line-height: 1;
+    }
+    .result-eyebrow {
+      margin: 0 0 6px;
+      color: var(--jade);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+    }
+    .result-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      margin: 14px 0 18px;
+    }
+    .result-stat-box {
+      padding: 8px 10px;
+      background: #0e1326;
+      border: 1px solid var(--line);
+    }
+    .result-stat-box span {
+      display: block;
+      font-size: 9px;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+    .result-stat-box strong {
+      font-size: 15px;
+      color: var(--gold-bright);
+    }
+    .result-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .btn-primary {
+      min-height: 40px;
+      padding: 0 16px;
+      background: var(--gold);
+      color: #110d04;
+      border: 1px solid var(--gold-bright);
+      font: 900 11px var(--font-mono);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      box-shadow: 3px 3px 0 #6e511c;
+      cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--gold-bright); }
+    .btn-secondary {
+      min-height: 40px;
+      padding: 0 14px;
+      background: #12172e;
+      color: var(--cream);
+      border: 1px solid var(--line);
+      font: 800 11px var(--font-mono);
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .btn-secondary:hover {
+      border-color: var(--gold);
+      color: var(--gold-bright);
+    }
+    .share-feedback {
+      margin: 8px 0 0;
+      min-height: 16px;
+      font-size: 11px;
+      color: var(--jade);
+    }
+
+    /* Controls Bar */
+    .controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .touch-controls {
+      display: flex;
+      gap: 8px;
+      flex: 1;
+      min-width: 280px;
+    }
+    .touch-btn {
+      flex: 1;
+      min-height: 44px;
+      background: #131933;
+      border: 1px solid var(--line);
+      color: var(--cream);
+      font: 800 11px var(--font-mono);
+      text-transform: uppercase;
+      box-shadow: 3px 3px 0 #050711;
+      cursor: pointer;
+      user-select: none;
+      touch-action: manipulation;
+    }
+    .touch-btn:hover, .touch-btn:active {
+      border-color: var(--gold);
+      background: #1c2447;
+      color: var(--gold-bright);
+    }
+    .touch-btn.blast-btn {
+      border-color: var(--crimson);
+      background: #2b141d;
+      color: #ffb3ae;
+    }
+    .touch-btn.blast-btn:hover {
+      background: #3d1b28;
+      border-color: var(--gold);
+    }
+    .utility-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    @media (max-width: 800px) {
+      .result-screen {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+      }
+      .arena-shell.has-result {
+        aspect-ratio: auto;
+        min-height: 620px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="trial-stage">
+    <header class="trial-header">
+      <div class="trial-brand">
+        <h1>⚡ Kunlun Sky Trial</h1>
+        <p>Soar the 5 Realms · Blast Void Fiends · Harvest Soul Shards</p>
+      </div>
+      <div class="guardian-picker">
+        <label for="guardianSelect">Champion:</label>
+        <select id="guardianSelect">
+          <option value="0">Azure Dragon (Air · Wind Blades)</option>
+          <option value="1">Vermilion Bird (Fire · Phoenix Flare)</option>
+          <option value="2">White Tiger (Earth · Jade Meteor)</option>
+          <option value="3">Nine-Tailed Fox (Void · Astral Nova)</option>
+          <option value="4">Celestial Qilin (Fire · Solar Bolt)</option>
+          <option value="5">Black Tortoise (Water · Tidal Surge)</option>
+          <option value="6">Solar Garuda (Air · Golden Talon)</option>
+          <option value="7">Storm Tengu (Void · Shadow Gale)</option>
+        </select>
+      </div>
+    </header>
+
+    <div class="hud-bar" aria-label="Trial status">
+      <div class="hud-metric">Distance <b id="hudDist">0</b> m</div>
+      <div class="hud-metric gold">Soul Shards <b id="hudShards">0</b></div>
+      <div class="hud-metric jade">Aether Orbs <b id="hudOrbs">3</b></div>
+      <div class="hud-metric crimson">Fiends Slain <b id="hudKills">0</b></div>
+      <span class="hud-realm" id="hudRealm">Realm I · Jade Cloud Sanctuary</span>
+      <button id="pauseBtn" class="hud-btn" type="button">Ⅱ Pause</button>
+    </div>
+
+    <section class="arena-shell" id="arenaShell" aria-label="Kunlun Sky Trial canvas">
+      <canvas id="gameCanvas" width="960" height="540" tabindex="0"></canvas>
+
+      <section class="result-screen" id="resultScreen" hidden aria-label="Trial chronicle result">
+        <div class="scroll-card-wrap">
+          <canvas id="photoCard" width="440" height="540" role="img" aria-label="Guardian Trial Chronicle Card"></canvas>
+          <button id="downloadCardBtn" class="btn-secondary" type="button" style="width:100%;">⬇ Download Chronicle Card</button>
+        </div>
+        <div class="result-copy">
+          <p class="result-eyebrow">CELESTIAL TRIAL COMPLETE</p>
+          <h2><span id="resDist">0</span> METRES FLOWN</h2>
+          <p style="margin:0; color:var(--muted); font-size:12px;">Your Soul Shards have been synced to your Kunlun Sanctuary Vault.</p>
+          <div class="result-stats-grid">
+            <div class="result-stat-box"><span>Champion</span><strong id="resChamp">Azure Dragon</strong></div>
+            <div class="result-stat-box"><span>Realm Reached</span><strong id="resRealm">Jade Cloud Peaks</strong></div>
+            <div class="result-stat-box"><span>Fiends Banished</span><strong id="resKills">0</strong></div>
+            <div class="result-stat-box"><span>Soul Shards Earned</span><strong id="resShards">+0 🪙</strong></div>
+          </div>
+          <div class="result-actions">
+            <button id="flyAgainBtn" class="btn-primary" type="button">⚡ Fly Again</button>
+            <button id="copyCardBtn" class="btn-secondary" type="button">📋 Copy Card Image</button>
+            <button id="shareXBtn" class="btn-secondary" type="button">𝕏 Share on X</button>
+            <button id="exitSanctumBtn" class="btn-secondary" type="button" data-close-game>⛩️ Back to Sanctuary</button>
+          </div>
+          <p class="share-feedback" id="shareFeedback" role="status"></p>
+        </div>
+      </section>
+    </section>
+
+    <div class="controls-row">
+      <div class="touch-controls">
+        <button id="btnAscend" class="touch-btn" type="button">↑ Ascend / Double Wing (W / Up)</button>
+        <button id="btnPhase" class="touch-btn" type="button">↓ Astral Phase-Dash (S / Down)</button>
+        <button id="btnBlast" class="touch-btn blast-btn" type="button">🔥 Elemental Surge Blast (SPACE) [<span id="btnOrbCount">3</span>]</button>
+      </div>
+      <div class="utility-controls">
+        <button id="soundToggleBtn" class="hud-btn" type="button" aria-pressed="true">♪ Sound: On</button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+  (() => {
+    'use strict';
+
+    const CHAMPIONS = [
+      { name: 'Azure Dragon', element: 'Air', file: '../assets/beasts/AzureDragon_Air.svg', color: '#5ce1e6', secondary: '#f0c36d', attackName: 'Celestial Wind Blade' },
+      { name: 'Vermilion Bird', element: 'Fire', file: '../assets/beasts/VermilionBird_Fire.svg', color: '#ff5e4d', secondary: '#ffca58', attackName: 'Phoenix Solar Flare' },
+      { name: 'White Tiger', element: 'Earth', file: '../assets/beasts/WhiteTiger_Earth.svg', color: '#68e399', secondary: '#e8eef2', attackName: 'Jade Meteor Claw' },
+      { name: 'Nine-Tailed Fox', element: 'Void', file: '../assets/beasts/NineTailedFox_Void.svg', color: '#b87aff', secondary: '#ff7ac6', attackName: 'Astral Kitsune Nova' },
+      { name: 'Celestial Qilin', element: 'Fire', file: '../assets/beasts/Qilin_Fire.svg', color: '#ffd166', secondary: '#ff6b57', attackName: 'Sovereign Qilin Bolt' },
+      { name: 'Black Tortoise', element: 'Water', file: '../assets/beasts/BlackTortoise_Water.svg', color: '#4da6ff', secondary: '#6ef2d6', attackName: 'Abyssal Tidal Surge' },
+      { name: 'Solar Garuda', element: 'Air', file: '../assets/beasts/Garuda_Fire.svg', color: '#ffb74d', secondary: '#ffe57f', attackName: 'Golden Sunburst Wing' },
+      { name: 'Storm Tengu', element: 'Void', file: '../assets/beasts/Tengu_Void.svg', color: '#c77dff', secondary: '#ff5252', attackName: 'Kunlun Tempest Slash' }
+    ];
+
+    const REALMS = [
+      { name: 'Jade Cloud Sanctuary', skyTop: '#0b192c', skyBot: '#1c444d', mtCol1: '#14303a', mtCol2: '#0d2028', groundTop: '#3c8c78', groundBot: '#152b29', accent: '#6ef2d6' },
+      { name: 'Vermilion Volcano', skyTop: '#240b14', skyBot: '#591c21', mtCol1: '#3b1219', mtCol2: '#240a10', groundTop: '#d94e3b', groundBot: '#2e1114', accent: '#ff9e5e' },
+      { name: 'Abyssal Dragon Palace', skyTop: '#071229', skyBot: '#123566', mtCol1: '#0d2547', mtCol2: '#081830', groundTop: '#3b8cff', groundBot: '#0d1e38', accent: '#66d9ff' },
+      { name: 'Golden Observatory', skyTop: '#1a150b', skyBot: '#473619', mtCol1: '#302410', mtCol2: '#1f170a', groundTop: '#e6b85c', groundBot: '#292010', accent: '#ffe299' },
+      { name: 'Hundun Void Rift', skyTop: '#110724', skyBot: '#341359', mtCol1: '#230d3d', mtCol2: '#150726', groundTop: '#a65cff', groundBot: '#1b0b2e', accent: '#e08aff' }
+    ];
+
+    // Preload SVG sprites
+    const spriteImages = CHAMPIONS.map(c => {
+      const img = new Image();
+      img.src = c.file;
+      return img;
+    });
+    const bossImg = new Image();
+    bossImg.src = '../assets/beasts/VoidFiend_Boss.svg';
+
+    // Pentatonic WebAudio Synth
+    const sfx = (() => {
+      let ctx = null;
+      let enabled = true;
+      function unlock() {
+        if (!enabled) return;
+        const AC = window.AudioContext || window.webkitAudioContext;
+        if (!AC) return;
+        if (!ctx) ctx = new AC();
+        if (ctx.state === 'suspended') ctx.resume().catch(() => {});
+      }
+      function tone(fStart, fEnd, dur, vol = 0.05, type = 'triangle', delay = 0) {
+        if (!enabled || !ctx || ctx.state !== 'running') return;
+        const now = ctx.currentTime + delay;
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(fStart, now);
+        if (fEnd !== fStart) osc.frequency.exponentialRampToValueAtTime(fEnd, now + dur);
+        gain.gain.setValueAtTime(0.001, now);
+        gain.gain.linearRampToValueAtTime(vol, now + 0.01);
+        gain.gain.exponentialRampToValueAtTime(0.0001, now + dur);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start(now);
+        osc.stop(now + dur + 0.02);
+      }
+      return {
+        unlock,
+        toggle() { enabled = !enabled; if (enabled) unlock(); return enabled; },
+        jump() { tone(330, 587, 0.14, 0.045, 'sine'); },
+        orb() { tone(523.25, 523.25, 0.09, 0.04, 'triangle'); tone(783.99, 783.99, 0.14, 0.04, 'triangle', 0.05); },
+        blast() { tone(660, 180, 0.18, 0.06, 'sawtooth'); tone(880, 293, 0.15, 0.04, 'triangle', 0.02); },
+        kill() { tone(220, 75, 0.16, 0.07, 'square'); tone(587.33, 880, 0.18, 0.05, 'triangle', 0.04); },
+        hit() { tone(150, 48, 0.3, 0.08, 'sawtooth'); }
+      };
+    })();
+
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width, H = canvas.height;
+    const GROUND_Y = 446;
+
+    let champIdx = 0;
+    let state = {
+      mode: 'running', // running | paused | over
+      distance: 0,
+      shards: 0,
+      orbs: 3,
+      kills: 0,
+      speed: 310,
+      clock: 0,
+      py: GROUND_Y - 88,
+      vy: 0,
+      jumpsLeft: 2,
+      phasing: false,
+      obstacles: [],
+      pickups: [],
+      blasts: [],
+      particles: [],
+      banners: [],
+      obsTimer: 1.1,
+      orbTimer: 0.9,
+      lastRealmIdx: 0
+    };
+
+    const byId = id => document.getElementById(id);
+
+    function currentRealmIndex() {
+      return Math.min(REALMS.length - 1, Math.floor(state.distance / 350));
+    }
+
+    function addParticles(x, y, color, count = 14) {
+      for (let i = 0; i < count; i++) {
+        const ang = Math.random() * Math.PI * 2;
+        const spd = 60 + Math.random() * 220;
+        state.particles.push({
+          x, y,
+          vx: Math.cos(ang) * spd,
+          vy: Math.sin(ang) * spd - 40,
+          life: 0.35 + Math.random() * 0.3,
+          maxLife: 0.65,
+          color,
+          size: 3 + Math.random() * 4
+        });
+      }
+    }
+
+    function resetTrial() {
+      state = {
+        mode: 'running',
+        distance: 0,
+        shards: 0,
+        orbs: 3,
+        kills: 0,
+        speed: 310,
+        clock: 0,
+        py: GROUND_Y - 88,
+        vy: 0,
+        jumpsLeft: 2,
+        phasing: false,
+        obstacles: [
+          { kind: 'fiend', x: 640, y: GROUND_Y - 86, w: 68, h: 86, hp: 1, armored: false },
+          { kind: 'spire', x: 910, y: GROUND_Y - 64, w: 44, h: 64, hp: 99 }
+        ],
+        pickups: [
+          { kind: 'shard', x: 360, y: GROUND_Y - 65, r: 15 },
+          { kind: 'orb', x: 490, y: GROUND_Y - 140, r: 15 },
+          { kind: 'shard', x: 780, y: GROUND_Y - 145, r: 15 }
+        ],
+        blasts: [],
+        particles: [],
+        banners: [{ text: 'REALM I: JADE CLOUD SANCTUARY', life: 2.2 }],
+        obsTimer: 1.1,
+        orbTimer: 0.7,
+        lastRealmIdx: 0
+      };
+      byId('resultScreen').hidden = true;
+      byId('arenaShell').classList.remove('has-result');
+      byId('pauseBtn').textContent = 'Ⅱ Pause';
+      syncHud();
+      canvas.focus();
+    }
+
+    function syncHud() {
+      byId('hudDist').textContent = Math.floor(state.distance).toLocaleString();
+      byId('hudShards').textContent = state.shards.toLocaleString();
+      byId('hudOrbs').textContent = state.orbs;
+      byId('btnOrbCount').textContent = state.orbs;
+      byId('hudKills').textContent = state.kills;
+      const rIdx = currentRealmIndex();
+      byId('hudRealm').textContent = `Realm ${['I','II','III','IV','V'][rIdx]} · ${REALMS[rIdx].name}`;
+    }
+
+    function doAscend() {
+      sfx.unlock();
+      if (state.mode !== 'running') return;
+      if (state.jumpsLeft > 0) {
+        state.vy = state.jumpsLeft === 2 ? -720 : -640;
+        state.jumpsLeft--;
+        state.phasing = false;
+        sfx.jump();
+        addParticles(155, state.py + 70, CHAMPIONS[champIdx].color, 10);
+      }
+    }
+
+    function setPhase(active) {
+      sfx.unlock();
+      if (state.mode !== 'running') return;
+      state.phasing = active;
+      if (active && state.py + 88 < GROUND_Y) {
+        state.vy = Math.max(state.vy, 520);
+      }
+    }
+
+    function doBlast() {
+      sfx.unlock();
+      if (state.mode !== 'running' || state.orbs <= 0) return;
+      state.orbs--;
+      const champ = CHAMPIONS[champIdx];
+      state.blasts.push({
+        x: 195,
+        y: state.py + (state.phasing ? 56 : 42),
+        vx: 760,
+        color: champ.color,
+        secondary: champ.secondary,
+        radius: 16
+      });
+      sfx.blast();
+      addParticles(195, state.py + 42, champ.color, 8);
+      syncHud();
+    }
+
+    function spawnObstacle() {
+      const roll = Math.random();
+      if (roll < 0.36) {
+        // High Chaos Spear / Void Lightning (Duck/Phase under or Blast with 1 Orb)
+        state.obstacles.push({
+          kind: 'spear',
+          x: W + 40,
+          y: GROUND_Y - 132,
+          w: 74,
+          h: 34,
+          hp: 1
+        });
+      } else if (roll < 0.68) {
+        // Hundun Void Fiend (Must Blast or High Double-Jump)
+        const armored = state.distance > 450 && Math.random() < 0.4;
+        state.obstacles.push({
+          kind: 'fiend',
+          x: W + 40,
+          y: GROUND_Y - 86,
+          w: 68,
+          h: 86,
+          hp: armored ? 2 : 1,
+          armored
+        });
+      } else {
+        // Cursed Obsidian Spire (Jump over)
+        state.obstacles.push({
+          kind: 'spire',
+          x: W + 40,
+          y: GROUND_Y - 64,
+          w: 44,
+          h: 64,
+          hp: 99
+        });
+      }
+    }
+
+    function spawnPickup() {
+      const isShard = Math.random() < 0.45;
+      const yLane = Math.random() < 0.5 ? GROUND_Y - 65 : GROUND_Y - 155;
+      state.pickups.push({
+        kind: isShard ? 'shard' : 'orb',
+        x: W + 30,
+        y: yLane,
+        r: 15
+      });
+    }
+
+    function finishRun() {
+      state.mode = 'over';
+      sfx.hit();
+      // Credit Soul Shards to main website's localStorage
+      try {
+        const prev = parseInt(localStorage.getItem('mg_soul_shards') || '0', 10) || 0;
+        localStorage.setItem('mg_soul_shards', String(prev + state.shards));
+      } catch {}
+
+      const champ = CHAMPIONS[champIdx];
+      const realm = REALMS[currentRealmIndex()];
+      byId('resDist').textContent = Math.floor(state.distance).toLocaleString();
+      byId('resChamp').textContent = `${champ.name} (${champ.element})`;
+      byId('resRealm').textContent = realm.name;
+      byId('resKills').textContent = state.kills;
+      byId('resShards').textContent = `+${state.shards} 🪙`;
+
+      renderChronicleCard(champ, realm);
+      byId('arenaShell').classList.add('has-result');
+      byId('resultScreen').hidden = false;
+    }
+
+    function renderChronicleCard(champ, realm) {
+      const card = byId('photoCard');
+      const c = card.getContext('2d');
+      // Imperial Obsidian & Gold Card Frame
+      const grad = c.createLinearGradient(0, 0, 0, 540);
+      grad.addColorStop(0, '#10142a');
+      grad.addColorStop(1, '#070914');
+      c.fillStyle = grad;
+      c.fillRect(0, 0, 440, 540);
+
+      c.strokeStyle = '#f0c36d';
+      c.lineWidth = 6;
+      c.strokeRect(10, 10, 420, 520);
+      c.strokeStyle = '#6e521f';
+      c.lineWidth = 2;
+      c.strokeRect(18, 18, 404, 504);
+
+      // Art Window
+      const skyG = c.createLinearGradient(0, 30, 0, 350);
+      skyG.addColorStop(0, realm.skyTop);
+      skyG.addColorStop(1, realm.skyBot);
+      c.fillStyle = skyG;
+      c.fillRect(32, 32, 376, 310);
+
+      // Draw Kunlun Mountains in Card
+      c.fillStyle = realm.mtCol1;
+      c.beginPath();
+      c.moveTo(32, 342); c.lineTo(110, 210); c.lineTo(195, 290); c.lineTo(290, 185); c.lineTo(408, 280); c.lineTo(408, 342);
+      c.closePath(); c.fill();
+
+      // Draw Champion Sprite in Card
+      const spr = spriteImages[champIdx];
+      if (spr && spr.complete && spr.naturalWidth > 0) {
+        c.drawImage(spr, 110, 68, 220, 220);
+      }
+
+      c.strokeStyle = '#f0c36d';
+      c.lineWidth = 2;
+      c.strokeRect(32, 32, 376, 310);
+
+      // Card Typography
+      c.fillStyle = '#f0c36d';
+      c.font = '900 12px monospace';
+      c.textAlign = 'center';
+      c.fillText('MYTHICAL BEASTS & GUARDIANS · KUNLUN SKY TRIAL', 220, 372);
+
+      c.fillStyle = '#f4efe6';
+      c.font = '900 34px monospace';
+      c.fillText(`${Math.floor(state.distance).toLocaleString()} METRES`, 220, 412);
+
+      c.fillStyle = champ.color;
+      c.font = '800 16px monospace';
+      c.fillText(`${champ.name.toUpperCase()} · ${realm.name.toUpperCase()}`, 220, 442);
+
+      c.fillStyle = '#9aa3c4';
+      c.font = '700 13px monospace';
+      c.fillText(`Fiends Banished: ${state.kills}   |   Soul Shards: +${state.shards}`, 220, 474);
+
+      c.fillStyle = '#f0c36d';
+      c.font = '700 11px monospace';
+      c.fillText('mythicalguardians.xyz · @mythicalguardia', 220, 504);
+    }
+
+    function update(dt) {
+      if (state.mode !== 'running') return;
+      state.clock += dt;
+      state.speed = Math.min(620, 310 + state.distance * 0.14);
+      state.distance += (state.speed * dt) / 12;
+
+      const rIdx = currentRealmIndex();
+      if (rIdx !== state.lastRealmIdx) {
+        state.lastRealmIdx = rIdx;
+        state.banners.push({ text: `ENTERING ${REALMS[rIdx].name.toUpperCase()}!`, life: 2.5 });
+        state.shards += 50;
+        sfx.orb();
+      }
+
+      // Player physics
+      state.vy += 1850 * dt;
+      state.py += state.vy * dt;
+      if (state.py >= GROUND_Y - 88) {
+        state.py = GROUND_Y - 88;
+        state.vy = 0;
+        state.jumpsLeft = 2;
+      }
+
+      // Spawners
+      state.obsTimer -= dt;
+      if (state.obsTimer <= 0) {
+        spawnObstacle();
+        state.obsTimer = Math.max(0.55, 1.35 - state.distance * 0.00035) + Math.random() * 0.45;
+      }
+      state.orbTimer -= dt;
+      if (state.orbTimer <= 0) {
+        spawnPickup();
+        state.orbTimer = 0.85 + Math.random() * 0.7;
+      }
+
+      // Update Blasts
+      for (let i = state.blasts.length - 1; i >= 0; i--) {
+        const b = state.blasts[i];
+        b.x += b.vx * dt;
+        if (b.x > W + 50) { state.blasts.splice(i, 1); continue; }
+
+        // Check collision with obstacles
+        for (let j = state.obstacles.length - 1; j >= 0; j--) {
+          const o = state.obstacles[j];
+          if (o.kind === 'spire') continue;
+          if (b.x + b.radius > o.x && b.x - b.radius < o.x + o.w && b.y + b.radius > o.y && b.y - b.radius < o.y + o.h) {
+            o.hp--;
+            state.blasts.splice(i, 1);
+            addParticles(o.x + o.w / 2, o.y + o.h / 2, b.color, 18);
+            if (o.hp <= 0) {
+              state.obstacles.splice(j, 1);
+              state.kills++;
+              state.shards += o.armored ? 40 : 25;
+              sfx.kill();
+            } else {
+              o.armored = false;
+              sfx.orb();
+            }
+            break;
+          }
+        }
+      }
+
+      // Player hitbox
+      const px = 126;
+      const pw = 54;
+      const ph = state.phasing ? 46 : 74;
+      const py = state.phasing ? state.py + 38 : state.py + 8;
+
+      // Update Pickups
+      for (let i = state.pickups.length - 1; i >= 0; i--) {
+        const p = state.pickups[i];
+        p.x -= state.speed * dt;
+        if (p.x < -40) { state.pickups.splice(i, 1); continue; }
+        if (p.x + p.r > px && p.x - p.r < px + pw && p.y + p.r > py && p.y - p.r < py + ph) {
+          if (p.kind === 'orb') {
+            state.orbs = Math.min(9, state.orbs + 1);
+            state.shards += 10;
+          } else {
+            state.shards += 20;
+          }
+          sfx.orb();
+          addParticles(p.x, p.y, p.kind === 'orb' ? '#4cd4a9' : '#f0c36d', 10);
+          state.pickups.splice(i, 1);
+        }
+      }
+
+      // Update Obstacles
+      for (let i = state.obstacles.length - 1; i >= 0; i--) {
+        const o = state.obstacles[i];
+        const spdMult = o.kind === 'spear' ? 1.28 : 1.0;
+        o.x -= state.speed * spdMult * dt;
+        if (o.x + o.w < -60) {
+          state.obstacles.splice(i, 1);
+          state.shards += 5;
+          continue;
+        }
+        // Check player collision
+        if (px + pw > o.x + 8 && px < o.x + o.w - 8 && py + ph > o.y + 8 && py < o.y + o.h - 6) {
+          finishRun();
+          return;
+        }
+      }
+
+      // Particles & Banners
+      for (let i = state.particles.length - 1; i >= 0; i--) {
+        const pt = state.particles[i];
+        pt.x += pt.vx * dt;
+        pt.y += pt.vy * dt;
+        pt.life -= dt;
+        if (pt.life <= 0) state.particles.splice(i, 1);
+      }
+      for (let i = state.banners.length - 1; i >= 0; i--) {
+        state.banners[i].life -= dt;
+        if (state.banners[i].life <= 0) state.banners.splice(i, 1);
+      }
+
+      syncHud();
+    }
+
+    function draw() {
+      const realm = REALMS[currentRealmIndex()];
+      const champ = CHAMPIONS[champIdx];
+
+      // 1. Sky Gradient
+      const sky = ctx.createLinearGradient(0, 0, 0, GROUND_Y);
+      sky.addColorStop(0, realm.skyTop);
+      sky.addColorStop(1, realm.skyBot);
+      ctx.fillStyle = sky;
+      ctx.fillRect(0, 0, W, GROUND_Y);
+
+      // 2. Celestial Moon & Stars
+      ctx.fillStyle = 'rgba(255, 240, 195, 0.75)';
+      for (let s = 0; s < 28; s++) {
+        const sx = ((s * 97 - state.distance * 0.4) % W + W) % W;
+        const sy = 24 + (s * 43) % 190;
+        ctx.fillRect(sx, sy, s % 3 === 0 ? 3 : 2, s % 3 === 0 ? 3 : 2);
+      }
+      ctx.fillStyle = '#ffe599';
+      ctx.beginPath();
+      ctx.arc(780, 96, 34, 0, Math.PI * 2);
+      ctx.fill();
+
+      // 3. Parallax Kunlun Mountains & Pagodas
+      const pan1 = (state.distance * 1.4) % 480;
+      ctx.fillStyle = realm.mtCol1;
+      for (let x = -pan1; x < W + 480; x += 480) {
+        ctx.beginPath();
+        ctx.moveTo(x, GROUND_Y);
+        ctx.lineTo(x + 120, 210);
+        ctx.lineTo(x + 240, 320);
+        ctx.lineTo(x + 360, 175);
+        ctx.lineTo(x + 480, GROUND_Y);
+        ctx.closePath();
+        ctx.fill();
+
+        // Pagoda silhouette on peak (x+360, 175)
+        ctx.fillStyle = '#f0c36d';
+        ctx.fillRect(x + 346, 158, 28, 4);
+        ctx.fillRect(x + 350, 148, 20, 4);
+        ctx.fillStyle = realm.mtCol1;
+      }
+
+      // 4. Temple Ground & Jade Tiles
+      ctx.fillStyle = realm.groundBot;
+      ctx.fillRect(0, GROUND_Y, W, H - GROUND_Y);
+      ctx.fillStyle = realm.groundTop;
+      ctx.fillRect(0, GROUND_Y, W, 6);
+
+      const tilePan = (state.distance * 12) % 64;
+      ctx.strokeStyle = 'rgba(240, 195, 109, 0.22)';
+      ctx.lineWidth = 2;
+      for (let x = -tilePan; x < W + 64; x += 64) {
+        ctx.beginPath();
+        ctx.moveTo(x, GROUND_Y + 6);
+        ctx.lineTo(x - 28, H);
+        ctx.stroke();
+      }
+
+      // 5. Draw Pickups (Aether Orbs & Golden Soul Shards)
+      for (const p of state.pickups) {
+        ctx.save();
+        ctx.translate(p.x, p.y + Math.sin(state.clock * 6 + p.x) * 5);
+        ctx.fillStyle = p.kind === 'orb' ? '#4cd4a9' : '#f0c36d';
+        ctx.beginPath();
+        ctx.arc(0, 0, p.r, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = '#ffffff';
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        ctx.fillStyle = '#070914';
+        ctx.font = '900 10px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(p.kind === 'orb' ? 'ORB' : 'SHARD', 0, 4);
+        ctx.restore();
+      }
+
+      // 6. Draw Obstacles
+      for (const o of state.obstacles) {
+        if (o.kind === 'spear') {
+          ctx.fillStyle = '#ff4d4d';
+          ctx.fillRect(o.x, o.y + 12, o.w, 10);
+          ctx.fillStyle = '#ffe299';
+          ctx.beginPath();
+          ctx.moveTo(o.x - 14, o.y + 17);
+          ctx.lineTo(o.x + 12, o.y + 4);
+          ctx.lineTo(o.x + 12, o.y + 30);
+          ctx.closePath();
+          ctx.fill();
+        } else if (o.kind === 'spire') {
+          ctx.fillStyle = '#2d194d';
+          ctx.beginPath();
+          ctx.moveTo(o.x, o.y + o.h);
+          ctx.lineTo(o.x + o.w / 2, o.y);
+          ctx.lineTo(o.x + o.w, o.y + o.h);
+          ctx.closePath();
+          ctx.fill();
+          ctx.strokeStyle = '#b87aff';
+          ctx.lineWidth = 2;
+          ctx.stroke();
+        } else {
+          // Hundun Void Fiend inside Crimson-Void Halo
+          const cx = o.x + o.w / 2;
+          const cy = o.y + o.h / 2;
+          const rad = o.w * 0.56;
+          ctx.save();
+          ctx.beginPath();
+          ctx.arc(cx, cy, rad, 0, Math.PI * 2);
+          ctx.clip();
+          if (bossImg.complete && bossImg.naturalWidth > 0) {
+            ctx.drawImage(bossImg, cx - rad * 1.15, cy - rad * 1.15, rad * 2.3, rad * 2.3);
+          } else {
+            ctx.fillStyle = '#9d4edd';
+            ctx.fillRect(o.x, o.y, o.w, o.h);
+          }
+          ctx.restore();
+          ctx.strokeStyle = o.armored ? '#f0c36d' : '#ff4d6d';
+          ctx.lineWidth = o.armored ? 4 : 2.5;
+          ctx.beginPath();
+          ctx.arc(cx, cy, rad, 0, Math.PI * 2);
+          ctx.stroke();
+        }
+      }
+
+      // 7. Draw Guardian Champion (Circular Celestial Halo + Flowing Spirit Trail)
+      ctx.save();
+      const spr = spriteImages[champIdx];
+      const drawY = state.phasing ? state.py + 30 : state.py;
+      const drawH = state.phasing ? 58 : 88;
+      const cx = 154;
+      const cy = drawY + drawH / 2;
+      const rad = state.phasing ? 30 : 41;
+
+      // Flowing elemental spirit ribbon behind the Guardian
+      ctx.strokeStyle = champ.color;
+      ctx.lineWidth = 5;
+      ctx.globalAlpha = 0.55;
+      ctx.beginPath();
+      ctx.moveTo(cx - rad, cy);
+      for (let t = 1; t <= 5; t++) {
+        ctx.lineTo(cx - rad - t * 14, cy + Math.sin(state.clock * 12 + t) * 7);
+      }
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+
+      // Circular clipped Guardian portrait
+      ctx.save();
+      ctx.beginPath();
+      ctx.arc(cx, cy, rad, 0, Math.PI * 2);
+      ctx.clip();
+      if (spr && spr.complete && spr.naturalWidth > 0) {
+        ctx.drawImage(spr, cx - rad * 1.18, cy - rad * 1.18, rad * 2.36, rad * 2.36);
+      } else {
+        ctx.fillStyle = champ.color;
+        ctx.fillRect(cx - rad, cy - rad, rad * 2, rad * 2);
+      }
+      ctx.restore();
+
+      // Double Celestial Halo Ring (Elemental + Imperial Gold)
+      ctx.strokeStyle = champ.color;
+      ctx.lineWidth = 3;
+      ctx.beginPath();
+      ctx.arc(cx, cy, rad + 1, 0, Math.PI * 2);
+      ctx.stroke();
+
+      ctx.strokeStyle = '#f0c36d';
+      ctx.lineWidth = 1.5;
+      ctx.beginPath();
+      ctx.arc(cx, cy, rad + 5, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.restore();
+
+      // 8. Draw Elemental Blasts
+      for (const b of state.blasts) {
+        ctx.fillStyle = b.color;
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = '#ffffff';
+        ctx.beginPath();
+        ctx.arc(b.x + 3, b.y, b.radius * 0.45, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      // 9. Draw Particles
+      for (const pt of state.particles) {
+        ctx.globalAlpha = Math.max(0, pt.life / pt.maxLife);
+        ctx.fillStyle = pt.color;
+        ctx.fillRect(pt.x, pt.y, pt.size, pt.size);
+      }
+      ctx.globalAlpha = 1;
+
+      // 10. Realm Banner
+      if (state.banners.length > 0) {
+        const b = state.banners[0];
+        ctx.fillStyle = 'rgba(7, 8, 18, 0.78)';
+        ctx.fillRect(W / 2 - 230, 34, 460, 42);
+        ctx.strokeStyle = '#f0c36d';
+        ctx.strokeRect(W / 2 - 230, 34, 460, 42);
+        ctx.fillStyle = '#ffe29e';
+        ctx.font = '900 16px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(b.text, W / 2, 60);
+      }
+
+      if (state.mode === 'paused') {
+        ctx.fillStyle = 'rgba(7, 8, 18, 0.75)';
+        ctx.fillRect(0, 0, W, H);
+        ctx.fillStyle = '#f0c36d';
+        ctx.font = '900 32px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText('TRIAL PAUSED', W / 2, H / 2);
+      }
+    }
+
+    let lastTime = performance.now();
+    function loop(now) {
+      const dt = Math.min(0.05, (now - lastTime) / 1000);
+      lastTime = now;
+      update(dt);
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    // Input Listeners
+    window.addEventListener('keydown', e => {
+      if (['ArrowUp', 'KeyW'].includes(e.code)) { e.preventDefault(); doAscend(); }
+      if (['ArrowDown', 'KeyS'].includes(e.code)) { e.preventDefault(); setPhase(true); }
+      if (['Space', 'KeyX'].includes(e.code)) { e.preventDefault(); doBlast(); }
+    });
+    window.addEventListener('keyup', e => {
+      if (['ArrowDown', 'KeyS'].includes(e.code)) setPhase(false);
+    });
+
+    byId('btnAscend').addEventListener('pointerdown', e => { e.preventDefault(); doAscend(); });
+    byId('btnPhase').addEventListener('pointerdown', e => { e.preventDefault(); setPhase(true); });
+    byId('btnPhase').addEventListener('pointerup', () => setPhase(false));
+    byId('btnPhase').addEventListener('pointercancel', () => setPhase(false));
+    byId('btnBlast').addEventListener('pointerdown', e => { e.preventDefault(); doBlast(); });
+
+    byId('guardianSelect').addEventListener('change', e => {
+      champIdx = parseInt(e.target.value, 10) || 0;
+      resetTrial();
+    });
+
+    byId('pauseBtn').addEventListener('click', () => {
+      if (state.mode === 'running') {
+        state.mode = 'paused';
+        byId('pauseBtn').textContent = '▶ Resume';
+      } else if (state.mode === 'paused') {
+        state.mode = 'running';
+        byId('pauseBtn').textContent = 'Ⅱ Pause';
+      }
+    });
+
+    byId('soundToggleBtn').addEventListener('click', () => {
+      const on = sfx.toggle();
+      byId('soundToggleBtn').textContent = on ? '♪ Sound: On' : '♪ Sound: Off';
+      byId('soundToggleBtn').setAttribute('aria-pressed', String(on));
+    });
+
+    byId('flyAgainBtn').addEventListener('click', resetTrial);
+
+    byId('downloadCardBtn').addEventListener('click', () => {
+      const link = document.createElement('a');
+      link.download = `kunlun-sky-trial-${Math.floor(state.distance)}m.png`;
+      link.href = byId('photoCard').toDataURL('image/png');
+      link.click();
+    });
+
+    byId('copyCardBtn').addEventListener('click', () => {
+      const card = byId('photoCard');
+      card.toBlob(async blob => {
+        try {
+          await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+          byId('shareFeedback').textContent = '✓ Chronicle card copied! Paste it into your X post.';
+        } catch {
+          byId('shareFeedback').textContent = 'Download card image and attach it on X.';
+        }
+      }, 'image/png');
+    });
+
+    byId('shareXBtn').addEventListener('click', () => {
+      const champ = CHAMPIONS[champIdx];
+      const realm = REALMS[currentRealmIndex()];
+      const text = `Flew ${Math.floor(state.distance).toLocaleString()}m in the Kunlun Sky Trial with ${champ.name} (${champ.element}) ⚡\n📍 ${realm.name} · ${state.kills} Void Fiends Banished · +${state.shards} Soul Shards\n\n@mythicalguardia · https://mythicalguardians.xyz/web/`;
+      window.open('https://x.com/intent/tweet?text=' + encodeURIComponent(text), '_blank', 'noopener,noreferrer');
+    });
+
+    byId('exitSanctumBtn').addEventListener('click', () => {
+      if (window.parent !== window) {
+        window.parent.postMessage({ type: 'frens-hub:request-exit' }, location.origin);
+      } else {
+        location.href = '../index.html';
+      }
+    });
+
+    // Bridge with parent window (game-host.js)
+    window.FRENS_HUB_GAME = {
+      pause() { if (state.mode === 'running') { state.mode = 'paused'; byId('pauseBtn').textContent = '▶ Resume'; } },
+      resume() { if (state.mode === 'paused') { state.mode = 'running'; byId('pauseBtn').textContent = 'Ⅱ Pause'; } },
+      status() { return { mode: state.mode, distance: state.distance }; },
+      photo() { return byId('photoCard'); }
+    };
+    window.addEventListener('message', e => {
+      if (e.data?.type === 'frens-hub:pause') window.FRENS_HUB_GAME.pause();
+      if (e.data?.type === 'frens-hub:resume') window.FRENS_HUB_GAME.resume();
+    });
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: 'frens-hub:ready' }, location.origin);
+    }
+
+    resetTrial();
+    requestAnimationFrame(loop);
+  })();
+  </script>
+</body>
+</html>

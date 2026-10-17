@@ -37,12 +37,12 @@
   function loadGame() {
     clearTimeout(timer); ready = false;
     loading.hidden = false;
-    byId('gameLoadingLabel').textContent = 'Opening Guardians Run…';
+    byId('gameLoadingLabel').textContent = 'Opening Kunlun Sky Trial…';
     byId('retryGameLoad').hidden = true;
-    frame.src = 'play/index.html';
+    frame.src = 'sky-trial/index.html?v=20';
     timer = setTimeout(() => {
       if (ready || !dialog.open) return;
-      byId('gameLoadingLabel').textContent = 'The realm is taking longer to load.';
+      byId('gameLoadingLabel').textContent = 'The celestial realm is taking longer to load.';
       byId('retryGameLoad').hidden = false;
     }, 15000);
   }

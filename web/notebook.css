@@ -39,8 +39,8 @@ body.notebook-open { overflow:hidden; }
 .notebook-close:hover { color:#fff; }
 .notebook-close:focus-visible { outline:2px solid #f0e7d2; outline-offset:1px; }
 .notebook-cover {
-  min-height:0; padding:6px 7px 9px; border:1px solid #484c3c; border-radius:4px 6px 7px 4px;
-  background:#434b3e; box-shadow:0 24px 70px #0009,0 2px 2px #0008;
+  min-height:0; padding:6px 7px 9px; border:1px solid #c9973e; border-radius:4px 6px 7px 4px;
+  background:#521920; box-shadow:0 24px 70px #000b,0 2px 2px #0009;
   transform:rotate(-.5deg);
 }
 .notebook-spread { position:relative; display:grid; grid-template-columns:1fr 1fr; height:100%; min-height:0; border-radius:2px; background:var(--paper); box-shadow:0 2px #c5b79a,0 4px #e7dbc0,0 5px #b8a987; }

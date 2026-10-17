@@ -1,31 +1,34 @@
 /* ==========================================================================
-   ROBIN FRENS (robinfrens.fun) WORLD-FIRST DESIGN SYSTEM FOR MYTHICAL GUARDIANS
+   MYTHICAL GUARDIANS — KUNLUN CELESTIAL SANCTUARY WORLD-FIRST DESIGN SYSTEM
+   Palette: Celestial Obsidian, Deep Kunlun Indigo, Imperial Gold, Cinnabar
    ========================================================================== */
 :root {
   color-scheme: dark;
-  --ink: #0c131b;
-  --deep: #111923;
-  --panel: #17222d;
-  --panel-2: #1c2935;
-  --line: #344656;
-  --cream: #dce6d9;
-  --muted: #93a6ad;
-  --sage: #79947d;
-  --mint: #bcd9bd;
-  --gold: #cbb47b;
-  --rose: #d695a3;
-  --shadow: #070b10b8;
+  --ink: #070814;
+  --deep: #0d1024;
+  --panel: #131733;
+  --panel-2: #1a2045;
+  --line: #343b6b;
+  --cream: #f5efe2;
+  --muted: #a6a4c4;
+  --sage: #c8372d;
+  --mint: #f0c36d;
+  --gold: #f0c36d;
+  --crimson: #e04f44;
+  --jade: #4cd4a9;
+  --rose: #e04f44;
+  --shadow: #04050db8;
   --page: 1280px;
 
-  /* Map legacy variables to Robin Frens earthy slate/sage/mint/gold palette */
-  --bg-dark: #0c131b;
-  --bg-card: #16212b;
-  --bg-card-hover: #1c2935;
-  --gold-primary: #cbb47b;
-  --gold-light: #dce6d9;
-  --gold-glow: rgba(188, 217, 189, 0.22);
-  --text-main: #dce6d9;
-  --text-muted: #93a6ad;
+  /* Map legacy variables to Mythical Guardians Imperial Gold / Obsidian / Cinnabar palette */
+  --bg-dark: #070814;
+  --bg-card: #121630;
+  --bg-card-hover: #191e40;
+  --gold-primary: #f0c36d;
+  --gold-light: #f9e3b0;
+  --gold-glow: rgba(240, 195, 109, 0.25);
+  --text-main: #f5efe2;
+  --text-muted: #a6a4c4;
   --font-heading: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   --font-body: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -39,36 +42,36 @@ body {
   margin: 0;
   min-width: 300px;
   min-height: 100dvh;
-  background: radial-gradient(circle at 50% 43%, #1b2a36 0, #111923 48%, #080e15 100%) !important;
+  background: radial-gradient(circle at 50% 38%, #1e183b 0, #0d1024 50%, #05060f 100%) !important;
   color: var(--cream) !important;
   font-family: var(--font-body) !important;
   transition: background .45s steps(5, end), color .45s steps(5, end);
 }
 
 body[data-time="day"] {
-  background: radial-gradient(circle at 50% 43%, #dce6dd 0, #b7c9c5 48%, #82999d 100%) !important;
-  color: #15222a !important;
-  --bg-card: #cad8d2;
-  --bg-card-hover: #d5e2dc;
-  --text-main: #15222a;
-  --text-muted: #36504a;
-  --line: #536f70;
+  background: radial-gradient(circle at 50% 38%, #f8ebd7 0, #e6cfb2 50%, #c8a47e 100%) !important;
+  color: #241418 !important;
+  --bg-card: #f2e4ce;
+  --bg-card-hover: #f9eedc;
+  --text-main: #241418;
+  --text-muted: #5c3a38;
+  --line: #9e6d4c;
 }
 
 #particle-canvas {
-  opacity: 0.22 !important;
+  opacity: 0.26 !important;
 }
 body[data-time="day"] #particle-canvas {
-  opacity: 0.08 !important;
+  opacity: 0.10 !important;
 }
 
 button:focus-visible, a:focus-visible {
-  outline: 3px solid var(--mint);
+  outline: 3px solid var(--gold);
   outline-offset: 4px;
 }
 
 /* ==========================================================================
-   ROBIN FRENS SITE HEADER & NAVIGATION
+   KUNLUN CELESTIAL SANCTUARY SITE HEADER & NAVIGATION
    ========================================================================== */
 header.site-header {
   position: fixed !important;
@@ -79,16 +82,16 @@ header.site-header {
   align-items: center !important;
   gap: 20px !important;
   padding: 12px clamp(16px, 3vw, 42px) !important;
-  border-bottom: 1px solid #ffffff14 !important;
-  background: linear-gradient(#081019f0, #081019bd 76%, transparent) !important;
+  border-bottom: 1px solid #f0c36d2e !important;
+  background: linear-gradient(#080919f2, #0b0d22c8 78%, transparent) !important;
   backdrop-filter: blur(8px) !important;
   box-shadow: none !important;
   transition: background .45s steps(5, end), color .45s steps(5, end);
 }
 
 body[data-time="day"] header.site-header {
-  border-bottom-color: #263d4630 !important;
-  background: linear-gradient(#d6e1daf0, #c2d0c7bd 76%, transparent) !important;
+  border-bottom-color: #8c4a3240 !important;
+  background: linear-gradient(#f5e6d0f2, #e6cfb2c8 78%, transparent) !important;
 }
 
 .brand {
@@ -97,10 +100,10 @@ body[data-time="day"] header.site-header {
   gap: 10px;
   width: max-content;
   text-decoration: none;
-  color: #d9dfdb;
+  color: #f5efe2;
 }
 body[data-time="day"] .brand {
-  color: #17242b;
+  color: #261216;
 }
 
 .brand-pixel-badge {
@@ -108,25 +111,25 @@ body[data-time="day"] .brand {
   place-items: center;
   width: 28px;
   height: 28px;
-  background: #182530;
-  border: 1px solid var(--mint);
-  box-shadow: 2px 2px 0 #0a1118;
-  color: var(--mint);
+  background: #3b1219;
+  border: 1px solid var(--gold);
+  box-shadow: 2px 2px 0 #05060f;
+  color: var(--gold);
   font: 800 12px/1 var(--font-heading);
   letter-spacing: -.04em;
 }
 body[data-time="day"] .brand-pixel-badge {
-  background: #e1e9e0;
-  border-color: #304b47;
-  color: #17242b;
-  box-shadow: 2px 2px 0 #9ab0ac;
+  background: #7a1c1d;
+  border-color: #d4a44c;
+  color: #f9e3b0;
+  box-shadow: 2px 2px 0 #b8926a;
 }
 
 .brand-wordmark-text {
   font: 800 16px/1 var(--font-heading);
   letter-spacing: -.06em;
   color: inherit;
-  text-shadow: 2px 2px 0 #0a1118;
+  text-shadow: 2px 2px 0 #05060f;
   position: relative;
 }
 .brand-wordmark-text::before {
@@ -134,12 +137,12 @@ body[data-time="day"] .brand-pixel-badge {
   position: absolute;
   left: 0;
   top: -4px;
-  width: 14px;
+  width: 16px;
   height: 2px;
-  background: #728d38;
+  background: var(--crimson);
 }
 body[data-time="day"] .brand-wordmark-text {
-  text-shadow: 2px 2px 0 #eef4ee;
+  text-shadow: 2px 2px 0 #f9efe0;
 }
 
 nav.site-nav {
@@ -147,7 +150,7 @@ nav.site-nav {
   align-items: center !important;
   justify-content: center !important;
   gap: clamp(6px, 1.4vw, 18px) !important;
-  color: #bdc9ca !important;
+  color: #d8d2e8 !important;
   font: 600 13px/1.2 ui-monospace, SFMono-Regular, Consolas, monospace !important;
   background: transparent !important;
   border: 0 !important;
@@ -177,19 +180,20 @@ nav.site-nav :is(button, a) {
 nav.site-nav :is(button, a):hover,
 nav.site-nav :is(button, a):focus-visible,
 nav.site-nav a.active {
-  color: var(--mint) !important;
+  color: var(--gold) !important;
   background: transparent !important;
   text-decoration-line: underline !important;
+  text-decoration-color: var(--crimson) !important;
   box-shadow: none !important;
 }
 
 body[data-time="day"] nav.site-nav {
-  color: #304b47 !important;
+  color: #4a2422 !important;
 }
 body[data-time="day"] nav.site-nav :is(button, a):hover,
 body[data-time="day"] nav.site-nav :is(button, a):focus-visible,
 body[data-time="day"] nav.site-nav a.active {
-  color: #132c24 !important;
+  color: #8f1d1d !important;
 }
 
 .opensea-icon {
@@ -222,19 +226,19 @@ nav.site-nav .collection-link {
   min-width: 86px;
   padding: 7px 12px;
   border: 1px solid var(--line);
-  background: #14212be8;
+  background: #141836e8;
   color: var(--cream);
   font: 700 12px/1 var(--font-heading);
   cursor: pointer;
 }
 .time-toggle:hover {
-  border-color: var(--mint);
-  color: var(--mint);
+  border-color: var(--gold);
+  color: var(--gold);
 }
 body[data-time="day"] .time-toggle {
-  border-color: #536f70;
-  background: #e1e9e0e8;
-  color: #17242b;
+  border-color: #8c5a3c;
+  background: #f5e6d0e8;
+  color: #261216;
 }
 
 #btn-connect-wallet {
@@ -243,22 +247,22 @@ body[data-time="day"] .time-toggle {
   justify-content: center !important;
   min-height: 38px !important;
   padding: 8px 14px !important;
-  border: 1px solid var(--mint) !important;
+  border: 1px solid #f9e3b0 !important;
   border-radius: 0 !important;
-  background: var(--mint) !important;
-  color: #112019 !important;
+  background: linear-gradient(180deg, #f5cd79, #d99b38) !important;
+  color: #1a0d12 !important;
   font: 800 12px/1 var(--font-heading) !important;
   letter-spacing: -.02em !important;
   text-transform: none !important;
-  box-shadow: 3px 3px 0 #4e6b59 !important;
+  box-shadow: 3px 3px 0 #59181c !important;
   transform: none !important;
 }
 #btn-connect-wallet:hover {
-  background: #d5ebd2 !important;
+  background: linear-gradient(180deg, #ffe099, #e5ac46) !important;
 }
 
 /* ==========================================================================
-   INTERACTIVE PANORAMIC SANCTUM ROOM STAGE (640x240 -> 2560x960)
+   INTERACTIVE PANORAMIC KUNLUN SANCTUM STAGE (640x240 -> 2560x960)
    ========================================================================== */
 .sanctum-hero {
   display: grid;
@@ -286,7 +290,7 @@ body[data-time="day"] .time-toggle {
   user-select: none;
 }
 body[data-time="day"] .room-swipe-hint {
-  color: #36504a;
+  color: #5c3a38;
 }
 @media (max-width: 600px) and (pointer: coarse) {
   .room-swipe-hint:not([hidden]) {
@@ -300,14 +304,14 @@ body[data-time="day"] .room-swipe-hint {
   width: min(100vw, 2560px);
   margin: auto;
   aspect-ratio: 8 / 3;
-  border-block: 1px solid #40505d;
-  background: #303943;
-  box-shadow: 0 28px 100px #02070caa;
+  border-block: 2px solid #8c5a3c;
+  background: #120d1d;
+  box-shadow: 0 28px 100px #02030acc;
   isolation: isolate;
   transition: box-shadow .45s steps(5, end);
 }
 body[data-time="day"] .room-stage {
-  box-shadow: 0 28px 100px #314c525e;
+  box-shadow: 0 28px 100px #5e38245e;
 }
 
 .room-art, .day-window {
@@ -353,35 +357,17 @@ body[data-time="day"] .room-stage {
   display: none;
 }
 
-.room-sky {
-  position: absolute;
-  z-index: 3;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-.sky-night .sky-patch { fill: #162434; }
-.sky-moon { fill: #b8c2aa; }
-.sky-day { display: none; }
-.sky-day .sky-patch { fill: #8fb6bd; }
-.sky-sun { fill: #f1de99; }
-.room-stage[data-time="day"] .sky-night { display: none; }
-.room-stage[data-time="day"] .sky-day { display: inline; }
-.room-stage[data-lamp="off"] .sky-night .sky-patch { fill: #0e1926; }
-.room-stage[data-lamp="off"] .sky-moon { fill: #89978e; }
-
 .window-copy {
   position: absolute;
   z-index: 3;
   left: 5.8%;
   top: 13.5%;
   width: 24.5%;
-  text-shadow: 0 3px #0c1620;
+  text-shadow: 0 3px #070816, 0 1px 8px #070816cc;
   pointer-events: none;
 }
 .room-stage[data-time="day"] .window-copy {
-  text-shadow: 0 2px #2c4a5299;
+  text-shadow: 0 2px #fff2decc;
 }
 
 .eyebrow {
@@ -392,7 +378,7 @@ body[data-time="day"] .room-stage {
   text-transform: uppercase;
 }
 .room-stage[data-time="day"] .window-copy .eyebrow {
-  color: #213c38;
+  color: #7a1c1d;
   text-shadow: none;
 }
 
@@ -400,23 +386,23 @@ body[data-time="day"] .room-stage {
   margin: 0 0 12px;
   font: 800 clamp(22px, 3.1vw, 52px)/.95 ui-monospace, SFMono-Regular, Consolas, monospace;
   letter-spacing: -.07em;
-  color: #d9e6da;
+  color: #f9efe0;
 }
 .room-stage[data-time="day"] .window-copy h1 {
-  color: #13282c;
-  text-shadow: 0 2px #e6f0ea80;
+  color: #281115;
+  text-shadow: 0 2px #fff4e4a0;
 }
 
 .window-copy > p:last-child {
   margin: 0;
   max-width: 340px;
-  color: #d5dfdc;
+  color: #e6decf;
   font-size: clamp(9px, 0.98vw, 14px);
   font-weight: 650;
   line-height: 1.45;
 }
 .room-stage[data-time="day"] .window-copy > p:last-child {
-  color: #1f393e;
+  color: #3d1c1e;
   text-shadow: none;
 }
 
@@ -434,12 +420,12 @@ body[data-time="day"] .room-stage {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background-image: url('assets/room/room-night.png');
+  background-image: url('assets/room/room-night.png?v=20');
   background-size: var(--art-size);
   background-position: var(--art-position);
   image-rendering: pixelated;
   opacity: 0;
-  filter: brightness(1.24);
+  filter: brightness(1.26) drop-shadow(0 0 6px #f0c36d66);
   transition: opacity .16s;
 }
 .laptop-hotspot {
@@ -469,11 +455,11 @@ body[data-time="day"] .room-stage {
 }
 .room-stage[data-lamp="off"] .room-hotspot::before,
 .room-stage[data-lamp="off"] .photo-hotspot::after {
-  background-image: url('assets/room/room-sleep-night-v3.png');
+  background-image: url('assets/room/room-sleep-night-v3.png?v=20');
 }
 .room-stage[data-lamp="off"][data-time="day"] .room-hotspot::before,
 .room-stage[data-lamp="off"][data-time="day"] .photo-hotspot::after {
-  background-image: url('assets/room/room-sleep-day-v7.png');
+  background-image: url('assets/room/room-sleep-day-v7.png?v=20');
 }
 .room-hotspot:focus-visible, .photo-hotspot:focus-visible { outline: none; }
 .room-hotspot:focus-visible::before { opacity: 1; filter: brightness(1.4); }
@@ -502,13 +488,13 @@ body[data-time="day"] .room-stage {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background-image: url('assets/room/room-night.png');
+  background-image: url('assets/room/room-night.png?v=20');
   background-size: 1600% 545.454545%;
   background-position: var(--art-position);
   clip-path: polygon(40% 0, 60% 0, 60% 4.545455%, 100% 4.545455%, 100% 100%, 0 100%, 0 4.545455%, 40% 4.545455%);
   image-rendering: pixelated;
   opacity: 0;
-  filter: brightness(1.22);
+  filter: brightness(1.24);
   transition: opacity .16s;
 }
 .photo-hotspot:focus-visible::after { opacity: 1; filter: brightness(1.4); }
@@ -521,15 +507,15 @@ body[data-time="day"] .room-stage {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  color: #c5d6c1;
-  filter: drop-shadow(0 1px 0 #0a172938);
+  color: #f9e3b0;
+  filter: drop-shadow(0 1px 0 #07081499);
 }
 .room-hints * { pointer-events: none; }
 .room-stage[data-time="day"] .room-hints {
-  color: #315957;
-  filter: drop-shadow(0 1px 0 #edf4d838);
+  color: #5c191b;
+  filter: drop-shadow(0 1px 0 #fff2de88);
 }
-.room-hint-cue { opacity: .88; fill: currentColor; }
+.room-hint-cue { opacity: .92; fill: currentColor; }
 body:has(dialog[open]) .room-hints { visibility: hidden; }
 
 @media (hover: hover) and (pointer: fine) {
@@ -548,7 +534,7 @@ body:has(dialog[open]) .room-hints { visibility: hidden; }
   border: 0 !important;
 }
 
-/* Quick-action bar directly under the interactive Sanctum room */
+/* Quick-action bar directly under the interactive Kunlun Sanctum room */
 .sanctum-action-strip {
   display: flex;
   flex-wrap: wrap;
@@ -558,14 +544,14 @@ body:has(dialog[open]) .room-hints { visibility: hidden; }
   width: min(var(--page), calc(100% - 40px));
   margin: 22px auto 0;
   padding: 14px 20px;
-  border: 1px solid var(--line);
-  background: #14212be6;
-  box-shadow: 6px 6px 0 #070d13;
+  border: 1px solid #8c5a3c;
+  background: linear-gradient(90deg, #161229f2, #1c152bf2);
+  box-shadow: 6px 6px 0 #05060f;
 }
 body[data-time="day"] .sanctum-action-strip {
-  background: #d2dfd9f0;
-  border-color: #536f70;
-  box-shadow: 6px 6px 0 #66808255;
+  background: #f2e4cef2;
+  border-color: #8c5a3c;
+  box-shadow: 6px 6px 0 #9c745455;
 }
 
 .sanctum-strip-hint {
@@ -579,7 +565,7 @@ body[data-time="day"] .sanctum-action-strip {
   color: var(--gold);
 }
 body[data-time="day"] .sanctum-strip-hint strong {
-  color: #214037;
+  color: #8f1d1d;
 }
 
 .sanctum-strip-buttons {
@@ -595,35 +581,35 @@ body[data-time="day"] .sanctum-strip-hint strong {
   gap: 10px;
   min-height: 42px;
   padding: 10px 16px;
-  border: 1px solid var(--mint);
+  border: 1px solid var(--gold);
   cursor: pointer;
   font: 800 12px/1 var(--font-heading);
   letter-spacing: -.02em;
   text-decoration: none;
 }
 .primary-button {
-  background: var(--mint);
-  color: #112019;
-  box-shadow: 4px 4px 0 #4e6b59;
+  background: linear-gradient(180deg, #f5cd79, #d99b38);
+  color: #1a0d12;
+  box-shadow: 4px 4px 0 #59181c;
 }
 .primary-button:hover {
-  background: #d5ebd2;
+  background: linear-gradient(180deg, #ffe099, #e5ac46);
 }
 .secondary-button {
-  background: #14212b;
+  background: #171a38;
   color: var(--cream);
-  border-color: #526776;
-  box-shadow: 4px 4px 0 #091017;
+  border-color: #54497a;
+  box-shadow: 4px 4px 0 #060712;
 }
 .secondary-button:hover {
-  border-color: var(--mint);
-  color: var(--mint);
+  border-color: var(--gold);
+  color: var(--gold);
 }
 body[data-time="day"] .secondary-button {
-  background: #e1e9e0;
-  color: #17242b;
-  border-color: #536f70;
-  box-shadow: 4px 4px 0 #7b9496;
+  background: #f9eedc;
+  color: #241418;
+  border-color: #8c5a3c;
+  box-shadow: 4px 4px 0 #b8926a;
 }
 
 /* ==========================================================================
@@ -635,13 +621,13 @@ body[data-time="day"] .secondary-button {
   max-height: calc(100dvh - 24px);
   margin: auto;
   padding: 0;
-  border: 1px solid #536775;
-  background: #0c131bf5;
+  border: 2px solid #d4a44c;
+  background: #0d1024f7;
   color: var(--cream);
-  box-shadow: 12px 14px 0 #04080c, 0 30px 120px #000;
+  box-shadow: 12px 14px 0 #04050c, 0 30px 120px #000;
 }
 .fren-dialog::backdrop {
-  background: #03070be3;
+  background: #04050ce3;
   backdrop-filter: blur(8px);
 }
 .dialog-close {
@@ -654,9 +640,9 @@ body[data-time="day"] .secondary-button {
   width: 40px;
   height: 40px;
   padding: 0;
-  border: 1px solid #627786;
-  background: #111d27e8;
-  color: #e8efea;
+  border: 1px solid #d4a44c;
+  background: #2b121be8;
+  color: #f9e3b0;
   cursor: pointer;
   font: 300 28px/1 system-ui;
 }
@@ -672,10 +658,10 @@ body[data-time="day"] .secondary-button {
   display: block;
   width: min(68vw, 340px);
   height: auto;
-  background: #16212b;
-  border: 8px solid #d7d8c9;
-  outline: 5px solid #6c6b61;
-  box-shadow: 13px 15px #05090c99;
+  background: #131733;
+  border: 8px solid #e6c67c;
+  outline: 5px solid #6b1d22;
+  box-shadow: 13px 15px #04050c99;
 }
 .fren-view figcaption {
   display: grid;
@@ -690,7 +676,7 @@ body[data-time="day"] .secondary-button {
 }
 .fren-view figcaption > p:last-of-type {
   margin: 0;
-  color: #94a7ad;
+  color: #b8b4d4;
   font: 600 12px/1.5 var(--font-heading);
 }
 .fren-dialog-actions {
@@ -702,7 +688,7 @@ body[data-time="day"] .secondary-button {
 }
 
 /* ==========================================================================
-   RESTYLING LIVE WEB3 MODULES TO MATCH ROBIN FRENS AESTHETIC
+   RESTYLING LIVE WEB3 MODULES TO MATCH KUNLUN CELESTIAL SANCTUARY
    ========================================================================== */
 .tab-section {
   width: min(var(--page), calc(100% - 40px)) !important;
@@ -764,19 +750,19 @@ body[data-time="day"] .secondary-button {
 }
 
 .hero-badge {
-  background: #14212b !important;
-  border: 1px solid var(--line) !important;
+  background: #26111b !important;
+  border: 1px solid #d4a44c !important;
   color: var(--gold) !important;
   font: 700 11px/1.3 var(--font-heading) !important;
   letter-spacing: .15em !important;
   padding: 6px 12px !important;
-  box-shadow: 3px 3px 0 #070d13 !important;
+  box-shadow: 3px 3px 0 #05060f !important;
 }
 
 .terminal-status-badge {
-  background: #11241e !important;
-  border: 1px solid #4e6b59 !important;
-  color: var(--mint) !important;
+  background: #0f2622 !important;
+  border: 1px solid #4cd4a9 !important;
+  color: #4cd4a9 !important;
   font: 700 11px/1 var(--font-heading) !important;
   padding: 6px 10px !important;
 }
@@ -790,17 +776,17 @@ body[data-time="day"] .secondary-button {
 }
 body[data-time="day"] .hero-grand-title,
 body[data-time="day"] .section-header h2 {
-  color: #15222a !important;
+  color: #241418 !important;
 }
 
 .gold-gradient-text {
   background: none !important;
-  -webkit-text-fill-color: var(--mint) !important;
-  color: var(--mint) !important;
+  -webkit-text-fill-color: var(--gold) !important;
+  color: var(--gold) !important;
 }
 body[data-time="day"] .gold-gradient-text {
-  -webkit-text-fill-color: #265242 !important;
-  color: #265242 !important;
+  -webkit-text-fill-color: #8f1d1d !important;
+  color: #8f1d1d !important;
 }
 
 .mint-terminal-card,
@@ -816,62 +802,62 @@ body[data-time="day"] .gold-gradient-text {
 .reward-item-card,
 .modal-box {
   border-radius: 0 !important;
-  border: 1px solid #344553 !important;
-  background: #16212b !important;
-  box-shadow: 10px 12px 0 #070d13 !important;
+  border: 1px solid #443b6b !important;
+  background: #121630 !important;
+  box-shadow: 10px 12px 0 #05060f !important;
 }
 body[data-time="day"] :is(.mint-terminal-card, .hero-holo-card, .eco-feature-card, .contract-banner, .beast-card, .altar-container, .game-briefing-card, .sealed-sanctum-box, .combatant-card, .rewards-vault-section, .reward-item-card) {
-  background: #cddad4 !important;
-  border-color: #536f70 !important;
-  box-shadow: 8px 10px 0 #66808255 !important;
+  background: #f2e4ce !important;
+  border-color: #8c5a3c !important;
+  box-shadow: 8px 10px 0 #9c745455 !important;
 }
 
-/* Double-bezel frame on hero showcase card & gallery cards */
+/* Imperial Gold & Cinnabar Double-bezel frame on hero showcase card & gallery cards */
 .holo-img-wrapper {
   border-radius: 0 !important;
-  border: 8px solid #d7d8c9 !important;
-  outline: 5px solid #6c6b61 !important;
-  box-shadow: 12px 14px 0 #05090c99 !important;
+  border: 8px solid #e6c67c !important;
+  outline: 5px solid #6b1d22 !important;
+  box-shadow: 12px 14px 0 #05060fcc !important;
 }
 
 .btn-summon-hero,
 .btn-gold {
   border-radius: 0 !important;
-  background: var(--mint) !important;
-  color: #112019 !important;
-  border: 1px solid var(--mint) !important;
+  background: linear-gradient(180deg, #f5cd79, #d99b38) !important;
+  color: #1a0d12 !important;
+  border: 1px solid #f9e3b0 !important;
   font-family: var(--font-heading) !important;
   font-weight: 800 !important;
   letter-spacing: -.02em !important;
-  box-shadow: 4px 4px 0 #4e6b59 !important;
+  box-shadow: 4px 4px 0 #59181c !important;
   text-transform: uppercase !important;
 }
 .btn-summon-hero:hover,
 .btn-gold:hover {
-  background: #d5ebd2 !important;
+  background: linear-gradient(180deg, #ffe099, #e5ac46) !important;
   transform: translate(-1px, -1px) !important;
-  box-shadow: 5px 5px 0 #4e6b59 !important;
+  box-shadow: 5px 5px 0 #59181c !important;
 }
 
 .btn-outline,
 .filter-select {
   border-radius: 0 !important;
-  background: #14212b !important;
+  background: #171b3a !important;
   color: var(--cream) !important;
-  border: 1px solid #526776 !important;
+  border: 1px solid #54497a !important;
   font-family: var(--font-heading) !important;
-  box-shadow: 3px 3px 0 #070d13 !important;
+  box-shadow: 3px 3px 0 #05060f !important;
 }
 
 .m-cell {
   border-radius: 0 !important;
-  border: 1px solid #2c3d49 !important;
-  background: #111d27 !important;
+  border: 1px solid #2e335c !important;
+  background: #0d1024 !important;
   padding: 12px 10px !important;
 }
 .m-cell.highlight {
-  border-color: #4e6b59 !important;
-  background: #132321 !important;
+  border-color: #b88635 !important;
+  background: #1f1728 !important;
 }
 .m-val {
   font: 800 clamp(12px, 1.1vw, 15px)/1.2 var(--font-heading) !important;
@@ -880,7 +866,7 @@ body[data-time="day"] :is(.mint-terminal-card, .hero-holo-card, .eco-feature-car
   letter-spacing: -.03em !important;
 }
 .m-cell.highlight .m-val {
-  color: var(--mint) !important;
+  color: var(--gold) !important;
 }
 .m-lbl {
   font: 600 10px/1.2 var(--font-heading) !important;
@@ -889,48 +875,48 @@ body[data-time="day"] :is(.mint-terminal-card, .hero-holo-card, .eco-feature-car
   letter-spacing: .06em !important;
 }
 body[data-time="day"] .m-cell {
-  background: #dce6dd !important;
-  border-color: #6b8586 !important;
+  background: #f9eedc !important;
+  border-color: #a67c58 !important;
 }
 body[data-time="day"] .m-val {
-  color: #15222a !important;
+  color: #241418 !important;
 }
 
 .mint-progress-section,
 .mint-control-row,
 .contract-address-box {
   border-radius: 0 !important;
-  border: 1px solid #2c3d49 !important;
-  background: #111d27 !important;
+  border: 1px solid #2e335c !important;
+  background: #0d1024 !important;
 }
 .progress-tag {
-  background: #1c2d27 !important;
-  color: var(--mint) !important;
-  border: 1px solid #4e6b59 !important;
+  background: #2b131c !important;
+  color: var(--gold) !important;
+  border: 1px solid #b88635 !important;
 }
 .progress-count strong {
   color: var(--gold) !important;
   font-family: var(--font-heading) !important;
 }
 .remaining-highlight {
-  color: var(--mint) !important;
+  color: #4cd4a9 !important;
   font-family: var(--font-heading) !important;
 }
 .progress-percent-badge {
-  background: #172531 !important;
-  border: 1px solid #3b4f5e !important;
+  background: #181c3b !important;
+  border: 1px solid #443b6b !important;
   color: var(--cream) !important;
   font-family: var(--font-heading) !important;
 }
 .mint-progress-track {
   border-radius: 0 !important;
-  background: #0b131a !important;
-  border: 1px solid #344553 !important;
+  background: #070814 !important;
+  border: 1px solid #443b6b !important;
   height: 10px !important;
 }
 .mint-progress-fill {
   border-radius: 0 !important;
-  background: linear-gradient(90deg, #79947d, #bcd9bd) !important;
+  background: linear-gradient(90deg, #c8372d, #f0c36d) !important;
   box-shadow: none !important;
 }
 .progress-glow-head {
@@ -939,23 +925,23 @@ body[data-time="day"] .m-val {
 
 .mint-stepper {
   border-radius: 0 !important;
-  border: 1px solid #3b4f5e !important;
-  background: #0d1720 !important;
+  border: 1px solid #443b6b !important;
+  background: #090b1a !important;
   padding: 3px !important;
 }
 .mint-stepper button {
   border-radius: 0 !important;
-  border: 1px solid #46606a !important;
-  background: #182834 !important;
+  border: 1px solid #54497a !important;
+  background: #181c3b !important;
   color: var(--cream) !important;
   width: 32px !important;
   height: 32px !important;
   font-family: var(--font-heading) !important;
 }
 .mint-stepper button:hover {
-  background: var(--mint) !important;
-  color: #112019 !important;
-  border-color: var(--mint) !important;
+  background: var(--gold) !important;
+  color: #1a0d12 !important;
+  border-color: var(--gold) !important;
 }
 #mint-qty-text,
 .total-val {
@@ -965,22 +951,22 @@ body[data-time="day"] .m-val {
 
 .beast-card {
   padding: 8px !important;
-  box-shadow: 6px 6px 0 #070d13 !important;
+  box-shadow: 6px 6px 0 #05060f !important;
   transition: translate .2s, border-color .2s !important;
 }
 .beast-card:hover {
   translate: 0 -5px !important;
-  border-color: var(--mint) !important;
+  border-color: var(--gold) !important;
 }
 .beast-card .beast-img-box {
   border-radius: 0 !important;
-  border: 4px solid #d7d8c9 !important;
-  outline: 2px solid #6c6b61 !important;
+  border: 4px solid #e6c67c !important;
+  outline: 2px solid #6b1d22 !important;
 }
 
 .site-footer {
   border-top: 1px solid var(--line) !important;
-  background: #0c131b !important;
+  background: #070814 !important;
   font-family: var(--font-heading) !important;
 }
 
